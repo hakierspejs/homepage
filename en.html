@@ -2,6 +2,7 @@
 # this is an empty front matter
 ---
 {% include header.html lang="en" %}
+{% include zrzutka.txt %}
   <main role="main" class="inner cover">
     <h1 class="cover-heading">We're building a <a href="https://en.m.wikipedia.org/wiki/Hackerspace">Hackerspace</a> in Łódź. We're looking for people.</h1>
 
@@ -13,7 +14,8 @@
     <div class="alert alert-info" style="text-shadow: none !important">
         💉💰 <strong>We're raising money for:</strong> paying for meetup.com account. <u><a class="text-primary" href="https://lists.hackerspace.pl/pipermail/lodz/2020-February/subject.html">(INFO)</a></u>
         <div class="progress" style="margin: 5px">
-          <div class="progress-bar" role="progressbar" style="width: 73%" aria-valuenow="73" aria-valuemin="0" aria-valuemax="100">155/213 PLN (73%) (as of Feb 6, 2020)</div>
+          <div class="progress-bar" role="progressbar" style="width: {{ zrzutka_procent }}%" aria-valuenow="{{ zrzutka_procent }}" aria-valuemin="0"
+            aria-valuemax="100">{{ zrzutka_aktualnie }}/{{ zrzutka_cel }} PLN ({{ zrzutka_procent }}%) (as of Feb {{ zrzutka_ostatnia_aktualizacja }}, 2020)</div>
         </div>
         Suggested donation: 10-15 PLN (equivalent of a beer or a coffee in a cafe). Please wire money to: PL55 1140 2004 0000 3002 7656 1893.
     </div>
