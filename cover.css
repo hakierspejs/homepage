@@ -62,11 +62,11 @@ body {
  * Header
  */
 .masthead {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .masthead-brand {
-  margin-bottom: 0;
+  margin-bottom: 1rem;
 }
 
 .nav-masthead .nav-link {
