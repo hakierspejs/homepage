@@ -8,8 +8,9 @@
     <h1 class="cover-heading">Budujemy <a href="https://pl.m.wikipedia.org/wiki/Hackerspace">Hackerspace</a> w Łodzi. Szukamy ludzi.</h1>
 
     <div class="alert alert-danger" style="text-shadow: none !important">
-    📅 <strong>Następne spotkanie:</strong> {{ next_meeting }} marca (wtorek) o godzinie 17:00 w Centrum Opus (Narutowicza 8/10). Zaczynamy wcześnie, ale nie ma problemu jeśli dołączysz później :)
-       (więcej info na <u><a class="text-danger" href="{{ next_meeting_url }}">meetup.com</a></u>)
+    📅 <strong>Następne spotkanie:</strong> {% include date.txt time_arg=next_meeting lang="pl" %} w: {{ next_meeting_location }}.
+         Zaczynamy wcześnie, ale nie ma problemu jeśli dołączysz później :)
+       Więcej info na <u><a class="text-danger" href="{{ next_meeting_url }}">meetup.com</a></u>.
     </div>
 
     <!--
