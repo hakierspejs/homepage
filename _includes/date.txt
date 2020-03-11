@@ -6,13 +6,13 @@
     {% assign weekday=include.time_arg | date: "%w" %}
     {% assign month=include.time_arg | date: "%m" %}
     {% case weekday %}{%
-        when '0' %}niedzielę{%
+        when '0' %}niedziele{%
         when '1' %}poniedziałek{%
         when '2' %}wtorek{%
-        when '3' %}środę{%
+        when '3' %}środa{%
         when '4' %}czwartek{%
         when '5' %}piątek{%
-        when '6' %}sobotę{%
+        when '6' %}sobota{%
     endcase %},
     {{ include.time_arg | date: "%d" }}
     {% case month %}{%
