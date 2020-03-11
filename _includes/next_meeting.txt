@@ -1,3 +1,3 @@
-{% assign next_meeting = "10-3-2020 17:00" %}
-{% assign next_meeting_location = "Opus. Centrum Promocji i Rozwoju Inicjatyw Obywatelskich (Prez. Gabriela Narutowicz 8/10)" %}
-{% assign next_meeting_url = "https://www.meetup.com/Hakierspejs-Łodź/events/269000997" %}
+{% assign next_meeting = "18-3-2020 18:00" %}
+{% assign next_meeting_location = "6 Dzielnica (Piotrkowska 102)" %}
+{% assign next_meeting_url = "https://www.meetup.com/Hakierspejs-%C5%81od%C5%BA/events/269189415/" %}
