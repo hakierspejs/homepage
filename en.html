@@ -7,12 +7,12 @@
   <main role="main" class="inner cover">
     <h1 class="cover-heading">We're building a <a href="https://en.m.wikipedia.org/wiki/Hackerspace">Hackerspace</a> in Łódź. We're looking for people.</h1>
 
-    <!--
+    
     <div class="alert alert-danger" style="text-shadow: none !important">
-    📅 <strong>Next meeting:</strong> {% include date.txt time_arg=next_meeting lang="en" %} at {{ next_meeting_location }}. We're starting early, but it's OK if you arrive later :)
+    📅 <strong>Next meeting:</strong> {% include date.txt time_arg=next_meeting lang="en" %}{% if next_meeting_location %} at {{ next_meeting_location }}. We're starting early, but it's OK if you arrive later :){% endif %}.
        (see more info at <u><a class="text-danger" href="{{ next_meeting_url }}">meetup.com</a></u>)
     </div>
-    -->
+    
 
     <!--
     <div class="alert alert-info" style="text-shadow: none !important">
