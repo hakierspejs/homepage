@@ -3,18 +3,21 @@
     {{ include.time_arg | date_to_long_string }}
     ({{ include.time_arg | date: "%R" }})
 {% elsif include.lang == "pl" %}
-    {% assign weekday=include.time_arg | date: "%w" %}
+    {% if include.no_weekday %}
+    {% else %}
+        {% assign weekday=include.time_arg | date: "%w" %}
+        {% case weekday %}{%
+            when '0' %}niedziele{%
+            when '1' %}poniedziałek{%
+            when '2' %}wtorek{%
+            when '3' %}środa{%
+            when '4' %}czwartek{%
+            when '5' %}piątek{%
+            when '6' %}sobota{%
+        endcase %},
+    {% endif %}
+    {{ include.time_arg | date: "%d" | round }}
     {% assign month=include.time_arg | date: "%m" %}
-    {% case weekday %}{%
-        when '0' %}niedziele{%
-        when '1' %}poniedziałek{%
-        when '2' %}wtorek{%
-        when '3' %}środa{%
-        when '4' %}czwartek{%
-        when '5' %}piątek{%
-        when '6' %}sobota{%
-    endcase %},
-    {{ include.time_arg | date: "%d" }}
     {% case month %}{%
     when '01' %}stycznia{%
     when '02' %}lutego{%
@@ -29,7 +32,9 @@
     when '11' %}listopada{%
     when '12' %}grudnia{%
     endcase %}
-    {{ include.time_arg | date: "%Y" }}
-    o godzinie
-    {{ include.time_arg | date: "%R" }}
+    {% if include.no_hour %}
+    {{ include.time_arg | date: "%Y" }}{{ include.end | default: "." }}
+    {% else %}
+        o godzinie {{ include.time_arg | date: "%R" }}.
+    {% endif %}
 {% endif %}
