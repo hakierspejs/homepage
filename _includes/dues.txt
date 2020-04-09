@@ -1,0 +1,7 @@
+{% assign dues_total_lastmonth = 700 %}
+{% assign dues_last_updated = "09-04-2020" %}
+
+{% comment %} END OF AUTOUPDATED PART {% endcomment %}
+
+{% assign dues_goal = 1500 %}
+{% assign dues_percent = dues_total_lastmonth | times: 100 | divided_by: dues_goal %}
