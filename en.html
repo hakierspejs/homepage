@@ -7,10 +7,12 @@
   <main role="main" class="inner cover">
     <h1 class="cover-heading">We're building a <a href="https://en.m.wikipedia.org/wiki/Hackerspace">Hackerspace</a> in Łódź. We're looking for people.</h1>
 
+    
     <div class="alert alert-danger" style="text-shadow: none !important">
-    📅 <strong>Next meeting:</strong> March {{ next_meeting }} (Tuesday). See you at 17:00 in Centrum Opus (Narutowicza 8/10 street). We're starting early, but it's OK if you arrive later :)
-       (see more info at <u><a class="text-danger" href="{{ next_meeting_url }}">meetup.com</a></u>)
+    📅 <strong>Next meeting:</strong> {% include date.txt time_arg=next_meeting lang="en" %}{% if next_meeting_location %} at {{ next_meeting_location }}. We're starting early, but it's OK if you arrive later :){% endif %}
+       <br />(see more info at <u><a class="text-danger" href="{{ next_meeting_url }}">meetup.com</a></u>)
     </div>
+    
 
     <!--
     <div class="alert alert-info" style="text-shadow: none !important">
@@ -23,13 +25,17 @@
     </div>
     -->
 
-    <p class="lead">We communicate entirely through our chat and a discussion group. If you want to join or find out more, click the link below:</p>
+    <p class="lead">We communicate mostly through our chat and a discussion group. If you want to join or find out more, visit our <a href="https://github.com/hakierspejs/homepage/commit/c85efb74f69eb4afbd90820c62ba20955f696d1d"><u><strong>wiki (PL only)</strong></u></a> and/or click the link below:</p>
     <p class="lead">
       <a href="https://t.me/joinchat/K73_2BVhRxP6nb4I81YIPQ" class="btn btn-lg btn-secondary">💬 Chat with us on Telegram</a>
         <hr />
       <a href="https://webchat.freenode.net/#hakierspejs" class="btn btn-lg btn-secondary" title="#hakierspejs on chat.freenode.net">💬 Chat with us on IRC</a>
-        <hr />
-      <a href="https://lists.hackerspace.pl/mailman/listinfo/lodz" class="btn btn-lg btn-secondary">📧 Join our mailing list</a>
     </p>
+
+    <p class="lead">Or visit our mailing list:</p>
+      <a href="https://lists.hackerspace.pl/pipermail/lodz/" class="btn btn-lg btn-secondary">📖 Browse</a>
+      <a href="https://lists.hackerspace.pl/mailman/listinfo/lodz" class="btn btn-lg btn-secondary">📧 Subscribe</a>
+    </p>
+
   </main>
 {% include footer.html %}

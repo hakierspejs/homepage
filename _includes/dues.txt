@@ -1,0 +1,9 @@
+{% assign dues_total_lastmonth = 1032.0 %}
+{% assign dues_last_updated = "14-04-2020" %}
+{% assign dues_num_subscribers = 9 %}
+
+{% comment %} END OF AUTOUPDATED PART {% endcomment %}
+
+{% assign dues_goal = 1500 %}
+{% assign dues_percent = dues_total_lastmonth | times: 100 | divided_by: dues_goal %}
+{% assign dues_average = dues_total_lastmonth | divided_by: dues_num_subscribers | round %}

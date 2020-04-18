@@ -2,34 +2,40 @@
 # this is an empty front matter
 ---
 {% include header.html lang="pl" %}
-{% include zrzutka.txt %}
+{% include dues.txt %}
 {% include next_meeting.txt %}
   <main role="main" class="inner cover">
     <h1 class="cover-heading">Budujemy <a href="https://pl.m.wikipedia.org/wiki/Hackerspace">Hackerspace</a> w Łodzi. Szukamy ludzi.</h1>
 
+    
     <div class="alert alert-danger" style="text-shadow: none !important">
-    📅 <strong>Następne spotkanie:</strong> {{ next_meeting }} marca (wtorek) o godzinie 17:00 w Centrum Opus (Narutowicza 8/10). Zaczynamy wcześnie, ale nie ma problemu jeśli dołączysz później :)
-       (więcej info na <u><a class="text-danger" href="{{ next_meeting_url }}">meetup.com</a></u>)
+    📅 <strong>Następne spotkanie:</strong> {% include date.txt time_arg=next_meeting lang="pl" %}{% if next_meeting_location %} w: {{ next_meeting_location }}. Zaczynamy wcześnie, ale nie ma problemu jeśli dołączysz później :){% endif %}
+       <br />Więcej info na <u><a class="text-danger" href="{{ next_meeting_url }}">meetup.com</a></u>.
     </div>
+    
 
-    <!--
     <div class="alert alert-info" style="text-shadow: none !important">
-        💉💰 <strong>Aktualnie zbieramy na:</strong> opłacenie konta na meetup.com. <u><a class="text-primary" href="https://lists.hackerspace.pl/pipermail/lodz/2020-February/subject.html">(INFO)</a></u>
+        💉💰 <strong>Zaczęliśmy zbiórkę na kaucję i czynsz.</strong> Stan wg {% include date.txt time_arg=dues_last_updated no_hour=true no_weekday=true end=":" lang="pl" %}</u>
         <div class="progress" style="margin: 5px">
-          <div class="progress-bar" role="progressbar" style="width: {{ zrzutka_procent }}%" aria-valuenow="{{ zrzutka_procent }}" aria-valuemin="0"
-            aria-valuemax="100">{{ zrzutka_aktualnie }}/{{ zrzutka_cel }} PLN ({{ zrzutka_procent }}%) (wg dn. {{ zrzutka_ostatnia_aktualizacja }} lut 2020)</div>
+          <div class="progress-bar" role="progressbar" style="width: {{ dues_percent }}%" aria-valuenow="{{ dues_percent }}" aria-valuemin="0"
+            aria-valuemax="100">{{ dues_total_lastmonth }}/{{ dues_goal }} PLN</div>
         </div>
-        Sugerowana kwota: 10-15zł (czyli jak za jedno piwko lub kawę na mieście). Numer konta: 55 1140 2004 0000 3002 7656 1893.
+        Osiągnęliśmy {{ dues_percent | round }}% celu. Zalecana składka: 100zł (wpłaciło {{ dues_num_subscribers }} osób).<br />
+        Numer konta: 55 1140 2004 0000 3002 7656 1893 (mBank). <a class="text-primary" href="https://github.com/hakierspejs/wiki/wiki/Finanse#sk%C5%82adki">Więcej info.</a>
     </div>
-    -->
 
-    <p class="lead">Całość komunikacji dzieje się przez chata i na naszej grupie dyskusyjnej. Jeśli chcesz dołączyć lub dowiedzieć się więcej, kliknij na link poniżej:</p>
+    <p class="lead">Całość komunikacji dzieje się przez chata i na naszej grupie dyskusyjnej. Jeśli chcesz dołączyć lub dowiedzieć się więcej, odwiedź nasze <a href="https://github.com/hakierspejs/wiki/wiki"><u><strong>wiki</strong></u></a> i/lub kliknij na link poniżej:</p>
     <p class="lead">
       <a href="https://t.me/joinchat/K73_2BVhRxP6nb4I81YIPQ" class="btn btn-lg btn-secondary">💬 Chat na Telegramie</a>
         <hr />
       <a href="https://webchat.freenode.net/#hakierspejs" class="btn btn-lg btn-secondary" title="#hakierspejs na chat.freenode.net">💬 Chat na IRC</a>
         <hr />
-      <a href="https://lists.hackerspace.pl/mailman/listinfo/lodz" class="btn btn-lg btn-secondary">📧 Zapisz się na listę mailingową</a>
     </p>
+    <p class="lead">Albo odwiedź naszą listę mailingową:</p>
+      <a href="https://lists.hackerspace.pl/pipermail/lodz/" class="btn btn-lg btn-secondary">📖 Przeglądaj</a>
+      <a href="https://lists.hackerspace.pl/mailman/listinfo/lodz" class="btn btn-lg btn-secondary">📧 Zasubskrybuj</a>
+    </p>
+    <p class="lead">Nie bój się, nie gryziemy :) Polecamy wyciszyć nasz kanał na Telegramie i pisać kiedy ma się ochotę lub kiedy dostanie się powiadomienie od aplikacji.</p>
+
   </main>
 {% include footer.html %}
