@@ -15,12 +15,12 @@
     
 
     <div class="alert alert-info" style="text-shadow: none !important">
-        💉💰 <strong>Zaczęliśmy zbiórkę na kaucję i czynsz.</strong> Stan wg {% include date.txt time_arg=dues_last_updated no_hour=true no_weekday=true end=":" lang="pl" %}</u>
+        💉💰 <strong>Zaczęliśmy zbiórkę składek na kaucję i czynsz.</strong> Stan wg {% include date.txt time_arg=dues_last_updated no_hour=true no_weekday=true end=":" lang="pl" %}</u>
         <div class="progress" style="margin: 5px">
           <div class="progress-bar" role="progressbar" style="width: {{ dues_percent }}%" aria-valuenow="{{ dues_percent }}" aria-valuemin="0"
             aria-valuemax="100">{{ dues_total_lastmonth }}/{{ dues_goal }} PLN</div>
         </div>
-        Osiągnęliśmy {{ dues_percent | round }}% celu. Zalecana składka: 100zł (wpłaciło {{ dues_num_subscribers }} osób).<br />
+        Osiągnęliśmy {{ dues_percent | round }}% miesięcznego celu. Zalecana składka: 100zł (wpłaciło {{ dues_num_subscribers }} osób).<br />
         Numer konta: 55 1140 2004 0000 3002 7656 1893 (mBank). <a class="text-primary" href="https://github.com/hakierspejs/wiki/wiki/Finanse#sk%C5%82adki">Więcej info.</a>
     </div>
 
