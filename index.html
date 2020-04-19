@@ -9,8 +9,8 @@
 
     
     <div class="alert alert-danger" style="text-shadow: none !important">
-    📅 <strong>Następne spotkanie:</strong> {% include date.txt time_arg=next_meeting lang="pl" %}{% if next_meeting_location %} w: {{ next_meeting_location }}. Zaczynamy wcześnie, ale nie ma problemu jeśli dołączysz później :){% else %}(spotkanie online){% endif %}
-       <br />Więcej info na <u><a class="text-danger" href="{{ next_meeting_url }}">meetup.com</a></u>.
+    📅 <strong>Następne spotkanie:</strong> {% include date.txt time_arg=next_meeting lang="pl" %}{% if next_meeting_location %} w: {{ next_meeting_location }}. Zaczynamy wcześnie, ale nie ma problemu jeśli dołączysz później :){% endif %}
+       <br />{% if not next_meeting_location %}Spotkanie online.{% endif %} Więcej info na <u><a class="text-danger" href="{{ next_meeting_url }}">meetup.com</a></u>.
     </div>
     
 
