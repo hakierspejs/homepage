@@ -1,5 +1,5 @@
-{% assign next_meeting = "02-05-2020 17:00" %}
-{% assign next_meeting_url = "https://www.meetup.com/Hakierspejs-%C5%81od%C5%BA/events/270272239/" %}
+{% assign next_meeting = "04-05-2020 18:00" %}
+{% assign next_meeting_url = "https://www.meetup.com/Hakierspejs-%C5%81od%C5%BA/events/270405553/" %}
 
 {% comment %}
   {% assign next_meeting_location = "" %}
