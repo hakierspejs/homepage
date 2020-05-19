@@ -1,14 +1,14 @@
 name: CI
 
-on: [push]
+  schedule:
+    - cron: '0 * * * *'
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  maybe_update_meetup:
     steps:
     - uses: actions/checkout@master
-    - uses: hakierspejs/jekyll-screenshot-github-action@master
-    - uses: actions/upload-artifact@v1
+    - name: regenerate _includes/next_meeting.txt
+      run: pip install meetupscraper && ./update_next_meeting.py
+    - uses: stefanzweifel/git-auto-commit-action@v4.2.0
       with:
-       name: screenshot
-       path: /home/runner/work/_temp/_github_home/screenshot.png
+        commit_message: Autoupdate _includes/next_meeting.txt
