@@ -9,8 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
     - name: regenerate _includes/next_meeting.txt
-      run: python3 -m pip install meetupscraper && python3 ./update_next_meeting.py
+      run: python3.8 -m pip install meetupscraper && python3.8 ./update_next_meeting.py
     - uses: stefanzweifel/git-auto-commit-action@v4.2.0
       with:
         commit_message: Autoupdate _includes/next_meeting.txt
