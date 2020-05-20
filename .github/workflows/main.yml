@@ -6,7 +6,7 @@ on:
 
 jobs:
   maybe_update_meetup:
-    runs-on: python:3.8
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
     - name: regenerate _includes/next_meeting.txt
