@@ -10,8 +10,13 @@ s = textwrap.dedent(f'''
 {{% assign next_meeting = "{next_date}" %}}
 {{% assign next_meeting_url = "{next_event.url}" %}}
 
-{{% comment %}}
-  {{% assign next_meeting_location = "" %}}
-{{% endcomment %}}''').strip()
+'''.lstrip())
+
+if next_event.venue.name == 'Online event':
+    s += textwrap.dedent(f'''{{% comment %}}
+      {{% assign next_meeting_location = "" %}}
+    {{% endcomment %}}'''.strip())
+else:
+    s += f'{{% assign next_meeting_location = "{next_event.venue.name}" %}}'
 with open('./_includes/next_meeting.txt', 'w') as f:
     f.write(s)
