@@ -10,7 +10,7 @@
     <p class="lead">Jesteśmy społecznością pasjonatów open source, DYI i ruchu wolnej kultury. Organizujemy spotkania, robimy projekty i wymieniamy się wiedzą. <a href="https://github.com/hakierspejs/wiki/wiki"><u><strong>[Więcej info]</strong></u></a></p>
     
     <div class="alert alert-danger" style="text-shadow: none !important">
-    📅 <strong>Następne spotkanie:</strong> {% include date.txt time_arg=next_meeting lang="pl" %}{% if next_meeting_location %} w: {{ next_meeting_location }}. Zaczynamy wcześnie, ale nie ma problemu jeśli dołączysz później :){% endif %}
+    📅 <strong>Następne spotkanie:</strong> {% include date.txt time_arg=next_meeting lang="pl" %}{% if next_meeting_location %}Miejsce: {{ next_meeting_location }}. Zaczynamy wcześnie, ale nie ma problemu jeśli dołączysz później :){% endif %}
        <br />{% if next_meeting_location %}{% else %}Spotkanie online.{% endif %} Więcej info na <u><a class="text-danger" href="{{ next_meeting_url }}">meetup.com</a></u>.
     </div>
     
