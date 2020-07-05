@@ -25,6 +25,7 @@ a:hover {
 }
 
 /* Custom default button */
+.dropdown-item,
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
