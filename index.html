@@ -11,7 +11,7 @@
     
     <div class="alert alert-danger" style="text-shadow: none !important">
     📅 <strong>Następne spotkanie:</strong> {% include date.txt time_arg=next_meeting lang="pl" %}{% if next_meeting_location %}Miejsce: {{ next_meeting_location }}. Zaczynamy wcześnie, ale nie ma problemu jeśli dołączysz później :){% endif %}
-       <br />{% if next_meeting_location %}{% else %}Spotkanie online.{% endif %} Więcej info na <u><a class="text-danger" href="{{ next_meeting_url }}">meetup.com</a></u>.
+       {% if next_meeting_location %}{% else %}<br />Spotkanie online.{% endif %} Więcej info na <u><a class="text-danger" href="{{ next_meeting_url }}">meetup.com</a></u>.
     </div>
     
 
