@@ -9,7 +9,8 @@
 {% assign dues_percent = dues_total_lastmonth | times: 100 | divided_by: dues_goal %}
 {% assign dues_average = dues_total_lastmonth | divided_by: dues_num_subscribers | round %}
 
+{% assign dues_total_correction = 5.64 %}
 {% assign dues_so_far = dues_so_far | plus: dues_total_correction %}
+
 {% assign dues_total_goal = 7500 %}
 {% assign dues_total_percent = dues_so_far | times: 100 | divided_by: dues_total_goal %}
-{% assign dues_total_correction = 5.64 %}
