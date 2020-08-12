@@ -25,7 +25,7 @@
     
         <div class="progress" style="margin: 5px">
           <div class="progress-bar" role="progressbar" style="width: {{ dues_total_percent }}%" aria-valuenow="{{ dues_total_percent }}" aria-valuemin="0"
-            aria-valuemax="100">{{ dues_so_far | round: 2 }}/{{ dues_total_goal }} PLN ({{ dues_total_percent }}%)</div>
+            aria-valuemax="100">{{ dues_so_far | round: 2 }}/{{ dues_total_goal }} PLN ({{ dues_total_percent | round }}%)</div>
         </div>
     
         Zalecana składka: 100zł (wpłaciło {{ dues_num_subscribers }} osób).<br />
