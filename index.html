@@ -21,7 +21,7 @@
           <div class="progress-bar" role="progressbar" style="width: {{ dues_percent }}%" aria-valuenow="{{ dues_percent }}" aria-valuemin="0"
             aria-valuemax="100">{{ dues_total_lastmonth | round: 2 }}/{{ dues_goal }} PLN</div>
         </div>
-        Mamy {{ dues_percent | round }}% miesięcznego celu. Łącznie zebraliśmy:
+        W ciągu ostatnich 30 dni zebraliśmy {{ dues_percent | round }}% miesięcznego celu. Łącznie mamy:
     
         <div class="progress" style="margin: 5px">
           <div class="progress-bar" role="progressbar" style="width: {{ dues_total_percent }}%" aria-valuenow="{{ dues_total_percent }}" aria-valuemin="0"
