@@ -1,7 +1,7 @@
-{% assign dues_total_lastmonth = 1400.0 %}
-{% assign dues_last_updated = "03-09-2020" %}
+{% assign dues_total_lastmonth = 1600.0 %}
+{% assign dues_last_updated = "06-09-2020" %}
 {% assign dues_num_subscribers = 10 %}
-{% assign dues_so_far = 5045.37 %}
+{% assign dues_so_far = 5245.37 %}
 
 {% comment %} END OF AUTOUPDATED PART {% endcomment %}
 
