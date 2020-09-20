@@ -9,7 +9,11 @@ Na [homepage](https://lodz.hackerspace.pl) można również znaleźć linki do w
 
 Hostuję się na [Github Pages](https://pages.github.com/). 
 
-Odpalia się lokalnie za pomocą ```make run```, strona znajduje się na http://127.0.0.1:54000
+Odpalia się lokalnie w taki sposób: 
+```bash 
+sudo apt install jekyll  
+jekyll serve
+```
 
 **ENG**
 
@@ -19,4 +23,9 @@ On [homepage](https://lodz.hackerspace.pl) you can also find links to wiki, tele
 
 Hosted with [Github Pages](https://pages.github.com/). 
 
-Run locally via ```make run``` and visit http://127.0.0.1:54000
+Run locally via 
+```bash 
+sudo apt install jekyll  
+jekyll serve
+```
+
