@@ -28,14 +28,34 @@
 
     <p class="lead">We communicate mostly through our chat and a discussion group. If you want to join or find out more, visit our <a href="https://github.com/hakierspejs/homepage/commit/c85efb74f69eb4afbd90820c62ba20955f696d1d"><u><strong>wiki (PL only)</strong></u></a> and/or click the link below:</p>
     <p class="lead">
-      <a href="https://t.me/joinchat/K73_2BVhRxP6nb4I81YIPQ" class="btn btn-lg btn-secondary">💬 Chat with us on Telegram</a>
-      <a href="https://webchat.freenode.net/#hakierspejs" class="btn btn-lg btn-secondary" title="#hakierspejs on chat.freenode.net">💬 Chat with us on IRC</a>
+      <a href="https://t.me/joinchat/K73_2BVhRxP6nb4I81YIPQ" class="btn btn-lg btn-secondary">💬 Telegram</a>
+      <a href="https://webchat.freenode.net/#hakierspejs" class="btn btn-lg btn-secondary" title="#hakierspejs na chat.freenode.net">💬 IRC</a>
+      <a href="https://app.element.io/#/room/#hs-ldz:hackerspace.pl" class="btn btn-lg btn-secondary">💬 Matrix</a>
     </p>
 
-    <p class="lead">Or visit our mailing list:</p>
-      <a href="https://lists.hackerspace.pl/pipermail/lodz/" class="btn btn-lg btn-secondary">📖 Browse</a>
-      <a href="https://lists.hackerspace.pl/mailman/listinfo/lodz" class="btn btn-lg btn-secondary">📧 Subscribe</a>
+
+    <p class="lead">We have a forum and mailing list, they are mostly in Polish, but there is no any trouble to start topics in English.</p>
+      <a href="https://forum.hs-ldz.pl/" class="btn btn-lg btn-secondary">👋 Forum</a>
+      <span class="dropdown">
+        <button type="button" class="btn btn-lg btn-secondary dropdown-toggle" data-toggle="dropdown">
+          📧 Mailing list
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="https://archiwa.hs-ldz.pl">Browse</a>
+          <a class="dropdown-item" href="https://lista.hs-ldz.pl">Subscribe</a>
+        </div>
+      </span>
     </p>
+
+    <h1 class="cover-heading">Location</h1>
+    <p class="lead">The Lodz Hackerspace is located on street&nbsp;Zielona&nbsp;30</p>
+    {% include map.html %}
+    <br/>
+    <small>
+            <a href="https://www.openstreetmap.org/?mlat=51.76951&amp;mlon=19.44514#map=19/51.76951/19.44514&amp;layers=N">View Larger Map</a>
+            | <a href="geo:51.7695,19.4452?z=15">geo: 51.7695100, 19.4451400</a>
+    </small>
+
 
   </main>
 {% include footer.html %}
