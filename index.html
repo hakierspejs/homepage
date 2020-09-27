@@ -52,7 +52,13 @@
 
     <p class="lead">Śmiało, dołącz do dyskusji! Nie krępuj się też zadawać pytania. Aby nie przytłoczył cię nadmiar wiadomości, wycisz nasz kanał i pisz wtedy, kiedy masz na to ochotę lub czas.</p>
 
-    <h1 class="cover-heading">Lokalizacja</h1> 
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item"><a class="nav-link active" id="lokalizacja-tab" data-toggle="tab" href="#lokalizacja" role="tab" aria-controls="lokalizacja" aria-selected="true">Lokalizacja</a></li>
+  <li class="nav-item"><a class="nav-link" id="zdjecia-tab" data-toggle="tab" href="#zdjecia" role="tab" aria-controls="zdjecia" aria-selected="true">Zdjęcie</a></li>
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="lokalizacja" role="tabpanel" aria-labelledby="lokalizacja-tab">
+
     <p class="lead">Łódzki Hackerspace znajduje się przy ul.&nbsp;Zielonej&nbsp;30:</p>
     {% include map.html %}
     <br/>
@@ -60,6 +66,16 @@
 	    <a href="https://www.openstreetmap.org/?mlat=51.76951&amp;mlon=19.44514#map=19/51.76951/19.44514&amp;layers=N">Zobacz większą mapę</a>
     	    | <a href="geo:51.7695,19.4452?z=15">geo: 51.7695100, 19.4451400</a>
     </small>
+
+
+  </div>
+
+  <div class="tab-pane fade" id="zdjecia" role="tabpanel" aria-labelledby="zdjecia-tab">
+  <img src="photo_2020-09-27_17-11-19.jpg" width="590" height="450" style="max-width: 80%">
+  </div>
+
+</div>
+
 
   </main>
 {% include footer.html %}
