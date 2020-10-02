@@ -5,11 +5,11 @@
 Strona domowa łódzkiego Hakierspejsu. Znajdują się tam informacje na temat daty kolejnego spotkania,
 a także o tym, czy i w jakim celu zbieramy pieniądze.
 
-Na [homepage](https://lodz.hackerspace.pl) można również znaleźć linki do wiki, telegrama czy listy mailingowej.
+Na [homepage](https://lodz.hackerspace.pl) można również znaleźć linki do wiki, Telegrama czy listy mailingowej.
 
-Hostuję się na [Github Pages](https://pages.github.com/). 
+Strona hostowana jest na [Github Pages](https://pages.github.com/). 
 
-Odpalia się lokalnie w taki sposób: 
+Odpala się lokalnie w taki sposób: 
 ```bash 
 sudo apt install jekyll  
 jekyll serve
