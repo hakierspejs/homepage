@@ -7,7 +7,7 @@
 
 {% assign dues_monthly_goal = 1500 %}
 
-{% assign dues_reserved = 4600 %}
+{% assign dues_reserved = 4515 %}
 {% assign dues_total_correction = -594.36 %}
 {% assign dues_total_goal = 7500 %}
 
@@ -15,4 +15,9 @@
 {% assign dues_average = dues_total_lastmonth | divided_by: dues_num_subscribers | round %}
 
 {% assign dues_so_far = dues_so_far | plus: dues_total_correction %}
+{% assign dues_total_unreserved = dues_so_far | minus: dues_reserved %}
+
+{% assign dues_reserved_percent = dues_reserved | times: 100 | divided_by: dues_total_goal %}
+{% assign dues_total_unreserved_percent = dues_total_unreserved | times: 100 | divided_by: dues_total_goal %}
+
 {% assign dues_total_percent = dues_so_far | times: 100 | divided_by: dues_total_goal %}
