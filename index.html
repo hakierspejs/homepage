@@ -16,7 +16,7 @@
     
 
     <div class="alert alert-info" style="text-shadow: none !important">
-        💉💰 <strong>Zbieramy składki na bieżącą działalność (m.in. czynsz).</strong> Stan wg {% include date.txt time_arg=dues_last_updated no_hour=true no_weekday=true end=":" lang="pl" %}</u>
+        💉💰 <strong>Zbieramy składki na bieżącą działalność (m.in. czynsz).</strong> <br/> Stan wg {% include date.txt time_arg=dues_last_updated no_hour=true no_weekday=true end=":" lang="pl" %}</u>
         <div class="progress" style="margin: 5px">
           <div class="progress-bar" role="progressbar" style="width: {{ dues_percent }}%" aria-valuenow="{{ dues_percent }}" aria-valuemin="0"
             aria-valuemax="100">{{ dues_total_lastmonth | round: 2 }}/{{ dues_monthly_goal }} PLN</div>
@@ -26,8 +26,8 @@
         <div class="progress" style="margin: 5px">
 
 
-          <div class="progress-bar bg-warning" role="progressbar" style="width: {{ dues_reserved_percent }}%" aria-valuenow="{{ dues_reserved_percent }}" aria-valuemin="0" aria-valuemax="100">{{ dues_reserved | round: 2 }} PLN zarezerwowane</div>
-          <div class="progress-bar bg-success" role="progressbar" style="width: {{ dues_total_unreserved_percent }}%" aria-valuenow="{{ dues_total_unreserved_percent }}" aria-valuemin="0" aria-valuemax="100">{{ dues_total_unreserved | round: 2 }} PLN wolne</div>
+          <div class="progress-bar bg-warning" role="progressbar" style="width: {{ dues_reserved_percent }}%" aria-valuenow="{{ dues_reserved_percent }}" aria-valuemin="0" aria-valuemax="100">{{ dues_reserved | round: 2 }}zł zarezerwowane</div>
+          <div class="progress-bar bg-success" role="progressbar" style="width: {{ dues_total_unreserved_percent }}%" aria-valuenow="{{ dues_total_unreserved_percent }}" aria-valuemin="0" aria-valuemax="100">{{ dues_total_unreserved | round: 2 }}zł wolne</div>
         </div>
     
         Zalecana składka: 100zł (wpłaciło {{ dues_num_subscribers }} osób).<br />
