@@ -7,8 +7,8 @@
 
 {% assign dues_monthly_goal = 1500 %}
 
-{% assign dues_reserved = 4515 %}
-{% assign dues_total_correction = -794.36 %}
+{% assign dues_reserved = 3000 %}
+{% assign dues_total_correction = -1939.36 %}
 {% assign dues_total_goal = 7500 %}
 
 {% assign dues_percent = dues_total_lastmonth | times: 100 | divided_by: dues_monthly_goal %}
