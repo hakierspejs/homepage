@@ -4,7 +4,9 @@ xmlhttp.onreadystatechange = function() {
     if (xmlhttp.readyState == 4) {
         if(xmlhttp.status == 200) {
             var obj = JSON.parse(xmlhttp.responseText);
-            alert(obj.length);
+            if (obj.length) {
+                document.getElementById('isitopen').style.display = "none";
+            }
          }
     }
 };
