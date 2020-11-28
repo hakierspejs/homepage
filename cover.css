@@ -114,6 +114,10 @@ body {
   font-weight: 700;
 }
 
+.alert {
+    text-shadow: none !important;
+}
+
 h1 a {
   text-decoration: underline;
 }
