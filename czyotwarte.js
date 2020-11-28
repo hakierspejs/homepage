@@ -5,7 +5,7 @@ xmlhttp.onreadystatechange = function() {
         if(xmlhttp.status == 200) {
             var obj = JSON.parse(xmlhttp.responseText);
             if (obj.length) {
-                document.getElementById('isitopen').style.display = "none";
+                document.getElementById('isitopen').style.display = "";
             }
          }
     }
