@@ -1,23 +1,6 @@
-{% assign dues_total_lastmonth = 1413.99 %}
-{% assign dues_last_updated = "17-10-2020" %}
-{% assign dues_num_subscribers = 11 %}
-{% assign dues_so_far = 7809.36 %}
-
-{% comment %} END OF AUTOUPDATED PART {% endcomment %}
-
-{% assign dues_monthly_goal = 1500 %}
-
-{% assign dues_reserved = 3000 %}
-{% assign dues_total_correction = -1939.36 %}
-{% assign dues_total_goal = 7500 %}
-
-{% assign dues_percent = dues_total_lastmonth | times: 100 | divided_by: dues_monthly_goal %}
-{% assign dues_average = dues_total_lastmonth | divided_by: dues_num_subscribers | round %}
-
-{% assign dues_so_far = dues_so_far | plus: dues_total_correction %}
-{% assign dues_total_unreserved = dues_so_far | minus: dues_reserved %}
-
-{% assign dues_reserved_percent = dues_reserved | times: 100 | divided_by: dues_total_goal %}
-{% assign dues_total_unreserved_percent = dues_total_unreserved | times: 100 | divided_by: dues_total_goal %}
-
-{% assign dues_total_percent = dues_so_far | times: 100 | divided_by: dues_total_goal %}
+{% assign dues_percent = site.data.dues.dues_total_lastmonth | times: 100 | divided_by: site.data.dues.dues_monthly_goal %}
+{% assign _dues_so_far = site.data.dues.dues_so_far | plus: site.data.dues.dues_total_correction %}
+{% assign dues_total_unreserved = _dues_so_far | minus: site.data.dues.dues_reserved %}
+{% assign dues_reserved_percent = site.data.dues.dues_reserved | times: 100 | divided_by: site.data.dues.dues_total_goal %}
+{% assign dues_total_unreserved_percent = dues_total_unreserved | times: 100 | divided_by: site.data.dues.dues_total_goal %}
+{% assign dues_total_percent = _dues_so_far | times: 100 | divided_by: site.data.dues.dues_total_goal %}
