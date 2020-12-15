@@ -19,9 +19,3 @@ jobs:
     - uses: stefanzweifel/git-auto-commit-action@v4.2.0
       with:
         commit_message: Autoupdate _includes/next_meeting.txt
-
-  github-pages:
-    runs-on: ubuntu-16.04
-    steps:
-      - uses: actions/checkout@v2
-      - uses: helaili/jekyll-action@2.0.1
