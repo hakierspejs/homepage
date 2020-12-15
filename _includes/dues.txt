@@ -1,6 +1,6 @@
 {% assign dues_percent = site.data.dues.dues_total_lastmonth | times: 100 | divided_by: site.data.dues.dues_monthly_goal %}
 {% assign _dues_so_far = site.data.dues.dues_so_far | plus: site.data.dues.dues_total_correction %}
-{% assign dues_reserved = site.data.dues.dues_reserved + site.data.dues.extra_monthly_reservations %}
+{% assign dues_reserved = site.data.dues.dues_reserved |plus: site.data.dues.extra_monthly_reservations %}
 {% assign dues_total_unreserved = _dues_so_far | minus: dues_reserved %}
 {% assign dues_reserved_percent = dues_reserved | times: 100 | divided_by: site.data.dues.dues_total_goal %}
 {% assign dues_total_unreserved_percent = dues_total_unreserved | times: 100 | divided_by: site.data.dues.dues_total_goal %}
