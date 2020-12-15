@@ -20,3 +20,5 @@ jobs:
       with:
         commit_message: Autoupdate _includes/next_meeting.txt
     - uses: helaili/jekyll-action@2.0.1
+      env:
+        JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
