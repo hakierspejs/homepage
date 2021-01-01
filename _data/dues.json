@@ -1,11 +1,53 @@
 {
-  "dues_total_lastmonth": 1846.0,
-  "dues_last_updated": "29-12-2020",
-  "dues_num_subscribers": 16,
-  "dues_so_far": 11251.36,
+  "dues_total_lastmonth": 3146.0,
+  "dues_last_updated": "30-12-2020",
+  "dues_num_subscribers": 15,
+  "dues_so_far": 9851.36,
   "dues_monthly_goal": 1500,
   "dues_reserved": 3150,
   "dues_total_correction": -4411.219,
   "dues_total_goal": 7500,
-  "extra_monthly_reservations": 400
+  "extra_monthly_reservations": 400,
+  "monthly": {
+    "expenses": {
+      "2020-12": {
+        "Misc": 1156.56
+      },
+      "2020-11": {
+        "Misc": 1175.5
+      },
+      "2020-10": {
+        "Misc": 800.0
+      }
+    },
+    "income": {
+      "2020-12": {
+        "Misc": 3046.0
+      },
+      "2020-11": {
+        "Misc": 1396.0
+      },
+      "2020-10": {
+        "Misc": 1213.99
+      },
+      "2020-9": {
+        "Misc": 1450.0
+      },
+      "2020-8": {
+        "Misc": 1200.0
+      },
+      "2020-7": {
+        "Misc": 600.0
+      },
+      "2020-6": {
+        "Misc": 696.0
+      },
+      "2020-5": {
+        "Misc": 617.37
+      },
+      "2020-4": {
+        "Misc": 1032.0
+      }
+    }
+  }
 }
