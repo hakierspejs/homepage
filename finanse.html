@@ -1,0 +1,131 @@
+---
+# this is an empty front matter
+---
+<head>
+<meta charset="UTF-8" />
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script> 
+<script>
+    function plot (domId, conf, data) {
+        return Plotly.newPlot(domId, data, conf);
+    }
+</script>
+<style>
+body {
+    font-family: 'Arial';
+    font-size: 16pt;
+}
+#main {
+    width: 900px;
+    margin: auto;
+}
+table {
+    margin-top: 20px;
+}
+caption {
+    font-size: 24pt;
+    text-align: left;
+}
+table, th, td {
+    border: 1px solid #bcbcbc;
+    border-collapse: collapse;
+}
+td.name {
+    width: 600px;
+}
+td.value {
+    width: 300px;
+    text-align: right;
+}
+thead {
+    background-color: #62B5FF;
+    color: white;
+}
+.negative {
+    color: #B2140C;
+}
+</style>
+</head>
+<div id='main'>
+<div id="plot-main" style="width:100%;height:300px;"></div>
+<script>
+    plot('plot-main', {
+        legend: {orientation: 'h'},
+        margin: {l: 50, r: 0, b: 25, t: 25, pad: 4}
+    }, [
+        {
+            name: 'Wydatki',
+            mode: 'scatter',
+            x: [{% for miesiac in site.data.dues.monthly.expenses %}{% if forloop.first %}{% else %}, {% endif %} "{{ miesiac[0] }}" {% endfor %}] ,
+            y: [{% for miesiac in site.data.dues.monthly.expenses %}{% if forloop.first %}{% else %}, {% endif %} "{{ miesiac[1].Misc }}" {% endfor %}] ,
+            line: {color: 'blue', width: 0},
+            fill: 'tozeroy'
+        }, 
+
+        {
+            name: 'Przychody',
+            mode: 'scatter',
+            x: [{% for miesiac in site.data.dues.monthly.income %}{% if forloop.first %}{% else %}, {% endif %} "{{ miesiac[0] }}" {% endfor %}] ,
+            y: [{% for miesiac in site.data.dues.monthly.income %}{% if forloop.first %}{% else %}, {% endif %} "{{ miesiac[1].Misc }}" {% endfor %}] ,
+            line: {color: 'red', width: 0},
+            fill: 'tozeroy'
+        }, 
+
+    ]);
+</script>
+
+{% for miesiac in site.data.dues.monthly.income %}
+{% assign numer_miesiaca=miesiac[0] %}
+<div class='month'>
+<table>
+    <caption>
+        {{ miesiac[0] }}
+    </caption>
+    <thead>
+        <tr>
+            <th>NAZWA</th>
+            <th>WARTOŚĆ</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        <tr>
+            <td class='name'>PRZYCHODY</td>
+            <td class='value'>{{ miesiac[1].Misc }} zł</td>
+        </tr>
+        
+        {% assign wydatki=site.data.dues.monthly.expenses[numer_miesiaca].Misc %}
+        {% if wydatki %}
+        <tr>
+            <td class='name'>WYDATKI</td>
+            <td class='value negative'>-{{ wydatki }} zł</td>
+        </tr>
+        {% endif %}
+    </tbody>
+</table>
+<br />
+<!--
+<div id="plot-month-2020-11" style="width:100%;height:300px;"></div>
+<script>
+    plot('plot-month-2020-11', {
+        title: 'Dochód / Wydatki',
+        margin: {l: 50, r: 0, b: 25, t: 50, pad: 4}
+    }, [
+        {
+            name: 'Dochód',
+            type: 'pie',
+            domain: {x: [0.0, 0.48], y: [0.0, 1.0]},
+            values: [1120.0],
+            labels: ["SK\u0141ADKI"],
+        }, {
+            name: 'Wydatki',
+            type: 'pie',
+            domain: {x: [0.5, 1.0], y: [0.0, 1.0]},
+            values: [1205.2, 86.15],
+            labels: ["RACHUNKI: CZYNSZ", "RACHUNKI: INTERNET"],
+        }
+    ]);
+</script>
+-->
+<hr/>
+</div>
+{% endfor %}
