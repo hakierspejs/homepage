@@ -90,14 +90,26 @@ thead {
     <tbody>
         
         {% for kategoria in site.data.dues.monthly %}
+        {% assign suma=0 %}
         {% for podkategoria in kategoria[1][numer_miesiaca] %}
         <tr>
             <td class='name'>{{ kategoria[0] }}: {{ podkategoria[0] }}</td>
             <td class='value {% if kategoria[0] == "Wydatki" %}negative{% endif %}'>
+                {% assign suma=suma | plus: podkategoria[1] %}
                 {% if kategoria[0] == "Wydatki" %}-{% endif %}{{ podkategoria[1] | round: 2 }} zł
             </td>
         </tr>
         {% endfor %}
+        {% assign ilosc_elementow = kategoria[1][numer_miesiaca] | size %}
+        {% if ilosc_elementow > 1 %}
+        <tr>
+            <td class='name'>{{ kategoria[0] }}: Suma</td>
+            <td class='value {% if kategoria[0] == "Wydatki" %}negative{% endif %}'>
+                {% assign suma=suma | plus: podkategoria[1] %}
+                {% if kategoria[0] == "Wydatki" %}-{% endif %}{{ suma | round: 2 }} zł
+            </td>
+        </tr>
+        {% endif %}
         {% endfor %}
         
     </tbody>
