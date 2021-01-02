@@ -74,7 +74,7 @@ thead {
     ]);
 </script>
 
-{% for miesiac in site.data.dues.monthly.income %}
+{% for miesiac in site.data.dues.monthly.Przychody %}
 {% assign numer_miesiaca=miesiac[0] %}
 <div class='month'>
 <table>
@@ -93,8 +93,8 @@ thead {
         {% for podkategoria in kategoria[1][numer_miesiaca] %}
         <tr>
             <td class='name'>{{ kategoria[0] }}: {{ podkategoria[0] }}</td>
-            <td class='value {% if kategoria[0] == "expenses" %}negative{% endif %}'>
-                {% if kategoria[0] == "expenses" %}-{% endif %}{{ podkategoria[1] }} zł
+            <td class='value {% if kategoria[0] == "Wydatki" %}negative{% endif %}'>
+                {% if kategoria[0] == "Wydatki" %}-{% endif %}{{ podkategoria[1] }} zł
             </td>
         </tr>
         {% endfor %}
