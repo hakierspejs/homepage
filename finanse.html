@@ -94,7 +94,7 @@ thead {
         <tr>
             <td class='name'>{{ kategoria[0] }}: {{ podkategoria[0] }}</td>
             <td class='value {% if kategoria[0] == "Wydatki" %}negative{% endif %}'>
-                {% if kategoria[0] == "Wydatki" %}-{% endif %}{{ podkategoria[1] }} zł
+                {% if kategoria[0] == "Wydatki" %}-{% endif %}{{ podkategoria[1] | round: 2 }} zł
             </td>
         </tr>
         {% endfor %}
