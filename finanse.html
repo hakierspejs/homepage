@@ -74,7 +74,7 @@ thead {
     ]);
 </script>
 
-{% for miesiac in site.data.dues.monthly.Przychody %}
+{% for miesiac in site.data.dues.monthly.Przychody reversed %}
 {% assign numer_miesiaca=miesiac[0] %}
 <div class='month'>
 <table>
