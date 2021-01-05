@@ -95,7 +95,7 @@ thead {
         {% assign ile_podkategorii=kategoria[1][numer_miesiaca] | size %}
         {% for podkategoria in kategoria[1][numer_miesiaca] %}
         <tr>
-            <td class='name'>{{ kategoria[0] }}{% if ile_podkategorii > 1 and podkategoria[0] == "Suma" %}: {{ podkategoria[0] }}{% endif %}</td>
+            <td class='name'>{{ kategoria[0] }}{% if ile_podkategorii > 1 and podkategoria[0] != "Suma" %}: {{ podkategoria[0] }}{% endif %}</td>
             <td class='value {% if kategoria[0] == "Wydatki" %}negative{% endif %}'>
                 {% assign suma=suma | plus: podkategoria[1] %}
                 {% if kategoria[0] == "Wydatki" %}-{% endif %}{{ podkategoria[1] | round: 2 }} zł
