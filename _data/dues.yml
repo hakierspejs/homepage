@@ -1,11 +1,11 @@
-dues_last_updated: 06-01-2021
+dues_last_updated: 07-01-2021
 dues_monthly_goal: 1500
 dues_num_subscribers: 14
 dues_reserved: 3050
-dues_so_far: 11851.36
-dues_total_correction: -4561.219
+dues_so_far: 11951.36
+dues_total_correction: -5361.219
 dues_total_goal: 7500
-dues_total_lastmonth: 1696.0
+dues_total_lastmonth: 1796.0
 extra_monthly_reservations: 400
 monthly:
   Przychody:
@@ -28,7 +28,7 @@ monthly:
     2020-12:
       Suma: 1846.0
     2021-01:
-      Suma: 600.0
+      Suma: 700.0
   Wydatki:
     2020-10:
       Czynsz: 800.0
@@ -40,4 +40,5 @@ monthly:
       Internet: 118.96
       "Pozosta\u0142e": 237.6
     2021-01:
+      Czynsz: 800.0
       "Pozosta\u0142e": 150.0
