@@ -10,9 +10,9 @@ extra_monthly_reservations: 400
 monthly:
   Bilans:
     2020-04:
-      Suma: 1032.0
+      Suma: 1232.0
     2020-05:
-      Suma: 617.37
+      Suma: 717.37
     2020-06:
       Suma: 896.0
     2020-07:
@@ -31,9 +31,9 @@ monthly:
       Suma: -250.0
   Przychody:
     2020-04:
-      Suma: 1032.0
+      Suma: 1232.0
     2020-05:
-      Suma: 617.37
+      Suma: 717.37
     2020-06:
       Suma: 896.0
     2020-07:
@@ -52,7 +52,7 @@ monthly:
       Suma: 700.0
   Saldo:
     2020-04:
-      Suma: 1332.0
+      Suma: 1232.0
     2020-05:
       Suma: 1949.37
     2020-06:
