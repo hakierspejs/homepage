@@ -1,26 +1,12 @@
-dues_last_updated: 12-01-2021
+dues_last_updated: 13-01-2021
 dues_monthly_goal: 1500
-dues_num_subscribers: 16
+dues_num_subscribers: 15
 dues_reserved: 3050
 dues_so_far: 12701.36
 dues_total_correction: -5416.109
 dues_total_goal: 7500
-dues_total_lastmonth: 1946.0
+dues_total_lastmonth: 1846.0
 extra_monthly_reservations: 400
-obligations_reserve_months: 3
-obligations:
-    internet:
-        amount_pln: 54.89
-        every_months: 1
-    rent:
-        amount_pln: 800
-        every_months: 1
-    domain:
-        amount_pln: 50
-        every_months: 12
-    meetup:
-        amount_pln: 290
-        every_months: 6
 monthly:
   Bilans:
     2020-04:
@@ -42,7 +28,7 @@ monthly:
     2020-12:
       Suma: 689.44
     2021-01:
-      Suma: 445.11
+      Suma: 131.11000000000013
   Przychody:
     2020-04:
       Suma: 1232.0
@@ -84,7 +70,7 @@ monthly:
     2020-12:
       Suma: 6840.139999999999
     2021-01:
-      Suma: 7285.249999999999
+      Suma: 6971.25
   Wydatki:
     2020-08:
       Meetup: 294.36
@@ -100,5 +86,20 @@ monthly:
       "Pozosta\u0142e": 237.6
     2021-01:
       Czynsz: 800.0
+      Drukarka HP: 314.0
       Internet: 54.89
       "Pozosta\u0142e": 150.0
+obligations:
+  domain:
+    amount_pln: 50
+    every_months: 12
+  internet:
+    amount_pln: 54.89
+    every_months: 1
+  meetup:
+    amount_pln: 290
+    every_months: 6
+  rent:
+    amount_pln: 800
+    every_months: 1
+obligations_reserve_months: 3
