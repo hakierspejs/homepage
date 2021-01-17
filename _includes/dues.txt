@@ -1,6 +1,21 @@
 {% assign dues_percent = site.data.dues.dues_total_lastmonth | times: 100 | divided_by: site.data.dues.dues_monthly_goal %}
 {% assign _dues_so_far = site.data.dues.dues_so_far | plus: site.data.dues.dues_total_correction %}
 
+{% comment %}
+    Tu się trochę dzieje magia.
+
+    Zobowiązania biorą się z pliku dues.yml. Jako, że Liquid nie pozwala
+    wygodnie chainować operatorów matematycznych, robimy zmienną tymczasową na
+    obliczenia. Celem jest policzenie typowego miesięcznego zobowiązania
+    organizacji, dzieląc wydatki rzadsze niż comiesięczne na średni wydatek
+    miesięczny - czyli np 200zł co 2 miesiące to tak naprawdę 100zł co miesiąc.
+
+    Na koniec, policzona tak zarezerwowana kwota jest powiększana o
+    zarezerwowaną "na sztywno" w YAMLu oraz miesięczne dodatki z extra_monthly.
+
+    Dopiero wtedy można uznać że policzyliśmy całość rezerwacji i wyliczyć
+    procenty oraz pozostałe koszty.
+{% endcomment %}
 {% assign dues_reserved_obligations = 0 %}
 {% for obligation in site.data.dues.obligations %}
     {% assign current_obligation = obligation[1].amount_pln %}
