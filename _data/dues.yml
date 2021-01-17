@@ -1,0 +1,105 @@
+dues_last_updated: 13-01-2021
+dues_monthly_goal: 1500
+dues_num_subscribers: 15
+dues_reserved: 3050
+dues_so_far: 12701.36
+dues_total_correction: -5416.109
+dues_total_goal: 7500
+dues_total_lastmonth: 1846.0
+extra_monthly_reservations: 400
+monthly:
+  Bilans:
+    2020-04:
+      Suma: 1232.0
+    2020-05:
+      Suma: 717.37
+    2020-06:
+      Suma: 896.0
+    2020-07:
+      Suma: 800.0
+    2020-08:
+      Suma: 1105.6399999999999
+    2020-09:
+      Suma: 1650.0
+    2020-10:
+      Suma: -531.01
+    2020-11:
+      Suma: 280.70000000000005
+    2020-12:
+      Suma: 689.44
+    2021-01:
+      Suma: 131.11000000000013
+  Przychody:
+    2020-04:
+      Suma: 1232.0
+    2020-05:
+      Suma: 717.37
+    2020-06:
+      Suma: 896.0
+    2020-07:
+      Suma: 800.0
+    2020-08:
+      Suma: 1400.0
+    2020-09:
+      Suma: 1650.0
+    2020-10:
+      Suma: 1413.99
+    2020-11:
+      Suma: 1596.0
+    2020-12:
+      Suma: 1846.0
+    2021-01:
+      Suma: 1450.0
+  Saldo:
+    2020-04:
+      Suma: 1232.0
+    2020-05:
+      Suma: 1949.37
+    2020-06:
+      Suma: 2845.37
+    2020-07:
+      Suma: 3645.37
+    2020-08:
+      Suma: 4751.01
+    2020-09:
+      Suma: 6401.01
+    2020-10:
+      Suma: 5870.0
+    2020-11:
+      Suma: 6150.7
+    2020-12:
+      Suma: 6840.139999999999
+    2021-01:
+      Suma: 6971.25
+  Wydatki:
+    2020-08:
+      Meetup: 294.36
+    2020-10:
+      Czynsz: 800.0
+      Remont: 1145.0
+    2020-11:
+      Czynsz: 800.0
+      "Pozosta\u0142e": 515.3
+    2020-12:
+      Czynsz: 800.0
+      Internet: 118.96
+      "Pozosta\u0142e": 237.6
+    2021-01:
+      Czynsz: 800.0
+      Drukarka HP: 314.0
+      Internet: 54.89
+      "Pozosta\u0142e": 150.0
+obligations:
+  domain:
+    amount_pln: 50
+    every_months: 12
+  internet:
+    amount_pln: 54.89
+    every_months: 1
+  meetup:
+    amount_pln: 290
+    every_months: 6
+  rent:
+    amount_pln: 800
+    every_months: 1
+obligations_reserve_months: 3

@@ -7,9 +7,18 @@
   <main role="main" class="inner cover">
     <h1 class="cover-heading">Budujemy <a href="https://pl.m.wikipedia.org/wiki/Hackerspace">Hackerspace</a> w Łodzi. Szukamy ludzi.</h1>
 
-    <p class="lead">Jesteśmy społecznością pasjonatów open source, DIY i ruchu wolnej kultury. Organizujemy spotkania, robimy projekty i wymieniamy się wiedzą. <a href="https://github.com/hakierspejs/wiki/wiki"><u><strong>[Więcej info]</strong></u></a></p>
+    <p class="lead">Jesteśmy społecznością pasjonatów open source, DIY, komputerów minionej ery i ruchu wolnej kultury. Organizujemy spotkania, robimy projekty i wymieniamy się wiedzą. <a href="https://github.com/hakierspejs/wiki/wiki"><u><strong>[Więcej info]</strong></u></a></p>
+
+    <div class="alert alert-warning" style="display: none;" id="isitopen">
+        🔓🚪❗ Wygląda na to, że Hakierspejs jest właśnie otwarty!
+
+        Wpadnij na <strong>Zieloną 30</strong>
+        jeśli jesteś w pobliżu albo odwiedź nasz chat (link
+        znajdziesz poniżej) żeby się upewnić, że zdążysz do nas dotrzeć.
+        Do zobaczenia!
+    </div>
     
-    <div class="alert alert-danger" style="text-shadow: none !important">
+    <div class="alert alert-danger">
     📅 <strong>Następne spotkanie:</strong> {% include date.txt time_arg=next_meeting lang="pl" %}{% if next_meeting_location %}Miejsce: {{ next_meeting_location }}. Zaczynamy wcześnie, ale nie ma problemu jeśli dołączysz później :){% endif %}
        {% if next_meeting_location %}{% else %}<br />Spotkanie online.{% endif %} Więcej info na <u><a class="text-danger" href="{{ next_meeting_url }}">meetup.com</a></u>.
     </div>
@@ -19,7 +28,7 @@
         💉💰 <strong>Zbieramy składki na bieżącą działalność (m.in. czynsz).</strong> <br/>W ciągu ostatnich 30 dni zebraliśmy {{ dues_percent | round }}% miesięcznego celu. Łącznie: </u>
         <div class="progress" style="margin: 5px">
           <div class="progress-bar" role="progressbar" style="width: {{ dues_percent }}%" aria-valuenow="{{ dues_percent }}" aria-valuemin="0"
-            aria-valuemax="100">{{ dues_total_lastmonth | round: 2 }}/{{ dues_monthly_goal }} PLN</div>
+            aria-valuemax="100">{{ site.data.dues.dues_total_lastmonth | round: 2 }}/{{ site.data.dues.dues_monthly_goal }} PLN</div>
         </div>
         Stan wg {% include date.txt time_arg=dues_last_updated no_hour=true no_weekday=true end=":" lang="pl" %}
     
@@ -30,7 +39,7 @@
           <div class="progress-bar bg-success" role="progressbar" style="width: {{ dues_total_unreserved_percent }}%" aria-valuenow="{{ dues_total_unreserved_percent }}" aria-valuemin="0" aria-valuemax="100">{{ dues_total_unreserved | round: 2 }}zł wolne</div>
         </div>
     
-        Zalecana składka: 100zł (wpłaciło {{ dues_num_subscribers }} osób).<br />
+        Zalecana składka: 100zł (wpłaciło {{ site.data.dues.dues_num_subscribers }} osób).<br />
         Numer konta: 55 1140 2004 0000 3002 7656 1893 (mBank). <a class="text-primary" href="https://github.com/hakierspejs/wiki/wiki/Finanse#sk%C5%82adki">Więcej info.</a>
     </div>   
     <p class="lead">Żeby do nas dołączyć, wejdź na naszego chata przez jeden z komunikatorów (wszystkie prowadzą do tego samego chata):</p>
