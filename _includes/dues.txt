@@ -1,6 +1,17 @@
 {% assign dues_percent = site.data.dues.dues_total_lastmonth | times: 100 | divided_by: site.data.dues.dues_monthly_goal %}
 {% assign _dues_so_far = site.data.dues.dues_so_far | plus: site.data.dues.dues_total_correction %}
-{% assign dues_reserved = site.data.dues.dues_reserved |plus: site.data.dues.extra_monthly_reservations %}
+
+{% assign dues_reserved_obligations = 0 %}
+{% for obligation in site.data.dues.obligations %}
+    {% assign current_obligation = obligation[1].amount_pln %}
+    {% assign current_obligation = current_obligation | divided_by: obligation[1].every_months %}
+    {% assign dues_reserved_obligations = dues_reserved_obligations| plus: current_obligation %}
+{% endfor %}
+{% assign dues_reserved_obligations = dues_reserved_obligations |times: site.data.dues.obligations_reserve_months %}
+
+{% assign dues_reserved = dues_reserved_obligations |plus: site.data.dues.extra_monthly_reservations %}
+{% assign dues_reserved = dues_reserved|plus: site.data.dues.dues_reserved %}
+
 {% assign dues_total_unreserved = _dues_so_far | minus: dues_reserved %}
 {% assign dues_reserved_percent = dues_reserved | times: 100 | divided_by: site.data.dues.dues_total_goal %}
 {% assign dues_total_unreserved_percent = dues_total_unreserved | times: 100 | divided_by: site.data.dues.dues_total_goal %}
