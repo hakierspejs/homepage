@@ -9,7 +9,7 @@ extra_monthly_reservations: 400
 obligations_reserve_months: 3
 reservations:
     wyrownanie_ze_starym_stanem:
-        amount_pln: 327.83
+        amount_pln: 329.33
 obligations:
     internet:
         amount_pln: 54.89
