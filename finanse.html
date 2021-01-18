@@ -46,7 +46,7 @@ thead {
 }
 </style>
 </head>
-<div id='main'>
+<div id="main">
 <div id="plot-main" style="width:100%;height:300px;"></div>
 <script>
     plot('plot-main', {
@@ -78,9 +78,84 @@ thead {
     ]);
 </script>
 
+<table>
+    <caption>
+        Aktualne rezerwacje (na {{ site.data.dues.obligations_reserve_months }} mies)
+    </caption>
+    <thead>
+        <tr>
+            <th>NAZWA</th>
+            <th>WARTOŚĆ</th>
+            <th>CZĘSTOTLIWOŚĆ (MIES)</th>
+            <th>MIESIĘCZNIE</th>
+            <th>ŁĄCZNIE</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% assign dues_reserved_obligations_total_monthly = 0 %}
+    {% for obligation in site.data.dues.obligations %}
+        <tr>
+            <td>{{ obligation[0] }}</td>
+            <td>{{ obligation[1].amount_pln }}</td>
+            <td>{{ obligation[1].every_months }}</td>
+            {% assign current_obligation = obligation[1].amount_pln |divided_by:  obligation[1].every_months %}
+            <td>{{ current_obligation }}</td>
+            {% assign dues_reserved_obligations_total_monthly = dues_reserved_obligations_total_monthly| plus: current_obligation %}
+            <td>{{ current_obligation| times: site.data.dues.obligations_reserve_months }}</td>
+        </tr>
+    {% endfor %}
+
+        <tr style="font-weight: bold">
+            <td><strong>cykliczne razem</td>
+            <td>{{ dues_reserved_obligations_total_monthly }}</td>
+            <td>1</td>
+            <td>{{ dues_reserved_obligations_total_monthly }}
+            {% assign dues_reserved_obligations_total = dues_reserved_obligations_total_monthly|times: site.data.dues.obligations_reserve_months %}
+            <td>{{ dues_reserved_obligations_total }}</td>
+        </tr>
+
+        <tr style="font-weight: bold">
+            <td>autorezerwacja</td>
+            <td>200</td>
+            <td>(dodawane co miesiąc)</td>
+            <td>200</td>
+            <td>{{ site.data.dues.extra_monthly_reservations }}</td>
+        </tr>
+
+        {% assign oneoff_reservations_total = 0 %}
+        <tr>
+            {% for reservation in site.data.dues.reservations %}
+                <td>{{ reservation[0] }}</td>
+                <td>{{ reservation[1].amount_pln }}</td>
+                <td>n/d</td>
+                <td>n/d</td>
+                <td>{{ reservation[1].amount_pln }}</td>
+                {% assign oneoff_reservations_total = oneoff_reservations_total|plus: reservation[1].amount_pln %}
+            {% endfor %}
+        </td>
+
+        <tr style="font-weight: bold">
+            <td><strong>jednorazowe razem</td>
+            <td>{{ oneoff_reservations_total }}</td>
+            <td>n/d</td>
+            <td>n/d</td>
+            <td>{{ oneoff_reservations_total }}</td>
+        </tr>
+
+        <tr style="font-weight: bold">
+            {% assign reservations_total = oneoff_reservations_total|plus: dues_reserved_obligations_total|plus: site.data.dues.extra_monthly_reservations %}
+            <td><strong>cykliczne + autorezerwacja + jednorazowe</td>
+            <td>{{ reservations_total }}</td>
+            <td>n/d</td>
+            <td>n/d</td>
+            <td>{{ reservations_total }}</td>
+        </tr>
+
+    </tbody>
+</table>
+
 {% for miesiac in site.data.dues.monthly.Przychody reversed %}
 {% assign numer_miesiaca=miesiac[0] %}
-<div class='month'>
 <table>
     <caption>
         {{ miesiac[0] }}
@@ -98,8 +173,8 @@ thead {
         {% assign ile_podkategorii=kategoria[1][numer_miesiaca] | size %}
         {% for podkategoria in kategoria[1][numer_miesiaca] %}
         <tr>
-            <td class='name'>{{ kategoria[0] }}{% if ile_podkategorii > 1 and podkategoria[0] != "Suma" %}: {{ podkategoria[0] }}{% endif %}</td>
-            <td class='value {% if kategoria[0] == "Wydatki" or podkategoria[1] < 0 %}negative{% endif %}'>
+            <td class="name">{{ kategoria[0] }}{% if ile_podkategorii > 1 and podkategoria[0] != "Suma" %}: {{ podkategoria[0] }}{% endif %}</td>
+            <td class="value {% if kategoria[0] == "Wydatki" or podkategoria[1] < 0 %}negative{% endif %}">
                 {% assign suma=suma | plus: podkategoria[1] %}
                 {% if kategoria[0] == "Wydatki" %}-{% endif %}{{ podkategoria[1] | round: 2 }} zł
             </td>
@@ -108,8 +183,8 @@ thead {
         {% assign ilosc_elementow = kategoria[1][numer_miesiaca] | size %}
         {% if ilosc_elementow > 1 %}
         <tr>
-            <td class='name'>{{ kategoria[0] }}: Suma</td>
-            <td class='value {% if kategoria[0] == "Wydatki" %}negative{% endif %}'>
+            <td class="name">{{ kategoria[0] }}: Suma</td>
+            <td class="value {% if kategoria[0] == "Wydatki" %}negative{% endif %}">
                 {% assign suma=suma | plus: podkategoria[1] %}
                 {% if kategoria[0] == "Wydatki" %}-{% endif %}{{ suma | round: 2 }} zł
             </td>
@@ -144,7 +219,6 @@ thead {
 </script>
 -->
 <hr/>
-</div>
 {% endfor %}
     
     <p>Ten dashboard jest <a href="https://finanse.hs-silesia.pl/">zerżnięty</a> od Hackerspace Silesia. Całość jest w fazie beta i może brakować niektórych wpisów, zwłaszcza po stronie kosztów.</p><p> Linki: <a href="https://wiki.hs-ldz.pl/Finanse">[Wiki]</a>, <a href="https://docs.google.com/spreadsheets/d/13wSrGyC35I6sExcASG-5LAAX1B-1KP9aOz2nt_m5Tns/edit?usp=sharing">[Symulacja]</a>, <a href="https://github.com/hakierspejs/homepage/edit/master/finanse.html">[Src]</a> </p>
