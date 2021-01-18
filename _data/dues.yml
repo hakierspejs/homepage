@@ -7,6 +7,9 @@ dues_total_goal: 7500
 dues_total_lastmonth: 1946.0
 extra_monthly_reservations: 400
 obligations_reserve_months: 3
+reservations:
+    wyrownanie_ze_starym_stanem:
+        amount_pln: 329.33
 obligations:
     internet:
         amount_pln: 54.89
@@ -115,4 +118,3 @@ obligations:
   rent:
     amount_pln: 800
     every_months: 1
-obligations_reserve_months: 3
