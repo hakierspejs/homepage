@@ -99,9 +99,9 @@ thead {
             <td>{{ obligation[1].amount_pln }}</td>
             <td>{{ obligation[1].every_months }}</td>
             {% assign current_obligation = obligation[1].amount_pln |divided_by:  obligation[1].every_months %}
-            <td>{{ current_obligation }}</td>
+            <td>{{ current_obligation|round: 2 }}</td>
             {% assign dues_reserved_obligations_total_monthly = dues_reserved_obligations_total_monthly| plus: current_obligation %}
-            <td>{{ current_obligation| times: site.data.dues.obligations_reserve_months }}</td>
+            <td>{{ current_obligation| times: site.data.dues.obligations_reserve_months|round: 2 }}</td>
         </tr>
     {% endfor %}
 

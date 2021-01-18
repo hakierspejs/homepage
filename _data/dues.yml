@@ -9,19 +9,19 @@ extra_monthly_reservations: 400
 obligations_reserve_months: 3
 reservations:
     wyrownanie_ze_starym_stanem:
-        amount_pln: 329.33
+        amount_pln: 327.83
 obligations:
     internet:
         amount_pln: 54.89
         every_months: 1
     rent:
-        amount_pln: 800
+        amount_pln: 800.0
         every_months: 1
     domain:
-        amount_pln: 50
+        amount_pln: 50.0
         every_months: 12
     meetup:
-        amount_pln: 290
+        amount_pln: 290.0
         every_months: 6
 monthly:
   Bilans:
