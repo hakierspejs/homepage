@@ -86,7 +86,7 @@ thead {
         <tr>
             <th>NAZWA</th>
             <th>WARTOŚĆ</th>
-            <th>CZĘSTOTLIWOŚĆ (MIES)</th>
+            <th>OKRES ROZLICZENIOWY (MIES)</th>
             <th>MIESIĘCZNIE</th>
             <th>ŁĄCZNIE</th>
         </tr>
@@ -106,7 +106,7 @@ thead {
     {% endfor %}
 
         <tr style="font-weight: bold">
-            <td><strong>cykliczne razem</td>
+            <td><strong>Cykliczne razem</td>
             <td>{{ dues_reserved_obligations_total_monthly }}</td>
             <td>1</td>
             <td>{{ dues_reserved_obligations_total_monthly }}
@@ -115,7 +115,7 @@ thead {
         </tr>
 
         <tr style="font-weight: bold">
-            <td>autorezerwacja</td>
+            <td>Autorezerwacja (od 11 listopada 2020)</td>
             <td>200</td>
             <td>(dodawane co miesiąc)</td>
             <td>200</td>
@@ -135,7 +135,7 @@ thead {
         </td>
 
         <tr style="font-weight: bold">
-            <td><strong>jednorazowe razem</td>
+            <td><strong>Jednorazowe razem</td>
             <td>{{ oneoff_reservations_total }}</td>
             <td>n/d</td>
             <td>n/d</td>
@@ -144,7 +144,7 @@ thead {
 
         <tr style="font-weight: bold">
             {% assign reservations_total = oneoff_reservations_total|plus: dues_reserved_obligations_total|plus: site.data.dues.extra_monthly_reservations %}
-            <td><strong>cykliczne + autorezerwacja + jednorazowe</td>
+            <td><strong>Cykliczne + autorezerwacja + jednorazowe</td>
             <td>{{ reservations_total }}</td>
             <td>n/d</td>
             <td>n/d</td>

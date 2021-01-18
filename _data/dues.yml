@@ -8,8 +8,8 @@ dues_total_lastmonth: 1946.0
 extra_monthly_reservations: 400
 obligations_reserve_months: 3
 reservations:
-    wyrownanie_ze_starym_stanem:
-        amount_pln: 329.33
+    Wyrównanie ze starym stanem:
+        amount_pln: 327.83
 obligations:
     internet:
         amount_pln: 54.89
@@ -106,15 +106,15 @@ monthly:
       Internet: 54.89
       "Pozosta\u0142e": 150.0
 obligations:
-  domain:
-    amount_pln: 50
+  Domena hs-ldz.pl:
+    amount_pln: 50.0
     every_months: 12
-  internet:
+  Internet Toya 100mbps:
     amount_pln: 54.89
     every_months: 1
-  meetup:
-    amount_pln: 290
+  Meetup (73.73 USD ± kurs):
+    amount_pln: 290.0
     every_months: 6
-  rent:
-    amount_pln: 800
+  Czynsz (bez mediów):
+    amount_pln: 800.0
     every_months: 1
