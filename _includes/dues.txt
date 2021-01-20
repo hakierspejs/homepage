@@ -1,6 +1,37 @@
 {% assign dues_percent = site.data.dues.dues_total_lastmonth | times: 100 | divided_by: site.data.dues.dues_monthly_goal %}
 {% assign _dues_so_far = site.data.dues.dues_so_far | plus: site.data.dues.dues_total_correction %}
-{% assign dues_reserved = site.data.dues.dues_reserved |plus: site.data.dues.extra_monthly_reservations %}
+
+{% comment %}
+    Tu się trochę dzieje magia.
+
+    Zobowiązania biorą się z pliku dues.yml. Jako, że Liquid nie pozwala
+    wygodnie chainować operatorów matematycznych, robimy zmienną tymczasową na
+    obliczenia. Celem jest policzenie typowego miesięcznego zobowiązania
+    organizacji, dzieląc wydatki rzadsze niż comiesięczne na średni wydatek
+    miesięczny - czyli np 200zł co 2 miesiące to tak naprawdę 100zł co miesiąc.
+
+    Na koniec, policzona tak zarezerwowana kwota jest powiększana o
+    zarezerwowaną "na sztywno" w YAMLu oraz miesięczne dodatki z extra_monthly.
+
+    Dopiero wtedy można uznać że policzyliśmy całość rezerwacji i wyliczyć
+    procenty oraz pozostałe koszty.
+{% endcomment %}
+{% assign dues_reserved_obligations_total = 0 %}
+{% for obligation in site.data.dues.obligations %}
+    {% assign current_obligation = obligation[1].amount_pln %}
+    {% assign current_obligation = current_obligation | divided_by: obligation[1].every_months %}
+    {% assign dues_reserved_obligations_total = dues_reserved_obligations_total| plus: current_obligation %}
+{% endfor %}
+{% assign dues_reserved_obligations_total = dues_reserved_obligations_total |times: site.data.dues.obligations_reserve_months %}
+
+{% assign oneoff_reservations_total = 0 %}
+{% for reservation in site.data.dues.reservations %}
+    {% assign oneoff_reservations_total = oneoff_reservations_total | plus: reservation[1].amount_pln %}
+{% endfor %}
+
+{% assign dues_reserved = dues_reserved_obligations_total |plus: site.data.dues.extra_monthly_reservations %}
+{% assign dues_reserved = dues_reserved|plus: oneoff_reservations_total %}
+
 {% assign dues_total_unreserved = _dues_so_far | minus: dues_reserved %}
 {% assign dues_reserved_percent = dues_reserved | times: 100 | divided_by: site.data.dues.dues_total_goal %}
 {% assign dues_total_unreserved_percent = dues_total_unreserved | times: 100 | divided_by: site.data.dues.dues_total_goal %}
