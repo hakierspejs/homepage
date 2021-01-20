@@ -80,75 +80,54 @@ thead {
 
 <table>
     <caption>
-        Aktualne "poduszka finansowa" (na {{ site.data.dues.obligations_reserve_months }} mies)
+        Aktualna "poduszka finansowa" (na {{ site.data.dues.obligations_reserve_months }} mies)
     </caption>
     <thead>
         <tr>
             <th>NAZWA</th>
-            <th>WARTOŚĆ</th>
-            <th>OKRES ROZLICZENIOWY (MIES)</th>
             <th>MIESIĘCZNIE</th>
-            <th>ŁĄCZNIE</th>
         </tr>
     </thead>
     <tbody>
     {% assign dues_reserved_obligations_total_monthly = 0 %}
     {% for obligation in site.data.dues.obligations %}
         <tr>
-            <td>{{ obligation[0] }}</td>
-            <td>{{ obligation[1].amount_pln }}</td>
-            <td>{{ obligation[1].every_months }}</td>
             {% assign current_obligation = obligation[1].amount_pln |divided_by:  obligation[1].every_months %}
-            <td>{{ current_obligation|round: 2 }}</td>
+            <td class="name">{{ obligation[0] }}</td>
+            <td class="value">{{ current_obligation|round: 2 }} zł</td>
             {% assign dues_reserved_obligations_total_monthly = dues_reserved_obligations_total_monthly| plus: current_obligation %}
-            <td>{{ current_obligation| times: site.data.dues.obligations_reserve_months|round: 2 }}</td>
         </tr>
     {% endfor %}
 
         <tr style="font-weight: bold">
-            <td><strong>Cykliczne razem</td>
-            <td>{{ dues_reserved_obligations_total_monthly }}</td>
-            <td>1</td>
-            <td>{{ dues_reserved_obligations_total_monthly }}
+            <td class="name"><strong>Cykliczne razem x {{ site.data.dues.obligations_reserve_months }} mies</td>
             {% assign dues_reserved_obligations_total = dues_reserved_obligations_total_monthly|times: site.data.dues.obligations_reserve_months %}
-            <td>{{ dues_reserved_obligations_total }}</td>
+            <td class="value">{{ dues_reserved_obligations_total }} zł</td>
         </tr>
 
         <tr style="font-weight: bold">
-            <td>Autorezerwacja (od 11 listopada 2020)</td>
-            <td>200</td>
-            <td>(dodawane co miesiąc)</td>
-            <td>200</td>
-            <td>{{ site.data.dues.extra_monthly_reservations }}</td>
+            <td class="name">Autorezerwacja (od 11 listopada 2020)</td>
+            <td class="value">{{ site.data.dues.extra_monthly_reservations }} zł</td>
         </tr>
 
         {% assign oneoff_reservations_total = 0 %}
         <tr>
             {% for reservation in site.data.dues.reservations %}
-                <td>{{ reservation[0] }}</td>
-                <td>{{ reservation[1].amount_pln }}</td>
-                <td>n/d</td>
-                <td>n/d</td>
-                <td>{{ reservation[1].amount_pln }}</td>
+                <td class="name">{{ reservation[0] }}</td>
+                <td class="value">{{ reservation[1].amount_pln }} zł</td>
                 {% assign oneoff_reservations_total = oneoff_reservations_total|plus: reservation[1].amount_pln %}
             {% endfor %}
         </td>
 
         <tr style="font-weight: bold">
-            <td><strong>Jednorazowe razem</td>
-            <td>{{ oneoff_reservations_total }}</td>
-            <td>n/d</td>
-            <td>n/d</td>
-            <td>{{ oneoff_reservations_total }}</td>
+            <td class="name"><strong>Jednorazowe razem</td>
+            <td class="value">{{ oneoff_reservations_total }} zł</td>
         </tr>
 
         <tr style="font-weight: bold">
             {% assign reservations_total = oneoff_reservations_total|plus: dues_reserved_obligations_total|plus: site.data.dues.extra_monthly_reservations %}
-            <td><strong>Cykliczne + autorezerwacja + jednorazowe</td>
-            <td>{{ reservations_total }}</td>
-            <td>n/d</td>
-            <td>n/d</td>
-            <td>{{ reservations_total }}</td>
+            <td class="name"><strong>Cykliczne + autorezerwacja + jednorazowe</td>
+            <td class="value">{{ reservations_total }} zł</td>
         </tr>
 
     </tbody>

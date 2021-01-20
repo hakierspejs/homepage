@@ -115,6 +115,6 @@ obligations:
   Meetup (73.73 USD ± kurs):
     amount_pln: 290.0
     every_months: 6
-  Czynsz (bez mediów):
+  "Czynsz (w tym: podatki i śmieci, bez wody)":
     amount_pln: 800.0
     every_months: 1
