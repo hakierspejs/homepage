@@ -1,28 +1,11 @@
-dues_last_updated: 17-01-2021
+dues_last_updated: 20-01-2021
 dues_monthly_goal: 1500
 dues_num_subscribers: 16
-dues_so_far: 12801.36
+dues_so_far: 12901.36
 dues_total_correction: -5730.109
 dues_total_goal: 7500
 dues_total_lastmonth: 1946.0
 extra_monthly_reservations: 400
-obligations_reserve_months: 3
-reservations:
-    Wyrównanie ze starym stanem:
-        amount_pln: 327.83
-obligations:
-    internet:
-        amount_pln: 54.89
-        every_months: 1
-    rent:
-        amount_pln: 800.0
-        every_months: 1
-    domain:
-        amount_pln: 50.0
-        every_months: 12
-    meetup:
-        amount_pln: 290.0
-        every_months: 6
 monthly:
   Bilans:
     2020-04:
@@ -44,7 +27,7 @@ monthly:
     2020-12:
       Suma: 689.44
     2021-01:
-      Suma: 231.11000000000013
+      Suma: 331.1100000000001
   Przychody:
     2020-04:
       Suma: 1232.0
@@ -65,7 +48,7 @@ monthly:
     2020-12:
       Suma: 1846.0
     2021-01:
-      Suma: 1550.0
+      Suma: 1650.0
   Saldo:
     2020-04:
       Suma: 1232.0
@@ -86,7 +69,7 @@ monthly:
     2020-12:
       Suma: 6840.139999999999
     2021-01:
-      Suma: 7071.25
+      Suma: 7171.25
   Wydatki:
     2020-08:
       Meetup: 294.36
@@ -106,15 +89,19 @@ monthly:
       Internet: 54.89
       "Pozosta\u0142e": 150.0
 obligations:
+  "Czynsz (w tym: podatki i \u015Bmieci, bez wody)":
+    amount_pln: 800.0
+    every_months: 1
   Domena hs-ldz.pl:
     amount_pln: 50.0
     every_months: 12
   Internet Toya 100mbps:
     amount_pln: 54.89
     every_months: 1
-  Meetup (73.73 USD ± kurs):
+  "Meetup (73.73 USD \xB1 kurs)":
     amount_pln: 290.0
     every_months: 6
-  "Czynsz (w tym: podatki i śmieci, bez wody)":
-    amount_pln: 800.0
-    every_months: 1
+obligations_reserve_months: 3
+reservations:
+  "Wyr\xF3wnanie ze starym stanem":
+    amount_pln: 327.83
