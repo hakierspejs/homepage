@@ -105,3 +105,5 @@ obligations_reserve_months: 3
 reservations:
   "Wyr\xF3wnanie ze starym stanem":
     amount_pln: 327.83
+  "Dyski SSD do hostingu":
+    amount_pln: 250.0
