@@ -111,14 +111,14 @@ thead {
         </tr>
 
         {% assign oneoff_reservations_total = 0 %}
-        <tr>
             {% for reservation in site.data.dues.reservations %}
+                <tr>
                 <td class="name">{{ reservation[0] }}</td>
                 <td class="value">{{ reservation[1].amount_pln }} zł</td>
                 {% assign oneoff_reservations_total = oneoff_reservations_total|plus: reservation[1].amount_pln %}
+                </tr>
             {% endfor %}
-        </td>
-
+        
         <tr style="font-weight: bold">
             <td class="name"><strong>Jednorazowe razem</td>
             <td class="value">{{ oneoff_reservations_total }} zł</td>
