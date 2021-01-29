@@ -1,11 +1,11 @@
-dues_last_updated: 20-01-2021
+dues_last_updated: 28-01-2021
 dues_monthly_goal: 1500
 dues_num_subscribers: 16
-dues_so_far: 12901.36
-dues_total_correction: -5730.109
+dues_so_far: 13001.36
+dues_total_correction: -6355.409000000001
 dues_total_goal: 7500
-dues_total_lastmonth: 1946.0
-extra_monthly_reservations: 400
+dues_total_lastmonth: 1950.0
+extra_monthly_reservations: 600
 monthly:
   Bilans:
     2020-04:
@@ -27,7 +27,7 @@ monthly:
     2020-12:
       Suma: 689.44
     2021-01:
-      Suma: 331.1100000000001
+      Suma: -194.19000000000005
   Przychody:
     2020-04:
       Suma: 1232.0
@@ -48,7 +48,7 @@ monthly:
     2020-12:
       Suma: 1846.0
     2021-01:
-      Suma: 1650.0
+      Suma: 1750.0
   Saldo:
     2020-04:
       Suma: 1232.0
@@ -69,7 +69,7 @@ monthly:
     2020-12:
       Suma: 6840.139999999999
     2021-01:
-      Suma: 7171.25
+      Suma: 6645.949999999999
   Wydatki:
     2020-08:
       Meetup: 294.36
@@ -87,7 +87,7 @@ monthly:
       Czynsz: 800.0
       Drukarka HP: 314.0
       Internet: 54.89
-      "Pozosta\u0142e": 150.0
+      "Pozosta\u0142e": 775.3
 obligations:
   "Czynsz (w tym: podatki i \u015Bmieci, bez wody)":
     amount_pln: 800.0
@@ -103,7 +103,7 @@ obligations:
     every_months: 6
 obligations_reserve_months: 3
 reservations:
+  Dyski SSD do hostingu:
+    amount_pln: 250.0
   "Wyr\xF3wnanie ze starym stanem":
     amount_pln: 327.83
-  "Dyski SSD do hostingu":
-    amount_pln: 250.0
