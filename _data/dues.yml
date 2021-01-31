@@ -1,4 +1,4 @@
-dues_last_updated: 28-01-2021
+dues_last_updated: 29-01-2021
 dues_monthly_goal: 1500
 dues_num_subscribers: 16
 dues_so_far: 13101.36
@@ -27,7 +27,7 @@ monthly:
     2020-12:
       Suma: 689.44
     2021-01:
-      Suma: -94.19000000000005
+      Suma: -379.6199999999999
   Przychody:
     2020-04:
       Suma: 1232.0
@@ -69,25 +69,25 @@ monthly:
     2020-12:
       Suma: 6840.139999999999
     2021-01:
-      Suma: 6745.949999999999
+      Suma: 6460.5199999999995
   Wydatki:
     2020-08:
       Meetup: 294.36
     2020-10:
-      Czynsz: 800.0
+      "Pozosta\u0142e": 800.0
       Remont: 1145.0
     2020-11:
-      Czynsz: 800.0
-      "Pozosta\u0142e": 515.3
+      "Pozosta\u0142e": 1315.3
     2020-12:
-      Czynsz: 800.0
       Internet: 118.96
-      "Pozosta\u0142e": 237.6
+      "Pozosta\u0142e": 1037.6
     2021-01:
       Czynsz: 800.0
       Drukarka HP: 314.0
       Internet: 54.89
-      "Pozosta\u0142e": 775.3
+      "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 625.3
+      Meetup (za 6 mies.): 285.43
+      "Pozosta\u0142e": 150.0
 obligations:
   "Czynsz (w tym: podatki i \u015Bmieci, bez wody)":
     amount_pln: 800.0
