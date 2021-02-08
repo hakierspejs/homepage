@@ -109,9 +109,10 @@ obligations:
   "Meetup (73.73 USD \xB1 kurs)":
     amount_pln: 290.0
     every_months: 6
+  "Prąd (150% opłaty ze stycznia 2021)":
+    amount_pln: 450
+    every_months: 1
 obligations_reserve_months: 3
 reservations:
-  Dyski SSD do hostingu:
-    amount_pln: 600.0
   "Wyr\xF3wnanie ze starym stanem":
     amount_pln: 327.83
