@@ -1,10 +1,10 @@
-dues_last_updated: 12-02-2021
+dues_last_updated: 15-02-2021
 dues_monthly_goal: 1500
-dues_num_subscribers: 16
-dues_so_far: 14397.36
+dues_num_subscribers: 14
+dues_so_far: 14497.36
 dues_total_correction: -8056.659000000001
 dues_total_goal: 7500
-dues_total_lastmonth: 1896.0
+dues_total_lastmonth: 1696.0
 extra_monthly_reservations: 600
 monthly:
   Bilans:
@@ -29,7 +29,7 @@ monthly:
     2021-01:
       Suma: -379.6199999999999
     2021-02:
-      Suma: -405.2500000000002
+      Suma: -305.2500000000002
   Przychody:
     2020-04:
       Suma: 1232.0
@@ -52,7 +52,7 @@ monthly:
     2021-01:
       Suma: 1850.0
     2021-02:
-      Suma: 1296.0
+      Suma: 1396.0
   Saldo:
     2020-04:
       Suma: 1232.0
@@ -75,7 +75,7 @@ monthly:
     2021-01:
       Suma: 6460.5199999999995
     2021-02:
-      Suma: 6055.2699999999995
+      Suma: 6155.2699999999995
   Wydatki:
     2020-08:
       Meetup: 294.36
