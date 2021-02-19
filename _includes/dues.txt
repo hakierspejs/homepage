@@ -32,7 +32,7 @@
 {% assign dues_reserved = dues_reserved_obligations_total |plus: site.data.dues.extra_monthly_reservations %}
 {% assign dues_reserved = dues_reserved|plus: oneoff_reservations_total %}
 
-{% assign dues_total_unreserved = _dues_so_far | minus: dues_reserved %}
+{% assign dues_total_unreserved = site.data.dues.balance_so_far | minus: dues_reserved %}
 {% assign dues_reserved_percent = dues_reserved | times: 100 | divided_by: site.data.dues.dues_total_goal %}
 {% assign dues_total_unreserved_percent = dues_total_unreserved | times: 100 | divided_by: site.data.dues.dues_total_goal %}
-{% assign dues_total_percent = _dues_so_far | times: 100 | divided_by: site.data.dues.dues_total_goal %}
+{% assign dues_total_percent = site.data.dues.balance_so_far | times: 100 | divided_by: site.data.dues.dues_total_goal %}
