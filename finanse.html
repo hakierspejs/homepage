@@ -1,6 +1,7 @@
 ---
 # this is an empty front matter
 ---
+{% include dues.txt %}
 <head>
 <title>Finanse HSŁ - dashboard</title>
 <meta charset="UTF-8" />
@@ -128,6 +129,11 @@ thead {
             {% assign reservations_total = oneoff_reservations_total|plus: dues_reserved_obligations_total|plus: site.data.dues.extra_monthly_reservations %}
             <td class="name"><strong>Cykliczne + autorezerwacja + jednorazowe</td>
             <td class="value">{{ reservations_total }} zł</td>
+        </tr>
+        
+        <tr>
+            <td class="name"><strong>Wolne środki</td>
+            <td class="value">{{ dues_total_unreserved | round: 2 }} zł</td>
         </tr>
 
     </tbody>
