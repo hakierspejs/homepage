@@ -129,3 +129,5 @@ obligations_reserve_months: 3
 reservations:
   "Wyr\xF3wnanie ze starym stanem":
     amount_pln: 327.83
+  "Samle":
+    amount_pln: 259.87
