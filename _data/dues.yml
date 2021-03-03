@@ -1,5 +1,5 @@
-balance_so_far: 6857.779999999999
-dues_last_updated: 01-03-2021
+balance_so_far: 6802.439999999999
+dues_last_updated: 02-03-2021
 dues_monthly_goal: 2000
 dues_num_subscribers: 16
 dues_so_far: 15047.36
@@ -30,7 +30,7 @@ monthly:
     2021-01:
       Suma: -379.6199999999999
     2021-02:
-      Suma: 244.01999999999975
+      Suma: 188.67999999999984
     2021-03:
       Suma: 153.24
   Przychody:
@@ -80,9 +80,9 @@ monthly:
     2021-01:
       Suma: 6460.5199999999995
     2021-02:
-      Suma: 6704.539999999999
+      Suma: 6649.199999999999
     2021-03:
-      Suma: 6857.779999999999
+      Suma: 6802.439999999999
   Wydatki:
     2020-08:
       Meetup: 294.36
@@ -103,6 +103,7 @@ monthly:
       "Pozosta\u0142e": 150.0
     2021-02:
       Czynsz: 800.0
+      Domena: 55.34
       Internet: 54.89
       "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 298.46
       "Pozosta\u0142e": 644.63
