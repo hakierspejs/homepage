@@ -17,9 +17,9 @@ jekyll serve
 
 **ENG**
 
-Homepage of Hakierspejs Lodz. You can find there information about date of the next meeting, as well as whether and for what purpose we're raising money.
+The Homepage of Hakierspejs Lodz. Here you'll find information about the date of the next meeting, as well as whether and for what purpose we're raising money.
 
-On [homepage](https://lodz.hackerspace.pl) you can also find links to wiki, telegram or mailing list.
+On [homepage](https://lodz.hackerspace.pl) you can also find links to the wiki, telegram or mailing list.
 
 Hosted with [Github Pages](https://pages.github.com/). 
 
