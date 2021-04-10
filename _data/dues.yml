@@ -1,5 +1,5 @@
-balance_so_far: 7311.449999999999
-dues_last_updated: 08-04-2021
+balance_so_far: 7411.449999999999
+dues_last_updated: 09-04-2021
 dues_monthly_goal: 2000
 dues_num_subscribers: 17
 dues_so_far: 15047.36
@@ -34,7 +34,7 @@ monthly:
     2021-03:
       Suma: 340.8799999999999
     2021-04:
-      Suma: 321.3699999999999
+      Suma: 421.3699999999999
   Przychody:
     2020-04:
       Suma: 1232.0
@@ -61,7 +61,7 @@ monthly:
     2021-03:
       Suma: 2046.02
     2021-04:
-      Suma: 1121.37
+      Suma: 1221.37
   Saldo:
     2020-04:
       Suma: 1232.0
@@ -88,7 +88,7 @@ monthly:
     2021-03:
       Suma: 6990.079999999999
     2021-04:
-      Suma: 7311.449999999999
+      Suma: 7411.449999999999
   Wydatki:
     2020-08:
       Meetup: 294.36
