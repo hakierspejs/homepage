@@ -139,6 +139,22 @@ thead {
     </tbody>
 </table>
 
+<div id="plot-podzial-bilansu-na-konta" style="width:100%;height:300px;"></div>
+<script>
+    plot('plot-podzial-bilansu-na-konta', {
+        title: 'Podział bilansu na konta',
+        margin: {l: 50, r: 0, b: 25, t: 50, pad: 4}
+    }, [
+        {
+            name: 'Podział',
+            type: 'pie',
+            domain: {x: [0.5, 1.0], y: [0.0, 1.0]},
+            values: [{% for nazwany_bilans in site.data.dues.balances_by_account_labels %}{% if forloop.first %}{% else %}, {% endif %}{{ nazwany_bilans[1] }}{% endfor %}],
+            labels: [{% for nazwany_bilans in site.data.dues.balances_by_account_labels %}{% if forloop.first %}{% else %}, {% endif %}"{{ nazwany_bilans[0] }}" {% endfor %}],
+        }
+    ]);
+</script>
+
 {% for miesiac in site.data.dues.monthly.Przychody reversed %}
 {% assign numer_miesiaca=miesiac[0] %}
 <table>
