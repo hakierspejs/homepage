@@ -161,13 +161,6 @@ thead {
 
 {% assign ukryte="nie" %}
 {% for miesiac in site.data.dues.monthly.Przychody reversed %}
-{% if forloop.index == 4 %}
-    {% if forloop.last %}
-    {% else %}
-    <a href="javascript:pokazWiecej();" id="ukryjMnie">(Pokaż więcej miesięcy)</a><div style="display: none" id="ukryte">
-    {% assign ukryte="tak" %}
-    {% endif %}
-{% endif %}
 {% assign numer_miesiaca=miesiac[0] %}
 <table>
     <caption>
@@ -232,6 +225,14 @@ thead {
 </script>
 -->
 <hr/>
+{% if forloop.index == 3 %}
+    {% if forloop.last %}
+    {% else %}
+    <a href="javascript:pokazWiecej();" id="ukryjMnie">(Pokaż więcej miesięcy)</a><div style="display: none" id="ukryte">
+    {% assign ukryte="tak" %}
+    {% endif %}
+{% endif %}
+
 {% endfor %}
 
 {% if ukryte=="tak" %}
