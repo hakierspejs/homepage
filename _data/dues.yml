@@ -138,8 +138,8 @@ obligations:
   "Meetup (73.73 USD \xB1 kurs)":
     amount_pln: 290.0
     every_months: 6
-  "Pr\u0105d (150% op\u0142aty ze stycznia 2021)":
-    amount_pln: 450
+  "Pr\u0105d (150% \u015br. op\u0142., zaokr.)":
+    amount_pln: 600
     every_months: 1
 obligations_reserve_months: 3
 reservations:
