@@ -1,14 +1,14 @@
 balance_so_far: 7006.789999999999
 balances_by_account_labels:
   Konto Jacka: 6210.769999999999
-  Konto stowarzyszenia: 596.03
-dues_last_updated: 06-05-2021
+  Konto stowarzyszenia: 796.03
+dues_last_updated: 07-05-2021
 dues_monthly_goal: 2000
-dues_num_subscribers: 14
+dues_num_subscribers: 15
 dues_so_far: 15047.36
 dues_total_correction: -8153.389
 dues_total_goal: 7500
-dues_total_lastmonth: 2196.0
+dues_total_lastmonth: 2396.0
 extra_monthly_reservations: 1200
 monthly:
   Bilans:
