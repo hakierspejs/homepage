@@ -1,14 +1,14 @@
-balance_so_far: 7306.789999999999
+balance_so_far: 7406.789999999999
 balances_by_account_labels:
   Konto Jacka: 6210.769999999999
-  Konto stowarzyszenia: 1096.03
-dues_last_updated: 10-05-2021
+  Konto stowarzyszenia: 1196.03
+dues_last_updated: 11-05-2021
 dues_monthly_goal: 2000
-dues_num_subscribers: 13
+dues_num_subscribers: 14
 dues_so_far: 15047.36
 dues_total_correction: -8153.389
 dues_total_goal: 7500
-dues_total_lastmonth: 2096.0
+dues_total_lastmonth: 2196.0
 extra_monthly_reservations: 1200
 monthly:
   Bilans:
@@ -39,7 +39,7 @@ monthly:
     2021-04:
       Suma: 316.71000000000004
     2021-05:
-      Suma: 0.0
+      Suma: 100.0
   Przychody:
     2020-04:
       Suma: 1232.0
@@ -68,7 +68,7 @@ monthly:
     2021-04:
       Suma: 2317.37
     2021-05:
-      Suma: 1000.0
+      Suma: 1100.0
   Saldo:
     2020-04:
       Suma: 1232.0
@@ -97,7 +97,7 @@ monthly:
     2021-04:
       Suma: 7306.789999999999
     2021-05:
-      Suma: 7306.789999999999
+      Suma: 7406.789999999999
   Wydatki:
     2020-08:
       Meetup: 294.36
