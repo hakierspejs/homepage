@@ -1,14 +1,14 @@
-balance_so_far: 8046.5199999999995
+balance_so_far: 8046.519999999999
 balances_by_account_labels:
   Konto Jacka: 6331.65
   Konto stowarzyszenia: 1714.8799999999999
-dues_last_updated: 01-06-2021
+dues_last_updated: 07-06-2021
 dues_monthly_goal: 2000
 dues_num_subscribers: 16
 dues_so_far: 15047.36
 dues_total_correction: -8153.389
 dues_total_goal: 7500
-dues_total_lastmonth: 2096.0
+dues_total_lastmonth: 2196.0
 extra_monthly_reservations: 1400
 monthly:
   Bilans:
@@ -41,7 +41,7 @@ monthly:
     2021-05:
       Suma: 763.96
     2021-06:
-      Suma: -24.23
+      Suma: -24.230000000000018
   Przychody:
     2020-04:
       Suma: 1232.0
@@ -71,6 +71,8 @@ monthly:
       Suma: 2317.37
     2021-05:
       Suma: 2096.0
+    2021-06:
+      Suma: 800.0
   Saldo:
     2020-04:
       Suma: 1232.0
@@ -101,7 +103,7 @@ monthly:
     2021-05:
       Suma: 8070.749999999999
     2021-06:
-      Suma: 8046.5199999999995
+      Suma: 8046.519999999999
   Wydatki:
     2020-08:
       Meetup: 294.36
@@ -140,7 +142,7 @@ monthly:
       Internet: 54.89
       "Pozosta\u0142e": 477.15
     2021-06:
-      "Pozosta\u0142e": 24.23
+      "Pozosta\u0142e": 824.23
 obligations:
   "Czynsz (w tym: podatki i \u015Bmieci, bez wody)":
     amount_pln: 800.0
