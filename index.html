@@ -24,13 +24,13 @@
     </div>
     
 
-    <div class="alert alert-info">
-        💉💰 <strong>Zbieramy składki na bieżącą działalność (m.in. czynsz).</strong> <br/> Stan wg {% include date.txt time_arg=site.data.dues.dues_last_updated no_hour=true no_weekday=true end=":" lang="pl" %}</u>
+    <div class="alert alert-info" style="text-shadow: none !important">
+        💉💰 <strong>Zbieramy składki na bieżącą działalność (m.in. czynsz).</strong> <br/>W ciągu ostatnich 30 dni zebraliśmy {{ dues_percent | round }}% miesięcznego celu. Łącznie: </u>
         <div class="progress" style="margin: 5px">
           <div class="progress-bar" role="progressbar" style="width: {{ dues_percent }}%" aria-valuenow="{{ dues_percent }}" aria-valuemin="0"
             aria-valuemax="100">{{ site.data.dues.dues_total_lastmonth | round: 2 }}/{{ site.data.dues.dues_monthly_goal }} PLN</div>
         </div>
-        W ciągu ostatnich 30 dni zebraliśmy {{ dues_percent | round }}% miesięcznego celu. Łącznie:
+        Stan wg {% include date.txt time_arg=site.data.dues.dues_last_updated no_hour=true no_weekday=true end=":" lang="pl" %}
     
         <div class="progress" style="margin: 5px">
 
