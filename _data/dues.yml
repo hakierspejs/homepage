@@ -156,7 +156,6 @@ monthly:
       Czynsz: 800.0
       Internet: 54.89
       "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 177.42
-      "Pozosta\u0142e": 1325.99
 obligations:
   "Czynsz (w tym: podatki i \u015Bmieci, bez wody)":
     amount_pln: 800.0
