@@ -1,14 +1,14 @@
-balance_so_far: 9482.279999999999
+balance_so_far: 8056.289999999999
 balances_by_account_labels:
-  Konto Jacka: 5998.83
-  Konto stowarzyszenia: 3483.46
-dues_last_updated: 11-07-2021
+  Konto Jacka: 5898.83
+  Konto stowarzyszenia: 2157.4700000000003
+dues_last_updated: 12-07-2021
 dues_monthly_goal: 2000
 dues_num_subscribers: 17
 dues_so_far: 15047.36
 dues_total_correction: -8153.389
 dues_total_goal: 7500
-dues_total_lastmonth: 3671.99
+dues_total_lastmonth: 2346.0
 extra_monthly_reservations: 1600
 monthly:
   Bilans:
@@ -21,7 +21,7 @@ monthly:
     2020-07:
       Suma: 800.0
     2020-08:
-      Suma: 1105.6399999999999
+      Suma: 1005.64
     2020-09:
       Suma: 1650.0
     2020-10:
@@ -43,7 +43,7 @@ monthly:
     2021-06:
       Suma: 618.8399999999999
     2021-07:
-      Suma: 767.69
+      Suma: -558.2999999999997
   Przychody:
     2020-04:
       Suma: 1232.0
@@ -54,7 +54,7 @@ monthly:
     2020-07:
       Suma: 800.0
     2020-08:
-      Suma: 1400.0
+      Suma: 1300.0
     2020-09:
       Suma: 1650.0
     2020-10:
@@ -76,7 +76,7 @@ monthly:
     2021-06:
       Suma: 1746.0
     2021-07:
-      Suma: 3125.99
+      Suma: 1800.0
   Saldo:
     2020-04:
       Suma: 1232.0
@@ -87,29 +87,29 @@ monthly:
     2020-07:
       Suma: 3645.37
     2020-08:
-      Suma: 4751.01
+      Suma: 4651.01
     2020-09:
-      Suma: 6401.01
+      Suma: 6301.01
     2020-10:
-      Suma: 5870.0
+      Suma: 5770.0
     2020-11:
-      Suma: 6150.7
+      Suma: 6050.7
     2020-12:
-      Suma: 6840.139999999999
+      Suma: 6740.139999999999
     2021-01:
-      Suma: 6460.5199999999995
+      Suma: 6360.5199999999995
     2021-02:
-      Suma: 6649.199999999999
+      Suma: 6549.199999999999
     2021-03:
-      Suma: 6990.079999999999
+      Suma: 6890.079999999999
     2021-04:
-      Suma: 7306.789999999999
+      Suma: 7206.789999999999
     2021-05:
-      Suma: 8095.749999999999
+      Suma: 7995.749999999999
     2021-06:
-      Suma: 8714.589999999998
+      Suma: 8614.589999999998
     2021-07:
-      Suma: 9482.279999999999
+      Suma: 8056.289999999999
   Wydatki:
     2020-08:
       Meetup: 294.36
