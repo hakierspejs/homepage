@@ -91,3 +91,15 @@ progress:not([value])::-moz-progress-bar {
 .header-title {
   align-self: flex-end;
 }
+
+.bi {
+  padding-right: 0.1em;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+}
+
+nav ul li .bi {
+  color: var(--dark-color);
+}
