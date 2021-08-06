@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 :root {
-  --bg-color: #1E1E1E;
-  --fg-color: #222222;
-  --light-color: #359B35;
-  --dark-color: #287528;
-  --border-color: #444444;
+  --bg-color: #000000;
+  --fg-color: #003300;
+  --light-color: #00ff00;
+  --dark-color: #00cc00;
+  --border-color: #339900;
 }
 
 html {
@@ -18,6 +18,9 @@ a {
 }
 a:visited {
   color: var(--dark-color);
+}
+a:visited:hover {
+  color: var(--light-color);
 }
 a, nav a:visited {
   color: var(--dark-color);
