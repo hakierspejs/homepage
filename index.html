@@ -14,61 +14,71 @@ layout: default
 
   <h2>{% include icons/people.html %} O nas</h2>
 
-  <h3>Kim jesteśmy?</h3>
-  <p>
-  Jesteśmy społecznością pasjonatów open source, DIY, komputerów minionej
-  ery i ruchu wolnej kultury. Organizujemy spotkania, robimy projekty i wymieniamy
-  się wiedzą. Więcej informacji na nasz temat znajdziesz na <a href="//github.com/hakierspejs/wiki/wiki/O-nas">wiki</a>.
-  </p>
+  <section>
+    <h3>Kim jesteśmy?</h3>
+    <p>
+    Jesteśmy społecznością pasjonatów open source, DIY, komputerów minionej
+    ery i ruchu wolnej kultury. Organizujemy spotkania, robimy projekty i wymieniamy
+    się wiedzą. Więcej informacji na nasz temat znajdziesz na <a href="//github.com/hakierspejs/wiki/wiki/O-nas">wiki</a>.
+    </p>
+  </section>
 
-  <h3>Wydarzenia</h3>
-  <p>
+  <section>
+    <h3>Wydarzenia</h3>
+    <p>
     Następne spotkanie: {% include date.txt time_arg=site.data.meetings.date lang="pl" %}
-  </p>
-  <p>
-    {% if site.data.meetings.location %}Miejsce: {{ site.data.meetings.location }}. Zaczynamy wcześnie, ale nie ma problemu jeśli dołączysz później :).{% endif %}
-       {% if site.data.meetings.location %}{% else %}
-       Spotkanie online.{% endif %} Więcej info na <u><a href="{{ site.data.meetings.url }}">meetup.com</a></u>.
-  </p>
+    </p>
+    <p>
+      {% if site.data.meetings.location %}Miejsce: {{ site.data.meetings.location }}. Zaczynamy wcześnie, ale nie ma problemu jeśli dołączysz później :).{% endif %}
+      {% if site.data.meetings.location %}{% else %}
+      Spotkanie online.{% endif %} Więcej info na <u><a href="{{ site.data.meetings.url }}">meetup.com</a></u>.
+    </p>
+  </section>
 
-  <h3>Kontakt</h3>
-  <p>Żeby do nas dołączyć, wejdź na naszego chata przez jeden z komunikatorów (wszystkie prowadzą do tego samego chata).</p>
-  <p>
-  <a class="button" href="//t.me/joinchat/K73_2BVhRxP6nb4I81YIPQ">Telegram</a>
-  <a class="button" href="//web.libera.chat/#hakierspejs">IRC</a>
-  <a class="button" href="//app.element.io/#/room/#hs-ldz:hackerspace.pl">Matrix</a>
-  </p>
+  <section>
+    <h3>Kontakt</h3>
+    <p>Żeby do nas dołączyć, wejdź na naszego chata przez jeden z komunikatorów (wszystkie prowadzą do tego samego chata).</p>
+    <p>
+    <a class="button" href="//t.me/joinchat/K73_2BVhRxP6nb4I81YIPQ">Telegram</a>
+    <a class="button" href="//web.libera.chat/#hakierspejs">IRC</a>
+    <a class="button" href="//app.element.io/#/room/#hs-ldz:hackerspace.pl">Matrix</a>
+    </p>
 
-  <p>Możesz też odwiedzić nasze forum oraz listę mailingową, gdzie publikowane są ogłoszenia i odbywają się dyskusje.</p>
-  <p>
-  <a class="button" href="//forum.hs-ldz.pl/">Forum</a>
-  <a class="button" href="//archiwa.hs-ldz.pl/">Ogłoszenia</a>
-  <a class="button" href="//lista.hs-ldz.pl/">Subskrybuj</a>
-  </p>
+    <p>Możesz też odwiedzić nasze forum oraz listę mailingową, gdzie publikowane są ogłoszenia i odbywają się dyskusje.</p>
+    <p>
+    <a class="button" href="//forum.hs-ldz.pl/">Forum</a>
+    <a class="button" href="//archiwa.hs-ldz.pl/">Ogłoszenia</a>
+    <a class="button" href="//lista.hs-ldz.pl/">Subskrybuj</a>
+    </p>
 
-  <p>
-  Śmiało, dołącz do dyskusji! Nie krępuj się też zadawać pytania.
-  Aby nie przytłoczył cię nadmiar wiadomości, wycisz nasz kanał i
-  pisz wtedy, kiedy masz na to ochotę lub czas.
-  </p>
+    <p>
+    Śmiało, dołącz do dyskusji! Nie krępuj się też zadawać pytania.
+    Aby nie przytłoczył cię nadmiar wiadomości, wycisz nasz kanał i
+    pisz wtedy, kiedy masz na to ochotę lub czas.
+    </p>
+  </section>
 
 
-  <h3>Lokalizacja</h3>
+  <section>
+    <h3>Lokalizacja</h3>
 
-  <p>Łódzki Hackerspace znajduje się przy ul. Zielonej 30.</p>
+    <p>Łódzki Hackerspace znajduje się przy ul. Zielonej 30.</p>
 
-  <p>
+    <p>
     {% include map.html %}
-  </p>
-  <p>
+    </p>
+    <p>
     <a class="button" href="https://www.openstreetmap.org/?mlat=51.76951&amp;mlon=19.44514#map=19/51.76951/19.44514&amp;layers=N">Zobacz większą mapę</a>
-  </p>
+    </p>
+  </section>
 
 
-  <h3>Galeria</h3>
-  <div class="fotorama">
-    <img src="/assets/images/space-1.png" alt="Zdjecie spejsu numer 1" loading="lazy">
-    <img src="/assets/images/space-2.png" alt="Zdjecie spejsu numer 2" loading="lazy">
-    <img src="/assets/images/space-3.png" alt="Zdjecie spejsu numer 3" loading="lazy">
-  </div>
+  <section>
+    <h3>Galeria</h3>
+    <div class="fotorama">
+      <img src="/assets/images/space-1.png" alt="Zdjecie spejsu numer 1" loading="lazy">
+      <img src="/assets/images/space-2.png" alt="Zdjecie spejsu numer 2" loading="lazy">
+      <img src="/assets/images/space-3.png" alt="Zdjecie spejsu numer 3" loading="lazy">
+    </div>
+  </section>
 </article>
