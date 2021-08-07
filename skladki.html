@@ -3,21 +3,24 @@ title: Składki
 layout: default
 ---
 <article>
+  {% include dues.txt %}
   <h2>{% include icons/wallet.html size="16" %}Składki</h2>
   <p>Zbieramy składki na bieżącą działalność (m.in. czynsz, media oraz zakup sprzętu).</p>
-  <p>Stan według 12 lipca 2021: <b>2137 / 4000 PLN</b></p>
-  <progress value="2137" max="4000"></progress>
+  <p>
+    Stan według {% include date.txt time_arg=site.data.dues.dues_last_updated no_hour=true no_weekday=true end=":" lang="pl" %}
+    <b>{{ site.data.dues.dues_total_lastmonth | round: 2 }} / {{ site.data.dues.dues_monthly_goal }} PLN</b>
+  </p>
+  <progress value="{{ site.data.dues.dues_total_lastmonth }}" max="{{ site.data.dues.dues_monthly_goal }}"></progress>
 
   <p>
-  W ciągu ostatnich 30 dni zebraliśmy 184% miesięcznego celu. Łącznie: <b>6450.0 PLN</b> środki zarezerwowane oraz <b>3032.28 PLN</b> środki wolne.
+  W ciągu ostatnich 30 dni zebraliśmy {{ dues_percent | round }}% miesięcznego celu. Łącznie: <b>{{ dues_reserved | round: 2 }} PLN</b> środki zarezerwowane oraz <b>{{ dues_total_unreserved | round: 2 }} PLN</b> środki wolne.
   </p>
   <p>
-  Zalecana składka: <b>100 PLN</b> (wpłaciło 17 osób).
+  Zalecana składka: <b>100 PLN</b> (wpłaciło {{ site.data.dues.dues_num_subscribers }} osób).
   </p>
   <p>Numer konta: <b>56 1140 2004 0000 3902 8108 9394 (mBank)</b>.</p>
 
   <p><b>WAŻNE</b>: w tytule przelewu napisz "darowizna na cele statutowe". <a href="https://github.com/hakierspejs/wiki/wiki/Finanse#sk%C5%82adki">Więcej info.</a></p>
 
-  <p>Szczegółowy wykres finansów Hakierspejsu łódzkiego <a href="//finanse.hs-ldz.pl">tutaj</a>.</p>
-
+  <p>Szczegółowy wykres finansów Hakierspejsu łódzkiego <a href="/finanse">tutaj</a>.</p>
 </article>
