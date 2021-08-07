@@ -14,7 +14,12 @@ layout: default
 
   <h3>Wydarzenia</h3>
   <p>
-  Następne spotkanie: wtorek, 27 lipca o godzinie 19:00. Spotkanie online. Więcej info na <a href="https://www.meetup.com/Hakierspejs-%C5%81od%C5%BA/events/279470345/">meetup.com</a>.
+    Następne spotkanie: {% include date.txt time_arg=site.data.meetings.date lang="pl" %}
+  </p>
+  <p>
+    {% if site.data.meetings.location %}Miejsce: {{ site.data.meetings.location }}. Zaczynamy wcześnie, ale nie ma problemu jeśli dołączysz później :).{% endif %}
+       {% if site.data.meetings.location %}{% else %}
+       Spotkanie online.{% endif %} Więcej info na <u><a href="{{ site.data.meetings.url }}">meetup.com</a></u>.
   </p>
 
   <h3>Kontakt</h3>

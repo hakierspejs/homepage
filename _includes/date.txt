@@ -1,0 +1,40 @@
+{% if include.lang == "en" %}
+    {{ include.time_arg | date: "%A" }},
+    {{ include.time_arg | date_to_long_string }}
+    ({{ include.time_arg | date: "%R" }})
+{% elsif include.lang == "pl" %}
+    {% if include.no_weekday %}
+    {% else %}
+        {% assign weekday=include.time_arg | date: "%w" %}
+        {% case weekday %}{%
+            when '0' %}niedziele{%
+            when '1' %}poniedziałek{%
+            when '2' %}wtorek{%
+            when '3' %}środa{%
+            when '4' %}czwartek{%
+            when '5' %}piątek{%
+            when '6' %}sobota{%
+        endcase %},
+    {% endif %}
+    {{ include.time_arg | date: "%d" | round }}
+    {% assign month=include.time_arg | date: "%m" %}
+    {% case month %}{%
+    when '01' %}stycznia{%
+    when '02' %}lutego{%
+    when '03' %}marca{%
+    when '04' %}kwietnia{%
+    when '05' %}maja{%
+    when '06' %}czerwca{%
+    when '07' %}lipca{%
+    when '08' %}sierpnia{%
+    when '09' %}września{%
+    when '10' %}października{%
+    when '11' %}listopada{%
+    when '12' %}grudnia{%
+    endcase %}
+    {% if include.no_hour %}
+    {{ include.time_arg | date: "%Y" }}{{ include.end | default: "." }}
+    {% else %}
+        o godzinie {{ include.time_arg | date: "%R" }}.
+    {% endif %}
+{% endif %}
