@@ -4,13 +4,9 @@ layout: default
 ---
 <article>
   <h2>{% include icons/blog.html %}Blog</h2>
-  <p>Tutaj będą blog posty łodzkiego spejsu.</p>
-  <p>
-  <pre><code>#include <stdio.h>
-
-int main(void) {
-  printf("Hello World!\n");
-  return 0;
-}</code></pre>
-  </p>
+  <ul>
+    {% for post in site.posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a> - {% include date.txt time_arg=post.date no_hour=true no_weekday=true end=" " lang="pl" %}</li>
+    {% endfor %}
+  </ul>
 </article>
