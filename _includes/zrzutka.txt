@@ -1,4 +1,0 @@
-{% assign zrzutka_aktualnie = 185 %}
-{% assign zrzutka_cel = 213 %}
-{% assign zrzutka_procent = zrzutka_aktualnie | times: 100 | divided_by: zrzutka_cel %}
-{% assign zrzutka_ostatnia_aktualizacja = 12 %}

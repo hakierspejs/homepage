@@ -1,0 +1,12 @@
+---
+title: Blog
+layout: default
+---
+<article>
+  <h2>{% include icons/blog.html %}Blog</h2>
+  <ul>
+    {% for post in site.posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a> - {% include date.txt time_arg=post.date no_hour=true no_weekday=true end=" " lang="pl" %}</li>
+    {% endfor %}
+  </ul>
+</article>
