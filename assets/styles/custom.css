@@ -61,7 +61,7 @@ a, nav a:visited {
   border:1px solid white;
 }
 .button:active{
-  background-color:#444444;
+  background-color:#777777;
 }
 
 progress {
