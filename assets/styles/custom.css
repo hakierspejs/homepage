@@ -4,7 +4,19 @@
   --bg-color: #000000;
   --fg-color: #003300;
   --light-color: #00ff00;
-  --dark-color: #00cc00;
+  --dark-color: #00cc00;.sr-only {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
+}
   --border-color: #339900;
 }
 
@@ -132,4 +144,19 @@ nav ul li .bi {
 
 #isitopen p {
   margin-bottom: 0.25em;
+}
+
+/* only visible to site readers */
+.sr-only {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
 }
