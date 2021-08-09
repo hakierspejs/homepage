@@ -160,3 +160,7 @@ nav ul li .bi {
   width: 1px !important;
   white-space: nowrap !important;
 }
+
+body > footer {
+  color: #777777;
+}
