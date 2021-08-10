@@ -119,6 +119,10 @@ nav ul li .bi {
   color: var(--dark-color);
 }
 
+.fotorama {
+  margin-top: 0.5em;
+}
+
 /*
  * #isitopen is a container for message that is shown
  * when there are people hacking physically in the hackerspace.
