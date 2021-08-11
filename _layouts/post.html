@@ -4,10 +4,10 @@ layout: default
 <h2>{{ page.title }}</h2>
 <p>
   <small>
-    {% include date.txt time_arg=page.date no_hour=true no_weekday=true end=" " lang="pl" %} - written by <a href="{{ page.website }}">@{{ page.author }}</a>
+    {% include date.txt time_arg=page.date no_hour=true no_weekday=true end=" " lang="pl" %} - napisane przez <a href="{{ page.website }}">@{{ page.author }}</a>
   </small>
   <div>
-    <strong>Tags:</strong>
+    <strong>Tagi:</strong>
     {% for tag in page.tags %}
       <span >{{ tag }}</span>
     {% endfor %}
