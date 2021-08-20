@@ -5,7 +5,7 @@ tags: crypto
 layout: post
 ---
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/86/TaggedGeniza.jpg" width="120px" align="left" alt="współczesny pojemnik na kolekcję geniza przy ulicy w Nachlaot w Jerozolimie" title="źródło: Wikipedia, licencja: CC BY-SA 2.0, nazwa pliku: TaggedGeniza.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/86/TaggedGeniza.jpg" width="360px" align="left" alt="współczesny pojemnik na kolekcję geniza przy ulicy w Nachlaot w Jerozolimie" title="źródło: Wikipedia, licencja: CC BY-SA 2.0, nazwa pliku: TaggedGeniza.jpg">
 
 Przeczytałem ostatnio ciekawy artykuł w w [najnowszym wydaniu International Journal of Proof-of-Concept or Get The Fuck Out](https://archive.org/details/pocorgtfo20/page/n3/mode/2up) (PoC\|\|GTFO). Autor narzekał w nim, że jeśli wszyscy zaczną szyfrować swoje dyski programami takimi jak [VeraCrypt](https://www.veracrypt.fr/en/Downloads.html), w postapokaliptycznym świecie za tysiące lat archeologowie mogą stracić dostęp do danych z dzisiejszych czasów. Koniec końców, bez listów sprzed setek lat, dzisiejsi historycy straciliby ważne źródła informacji i możliwe, że za kilkaset lat pojawi się taka sama potrzeba. Przypomina mi się gra Talos Principle (polecam), gdzie gracz może przeglądać strzępy wirtualnych bibliotek, zawierających wszystko od losowych wpisów na blogach zwykłych ludzi przez prywatną korespondencję naukowców.
 
