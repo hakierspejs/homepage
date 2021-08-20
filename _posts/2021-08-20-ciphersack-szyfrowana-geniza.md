@@ -19,3 +19,5 @@ Program powstał wyłącznie w celach edukacyjnych - aby pokazać najprostszy sc
 * dodanie obsługi "bazy danych" z informacją o lokalizacjach zaszyfrowanych blokach,
 * dodanie obsługi plików .torrent zawierających więcej niż jeden plik (czyli w zasadzie, większości sieci - aktualne rozwiązanie zadziałałoby tylko jako bardzo wyspecjalizowany przykład),
 * zmiana algorytmu liczenia offsetu szyfrowanego bloku na dysku: w przypadku gdy według w.w. "bazy danych" na dysku już znajduje się blok, zapisać jego treść pod inną lokalizacją; aktualnie wraz z przyrostem zapisywanych danych wzrasta prawdopodobieństwo, że bloki nawzajem się nadpiszą
+
+[Skomentuj artykuł na Githubie](https://github.com/hakierspejs/homepage/pull/50)
