@@ -3,10 +3,14 @@ title: Więcej
 layout: default
 ---
 <style>
-ul li {
+p ~ ul {
+  margin-top: 1em;
   color: var(--dark-color);
 }
 </style>
+
+<h2>{% include icons/more.html %}Więcej</h2>
+<p>Poniżej znajduje się lista odnośników, które przybliżą Ci działalność hakierspejsu.</p>
 <ul>
   <li>{% include icons/wallet.html size="16" %}<a href="{{ "/skladki.html" | relative_url }}">Składki</a></li>
   <li>{% include icons/diagram.html %}<a href="//github.com/hakierspejs" title="przenosi na inną stronę - repozytorium kodu stowarzyszenia">Git</a></li>
