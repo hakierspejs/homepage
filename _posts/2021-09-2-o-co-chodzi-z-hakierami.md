@@ -5,7 +5,6 @@ tags: meta
 layout: post
 ---
 
-# O co chodzi z tymi hak(i)erami?
 
 Jeśli to czytasz, istnieje niezerowe prawdopodobieństwo, że trafiłeś/aś na ten wpis z poczuciem zmieszania. Być może to Twój pierwszy kontakt z osobami, które otwarcie nazywają się hak(i)erami, jednocześnie często nawet nie zadając sobie trudu, żeby ukryć swoje imiona i nazwiska. Gdzie jest haczyk? Czy są aż tak bezczelne i tylko czekają, aż dorwą ich służby? A może to próba "lansowania" się, przechwałki?
 
