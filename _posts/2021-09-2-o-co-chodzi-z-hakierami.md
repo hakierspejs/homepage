@@ -24,7 +24,7 @@ Kiedy q3k zachęcił mnie do założenia hackerspace'u w Łodzi, dał mi mocno d
 
 Tym dla mnie jest stan umysłu hakera i kultura na nim zbudowana. Odkryciem, że ten świat został uformowany przez osoby, które po prostu czuły że wolno im go zmieniać. Zrozumieniem, że niczym się od nich nie różnimy. I ciekawością i eksperymentowaniem - często bez konkretnego celu innego niż zabawa sama w sobie.
 
-...tyle że w momencie, kiedy to rozumiesz, ta definicja nie jest Ci już potrzebna. W niej nie chodzi o cel, tylko o drogę. Poczytaj nasze wiki, odezwij się do nas lub po prostu przyjdź do siedziby Hakierspejsu i przekonaj się sam(a), czy ta droga Ci pasuje.
+...tyle że w momencie, kiedy to rozumiesz, ta definicja nie jest Ci już potrzebna. W niej nie chodzi o cel, tylko o drogę. Poczytaj [nasze wiki](https://wiki.hs-ldz.pl), [wejdź na nasz chat](/#kontakt_h3) lub po [prostu przyjdź do siedziby Hakierspejsu](https://www.meetup.com/Hakierspejs-%C5%81od%C5%BA/events/) i przekonaj się sam(a), czy ta droga Ci pasuje.
 
 ---
 
