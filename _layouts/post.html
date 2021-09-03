@@ -4,7 +4,7 @@ layout: default
 <h2>{{ page.title }}</h2>
 <p>
   <small>
-    {% include date.txt time_arg=page.date no_hour=true no_weekday=true end=" " lang="pl" %} - napisane przez {% if page.website %}<a href="{{ page.website }}">{% endif %}@{{ page.author }}{% if page.website %}</a>{% endif %}
+    {% include date.txt time_arg=page.date no_hour=true no_weekday=true end=" " lang="pl" %} - napisane przez {% unless page.website %}{% else %}<a href="{{ page.website }}">{% endif %}@{{ page.author }}{% unless page.website %}{% else %}</a>{% endif %}
   </small>
   <div>
     <strong>Tagi:</strong>
