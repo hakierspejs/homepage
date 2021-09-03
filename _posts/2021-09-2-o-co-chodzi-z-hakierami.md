@@ -31,3 +31,7 @@ Tym dla mnie jest stan umysłu hakera i kultura na nim zbudowana. Odkryciem, że
 Przypisy:
 
 ¹ Jeżeli ktoś ma to wydanie, proszę dać mi znać. Chętnie bym do tego wrócił, a także podziękował autorowi :)
+
+Komentarze do posta można znaleźć tutaj:
+
+https://github.com/hakierspejs/homepage/pull/53
