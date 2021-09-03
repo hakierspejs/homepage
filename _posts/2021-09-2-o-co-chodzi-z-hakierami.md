@@ -34,4 +34,4 @@ Przypisy:
 
 Komentarze do posta można znaleźć tutaj:
 
-https://github.com/hakierspejs/homepage/pull/53
+[https://github.com/hakierspejs/homepage/pull/53](https://github.com/hakierspejs/homepage/pull/53)
