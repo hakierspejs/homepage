@@ -5,7 +5,9 @@ layout: default
 <article>
   {% include dues.txt %}
   <h2>{% include icons/wallet.html size="16" %}Składki</h2>
-  <p>Aby funkcjonować i móc rozwijać się, Stowarzyszenie Hakierspejs Łódź potrzebuje pieniędzy. Finansujemy się oddolnie: większość przychodu stanowią składki członkowskie, w drugiej kolejności darowizny na cele statutowe. Nasze główne wydatki to: utrzymanie siedziby (czynsz i opłaty) oraz wyposażenie lokalu.</p>
+  <p>Aby funkcjonować i móc rozwijać się, Stowarzyszenie Hakierspejs Łódź potrzebuje pieniędzy.</p>
+
+  <p> Finansujemy się oddolnie: większość przychodu stanowią składki członkowskie, w drugiej kolejności darowizny na cele statutowe. Nasze główne wydatki to: utrzymanie siedziby (czynsz i opłaty) oraz wyposażenie lokalu.</p>
   <p>
     Stan według {% include date.txt time_arg=site.data.dues.dues_last_updated no_hour=true no_weekday=true end=":" lang="pl" %}
     <b>{{ site.data.dues.dues_total_lastmonth | round: 2 }} / {{ site.data.dues.dues_monthly_goal }} PLN</b>
