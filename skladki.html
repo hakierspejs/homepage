@@ -5,7 +5,7 @@ layout: default
 <article>
   {% include dues.txt %}
   <h2>{% include icons/wallet.html size="16" %}Składki</h2>
-  <p>Zbieramy składki na bieżącą działalność (m.in. czynsz, media oraz zakup sprzętu).</p>
+  <p>Aby funkcjonować i móc rozwijać się, Stowarzyszenie Hakierspejs Łódź potrzebuje pieniędzy. Finansujemy się oddolnie: większość przychodu stanowią składki członkowskie, w drugiej kolejności darowizny na cele statutowe. Nasze główne wydatki to: utrzymanie siedziby (czynsz i opłaty) oraz wyposażenie lokalu.</p>
   <p>
     Stan według {% include date.txt time_arg=site.data.dues.dues_last_updated no_hour=true no_weekday=true end=":" lang="pl" %}
     <b>{{ site.data.dues.dues_total_lastmonth | round: 2 }} / {{ site.data.dues.dues_monthly_goal }} PLN</b>
@@ -20,7 +20,7 @@ layout: default
   </p>
   <p>Numer konta: <b>56 1140 2004 0000 3902 8108 9394 (mBank)</b>.</p>
 
-  <p><b>WAŻNE</b>: w tytule przelewu napisz "darowizna na cele statutowe". <a href="https://github.com/hakierspejs/wiki/wiki/Finanse#sk%C5%82adki" title="przenosi na inną stronę - wiki stowarzyszenia, artykuł finanse, sekcja składki">Więcej info.</a></p>
+  <p><b>WAŻNE</b>: w tytule przelewu napisz "darowizna na cele statutowe" (chyba że jesteś członkiem stowarzyszenia, wtedy: "twój nick - składka członkowska - pełna 1 miesiąc"). <a href="https://github.com/hakierspejs/wiki/wiki/Finanse#sk%C5%82adki" title="przenosi na inną stronę - wiki stowarzyszenia, artykuł finanse, sekcja składki">Więcej info.</a></p>
 
-  <p>Szczegółowy wykres finansów Hakierspejsu łódzkiego <a href="{{ "/finanse.html" | relative_url }}" title="przenosi na inną stronę - dane finansowe stowarzyszenia">tutaj</a>.</p>
+  <p>Szczegółowy opis finansów Hakierspejsu łódzkiego <a href="{{ "/finanse.html" | relative_url }}" title="przenosi na inną stronę - dane finansowe stowarzyszenia">tutaj</a>.</p>
 </article>
