@@ -1,14 +1,14 @@
-balance_so_far: 11750.6
+balance_so_far: 11225.6
 balances_by_account_labels:
   Konto Jacka: 5080.560000000002
-  Konto stowarzyszenia: 6670.02
-dues_last_updated: 01-11-2021
+  Konto stowarzyszenia: 6145.02
+dues_last_updated: 02-11-2021
 dues_monthly_goal: 2000
-dues_num_subscribers: 15
+dues_num_subscribers: 16
 dues_so_far: 15047.36
 dues_total_correction: -8153.389
 dues_total_goal: 7500
-dues_total_lastmonth: 2328.0
+dues_total_lastmonth: 2628.0
 extra_monthly_reservations: 2400
 monthly:
   Bilans:
@@ -51,7 +51,7 @@ monthly:
     2021-10:
       Suma: 1473.1100000000001
     2021-11:
-      Suma: 100.0
+      Suma: -425.0
   Przychody:
     2020-04:
       Suma: 1232.0
@@ -92,7 +92,7 @@ monthly:
     2021-10:
       Suma: 2328.0
     2021-11:
-      Suma: 100.0
+      Suma: 400.0
   Saldo:
     2020-04:
       Suma: 1232.0
@@ -133,7 +133,7 @@ monthly:
     2021-10:
       Suma: 11650.6
     2021-11:
-      Suma: 11750.6
+      Suma: 11225.6
   Wydatki:
     2020-08:
       Meetup: 294.36
@@ -199,6 +199,9 @@ monthly:
     2021-10:
       Czynsz: 800.0
       Internet: 54.89
+    2021-11:
+      Czynsz: 800.0
+      "Ksi\u0119gowo\u015B\u0107": 25.0
 obligations:
   "Czynsz (w tym: podatki i \u015Bmieci, bez wody)":
     amount_pln: 800.0
