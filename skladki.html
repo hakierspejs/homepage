@@ -10,9 +10,9 @@ layout: default
   <p> Finansujemy się oddolnie: większość przychodu stanowią składki członkowskie, w drugiej kolejności darowizny na cele statutowe. Nasze główne wydatki to: utrzymanie siedziby (czynsz i opłaty) oraz wyposażenie lokalu.</p>
   <p>
     Stan według {% include date.txt time_arg=site.data.dues.dues_last_updated no_hour=true no_weekday=true end=":" lang="pl" %}
-    <b>{{ site.data.dues.dues_total_lastmonth | round: 2 }} / {{ site.data.dues.dues_monthly_goal }} PLN</b>
+    <b>{{ site.data.dues.dues_total_lastmonth | round: 2 }} / {{ site.data.dues_config.dues_monthly_goal }} PLN</b>
   </p>
-  <progress value="{{ site.data.dues.dues_total_lastmonth }}" max="{{ site.data.dues.dues_monthly_goal }}"></progress>
+  <progress value="{{ site.data.dues.dues_total_lastmonth }}" max="{{ site.data.dues_config.dues_monthly_goal }}"></progress>
 
   <p>
   W ciągu ostatnich 30 dni zebraliśmy {{ dues_percent | round }}% miesięcznego celu. Łącznie: <b>{{ dues_reserved | round: 2 }} PLN</b> środki zarezerwowane oraz <b>{{ dues_total_unreserved | round: 2 }} PLN</b> środki wolne.

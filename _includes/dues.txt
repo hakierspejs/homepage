@@ -1,4 +1,4 @@
-{% assign dues_percent = site.data.dues.dues_total_lastmonth | times: 100 | divided_by: site.data.dues.dues_monthly_goal %}
+{% assign dues_percent = site.data.dues.dues_total_lastmonth | times: 100 | divided_by: site.data.dues_config.dues_monthly_goal %}
 {% assign _dues_so_far = site.data.dues.dues_so_far | plus: site.data.dues.dues_total_correction %}
 
 {% comment %}
@@ -33,6 +33,6 @@
 {% assign dues_reserved = dues_reserved|plus: oneoff_reservations_total %}
 
 {% assign dues_total_unreserved = site.data.dues.balance_so_far | minus: dues_reserved %}
-{% assign dues_reserved_percent = dues_reserved | times: 100 | divided_by: site.data.dues.dues_total_goal %}
-{% assign dues_total_unreserved_percent = dues_total_unreserved | times: 100 | divided_by: site.data.dues.dues_total_goal %}
-{% assign dues_total_percent = site.data.dues.balance_so_far | times: 100 | divided_by: site.data.dues.dues_total_goal %}
+{% assign dues_reserved_percent = dues_reserved | times: 100 | divided_by: site.data.dues_config.dues_total_goal %}
+{% assign dues_total_unreserved_percent = dues_total_unreserved | times: 100 | divided_by: site.data.dues_config.dues_total_goal %}
+{% assign dues_total_percent = site.data.dues.balance_so_far | times: 100 | divided_by: site.data.dues_config.dues_total_goal %}
