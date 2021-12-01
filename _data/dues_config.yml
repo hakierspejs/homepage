@@ -4,6 +4,9 @@ obligations:
   "Czynsz (w tym: podatki i \u015Bmieci, bez wody)":
     amount_pln: 800.0
     every_months: 1
+  Księgowość:
+    amount_pln: 25.0
+    every_months: 1
   Domena hs-ldz.pl:
     amount_pln: 50.0
     every_months: 12
