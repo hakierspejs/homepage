@@ -105,8 +105,8 @@ thead {
     {% endfor %}
 
         <tr style="font-weight: bold">
-            <td class="name"><strong>Cykliczne razem x {{ site.data.dues.obligations_reserve_months }} mies</td>
-            {% assign dues_reserved_obligations_total = dues_reserved_obligations_total_monthly|times: site.data.dues.obligations_reserve_months %}
+            <td class="name"><strong>Cykliczne razem x {{ site.data.dues_config.obligations_reserve_months }} mies</td>
+            {% assign dues_reserved_obligations_total = dues_reserved_obligations_total_monthly|times: site.data.dues_config.obligations_reserve_months %}
             <td class="value">{{ dues_reserved_obligations_total }} zł</td>
         </tr>
 
