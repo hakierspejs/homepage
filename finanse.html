@@ -116,7 +116,7 @@ thead {
         </tr>
 
         {% assign oneoff_reservations_total = 0 %}
-            {% for reservation in site.data.dues.reservations %}
+            {% for reservation in site.data.dues_config.reservations %}
                 <tr>
                 <td class="name">{{ reservation[0] }}</td>
                 <td class="value">{{ reservation[1].amount_pln }} zł</td>
