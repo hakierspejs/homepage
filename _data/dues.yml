@@ -1,8 +1,8 @@
-balance_so_far: 11357.599999999997
+balance_so_far: 11357.599999999999
 balances_by_account_labels:
   Konto Jacka: 4995.529999999999
-  Konto stowarzyszenia: 6362.069999999999
-dues_last_updated: 26-11-2021
+  Konto stowarzyszenia: 6362.07
+dues_last_updated: 29-11-2021
 dues_num_subscribers: 15
 dues_total_lastmonth: 1900.0
 extra_monthly_reservations: 2600
@@ -39,7 +39,7 @@ monthly:
     2021-06:
       Suma: 618.8400000000001
     2021-07:
-      Suma: 1242.6899999999996
+      Suma: 1242.69
     2021-08:
       Suma: 327.01999999999816
     2021-09:
@@ -80,7 +80,7 @@ monthly:
     2021-06:
       Suma: 1746.0
     2021-07:
-      Suma: 3625.99
+      Suma: 2300.0
     2021-08:
       Suma: 2296.0
     2021-09:
@@ -121,15 +121,15 @@ monthly:
     2021-06:
       Suma: 8714.599999999999
     2021-07:
-      Suma: 9957.289999999997
+      Suma: 9957.289999999999
     2021-08:
-      Suma: 10284.309999999996
+      Suma: 10284.309999999998
     2021-09:
-      Suma: 10290.019999999997
+      Suma: 10290.019999999999
     2021-10:
-      Suma: 11443.679999999997
+      Suma: 11443.679999999998
     2021-11:
-      Suma: 11357.599999999997
+      Suma: 11357.599999999999
   Wydatki:
     2020-08:
       "Pozosta\u0142e": 94.35999999999967
@@ -177,7 +177,6 @@ monthly:
       Internet: 54.89
       "Ksi\u0119gowo\u015B\u0107": 25.0
       "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 177.42
-      "Pozosta\u0142e": 1325.99
     2021-08:
       Czynsz: 800.0
       Internet: 54.89
