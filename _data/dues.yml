@@ -1,11 +1,9 @@
-balance_so_far: 12019.220000000001
+balance_so_far: 11357.599999999997
 balances_by_account_labels:
-  Konto Jacka: 5080.560000000002
-  Konto stowarzyszenia: 6938.64
-dues_last_updated: 20-11-2021
+  Konto Jacka: 4995.529999999999
+  Konto stowarzyszenia: 6362.069999999999
+dues_last_updated: 29-11-2021
 dues_num_subscribers: 15
-dues_so_far: 15047.36
-dues_total_correction: -8153.389
 dues_total_lastmonth: 1900.0
 extra_monthly_reservations: 2600
 monthly:
@@ -19,37 +17,37 @@ monthly:
     2020-07:
       Suma: 800.0
     2020-08:
-      Suma: 1005.64
+      Suma: 1105.6400000000003
     2020-09:
       Suma: 1650.0
     2020-10:
-      Suma: -531.01
+      Suma: 413.99
     2020-11:
-      Suma: 280.70000000000005
+      Suma: -664.3000000000002
     2020-12:
       Suma: 689.44
     2021-01:
-      Suma: -379.6199999999999
+      Suma: -94.18999999999915
     2021-02:
-      Suma: 188.67999999999984
+      Suma: -96.75
     2021-03:
-      Suma: 340.8799999999999
+      Suma: 340.8599999999981
     2021-04:
-      Suma: 316.71000000000004
+      Suma: 20.710000000000036
     2021-05:
-      Suma: 788.96
+      Suma: 1084.9899999999989
     2021-06:
-      Suma: 618.8399999999999
+      Suma: 618.8400000000001
     2021-07:
-      Suma: 941.6200000000001
+      Suma: 1242.6899999999996
     2021-08:
-      Suma: 426.6700000000001
+      Suma: 327.01999999999816
     2021-09:
-      Suma: 194.6099999999999
+      Suma: 5.710000000000491
     2021-10:
-      Suma: 1473.1100000000001
+      Suma: 1153.6599999999994
     2021-11:
-      Suma: 368.6199999999999
+      Suma: -86.07999999999993
   Przychody:
     2020-04:
       Suma: 1232.0
@@ -60,29 +58,29 @@ monthly:
     2020-07:
       Suma: 800.0
     2020-08:
-      Suma: 1300.0
+      Suma: 1200.0
     2020-09:
       Suma: 1650.0
     2020-10:
-      Suma: 1413.99
+      Suma: 1213.99
     2020-11:
       Suma: 1596.0
     2020-12:
       Suma: 1846.0
     2021-01:
-      Suma: 1850.0
+      Suma: 1850.000000000001
     2021-02:
-      Suma: 2042.0
+      Suma: 1842.0
     2021-03:
-      Suma: 2046.02
+      Suma: 2045.9999999999982
     2021-04:
-      Suma: 2317.37
+      Suma: 2021.37
     2021-05:
-      Suma: 2096.0
+      Suma: 2392.0299999999997
     2021-06:
       Suma: 1746.0
     2021-07:
-      Suma: 2300.0
+      Suma: 3625.99
     2021-08:
       Suma: 2296.0
     2021-09:
@@ -101,61 +99,59 @@ monthly:
     2020-07:
       Suma: 3645.37
     2020-08:
-      Suma: 4651.01
+      Suma: 4751.01
     2020-09:
-      Suma: 6301.01
+      Suma: 6401.01
     2020-10:
-      Suma: 5770.0
+      Suma: 6815.0
     2020-11:
-      Suma: 6050.7
+      Suma: 6150.7
     2020-12:
-      Suma: 6740.139999999999
+      Suma: 6840.139999999999
     2021-01:
-      Suma: 6360.5199999999995
+      Suma: 6745.950000000001
     2021-02:
-      Suma: 6549.199999999999
+      Suma: 6649.200000000001
     2021-03:
-      Suma: 6890.079999999999
+      Suma: 6990.059999999999
     2021-04:
-      Suma: 7206.789999999999
+      Suma: 7010.769999999999
     2021-05:
-      Suma: 7995.749999999999
+      Suma: 8095.7599999999975
     2021-06:
-      Suma: 8614.589999999998
+      Suma: 8714.599999999999
     2021-07:
-      Suma: 9556.21
+      Suma: 9957.289999999997
     2021-08:
-      Suma: 9982.88
+      Suma: 10284.309999999996
     2021-09:
-      Suma: 10177.49
+      Suma: 10290.019999999997
     2021-10:
-      Suma: 11650.6
+      Suma: 11443.679999999997
     2021-11:
-      Suma: 12019.220000000001
+      Suma: 11357.599999999997
   Wydatki:
     2020-08:
-      Meetup: 294.36
+      "Pozosta\u0142e": 94.35999999999967
     2020-10:
-      "Pozosta\u0142e": 800.0
-      Remont: 1145
+      Czynsz: 800.0
     2020-11:
-      "Pozosta\u0142e": 1315.3
+      Czynsz: 800.0
+      "Pozosta\u0142e": 1460.3000000000002
     2020-12:
+      Czynsz: 800.0
       Internet: 118.96
-      "Pozosta\u0142e": 1037.6
+      "Pozosta\u0142e": 237.6
     2021-01:
       Czynsz: 800.0
-      Drukarka HP: 314.0
       Internet: 54.89
       "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 625.3
-      Meetup (za 6 mies.): 285.43
-      "Pozosta\u0142e": 150.0
+      "Pozosta\u0142e": 464.0
     2021-02:
       Czynsz: 800.0
-      Domena: 55.34
       Internet: 54.89
       "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 298.46
-      "Pozosta\u0142e": 644.63
+      "Pozosta\u0142e": 785.3999999999999
     2021-03:
       Czynsz: 800.0
       Internet: 54.89
@@ -169,7 +165,7 @@ monthly:
       Czynsz: 800.0
       Internet: 54.89
       "Ksi\u0119gowo\u015B\u0107": 25.0
-      "Pozosta\u0142e": 427.15
+      "Pozosta\u0142e": 427.15000000000094
     2021-06:
       Czynsz: 800.0
       Internet: 54.89
@@ -181,43 +177,25 @@ monthly:
       Internet: 54.89
       "Ksi\u0119gowo\u015B\u0107": 25.0
       "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 177.42
-      Meetup (za 6 mies.): 301.07
+      "Pozosta\u0142e": 1325.99
     2021-08:
       Czynsz: 800.0
       Internet: 54.89
       "Ksi\u0119gowo\u015B\u0107": 25.0
       "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 149.4
-      Zakupy: 840.04
+      "Pozosta\u0142e": 939.6900000000019
     2021-09:
       Czynsz: 800.0
       Internet: 54.89
       "Ksi\u0119gowo\u015B\u0107": 25.0
       "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 177.5
-      "Pozosta\u0142e": 340.0
+      "Pozosta\u0142e": 528.8999999999996
     2021-10:
       Czynsz: 800.0
       Internet: 54.89
+      "Pozosta\u0142e": 319.4500000000007
     2021-11:
       Czynsz: 800.0
       "Ksi\u0119gowo\u015B\u0107": 25.0
       "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 706.38
-obligations:
-  "Czynsz (w tym: podatki i \u015Bmieci, bez wody)":
-    amount_pln: 800.0
-    every_months: 1
-  Domena hs-ldz.pl:
-    amount_pln: 50.0
-    every_months: 12
-  Internet Toya 100mbps:
-    amount_pln: 54.89
-    every_months: 1
-  "Meetup (73.73 USD \xB1 kurs)":
-    amount_pln: 290.0
-    every_months: 6
-  "Pr\u0105d (150% \u015Br. op\u0142., zaokr.)":
-    amount_pln: 600
-    every_months: 1
-obligations_reserve_months: 3
-reservations:
-  "Wyr\xF3wnanie ze starym stanem":
-    amount_pln: 327.83
+      "Pozosta\u0142e": 454.6999999999998
