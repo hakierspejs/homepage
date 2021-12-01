@@ -1,2 +1,22 @@
 dues_monthly_goal: 2000
 dues_total_goal: 7500
+obligations:
+  "Czynsz (w tym: podatki i \u015Bmieci, bez wody)":
+    amount_pln: 800.0
+    every_months: 1
+  Domena hs-ldz.pl:
+    amount_pln: 50.0
+    every_months: 12
+  Internet Toya 100mbps:
+    amount_pln: 54.89
+    every_months: 1
+  "Meetup (73.73 USD \xB1 kurs)":
+    amount_pln: 290.0
+    every_months: 6
+  "Pr\u0105d (150% \u015Br. op\u0142., zaokr.)":
+    amount_pln: 600
+    every_months: 1
+obligations_reserve_months: 3
+reservations:
+  "Wyr\xF3wnanie ze starym stanem":
+    amount_pln: 327.83
