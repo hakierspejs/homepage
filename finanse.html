@@ -85,7 +85,7 @@ thead {
 
 <table>
     <caption>
-        Aktualna "poduszka finansowa" (na {{ site.data.dues.obligations_reserve_months }} mies)
+        Aktualna "poduszka finansowa" (na {{ site.data.dues_config.obligations_reserve_months }} mies)
     </caption>
     <thead>
         <tr>
@@ -95,7 +95,7 @@ thead {
     </thead>
     <tbody>
     {% assign dues_reserved_obligations_total_monthly = 0 %}
-    {% for obligation in site.data.dues.obligations %}
+    {% for obligation in site.data.dues_config.obligations %}
         <tr>
             {% assign current_obligation = obligation[1].amount_pln |divided_by:  obligation[1].every_months %}
             <td class="name">{{ obligation[0] }}</td>
