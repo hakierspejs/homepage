@@ -4,10 +4,8 @@ import meetupscraper
 import textwrap
 import sys
 import json
-import logging
 
 if __name__ == '__main__':
-    logging.basicConfig(level='DEBUG')
     next_events = meetupscraper.get_upcoming_events('Hakierspejs-Łódź')
     next_events = list(sorted(next_events, key=lambda x: x.date))
 
