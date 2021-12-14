@@ -2,6 +2,7 @@
 title: "Espresso timer. Prototyp."
 tags: DIY
 layout: post
+image: https://hssi.hs-ldz.pl/640x/http://server/espresso-timer/DSCF4485.JPG
 ---
 
 Mamy w siedzibie niezły ekspres do kawy i najlepsza kawa parzy się około 24 sekund. Niestety nie mamy wagi do kawy z timer-em, a sięganie po smartfona za każdym razem nie jest wygodne. Postanowiłem więc zrobić osobne urządzenie. Od dawna chciałem spróbować zrobić coś podobnego bez [PLC](https://pl.wikipedia.org/wiki/Programowalny_sterownik_logiczny).
@@ -38,7 +39,9 @@ Więcej info o generatorach kwarcowych i D-trigger-ach - [tutaj](https://eduinf.
 
 Skoro dobranie układu scalonego, który ma wbudowany generator i podzielniki do 1Hz [było skomplikowane](https://electronics.stackexchange.com/questions/304418/why-is-a-15-stage-binary-counter-divider-so-cumbersome), wykombinowałem alternatywę na podstawie łatwo dostępnych układów [CD4060](https://www.build-electronic-circuits.com/4000-series-integrated-circuits/ic-4060/) ([datasheet](https://www.ti.com/lit/ds/symlink/cd4060b.pdf)).
 Do wygenerowania sygnału 1 Hz należy sygnał 32.768 kHz podzielić 15 razy, problem jest taki, że CD4060 ma tylko 14 podzielniki. W tym wypadku zwykle robi się coś podobnego do schematu z artykułu na [hackersbench.com](https://web.archive.org/web/20210901190437/http://www.hackersbench.com/Projects/1Hz/):
+
 ![http://www.hackersbench.com/Projects/1Hz/](https://hssi.hs-ldz.pl/640x,q85/http://www.hackersbench.com/Projects/1Hz/schematic.jpg)
+
 Jednak bardzo mi się nie chciało czekać na zamowienie kolejnego CD4027, więc po prostu podpiąłem dwa układy CD4060.
  
 

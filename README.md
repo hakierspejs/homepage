@@ -1,4 +1,4 @@
-# hs-ldz.pl homepage
+# [hs-ldz.pl](https://hs-ldz.pl)
 
 The homepage is hosted on GitHub pages (github.io).
 

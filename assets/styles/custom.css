@@ -199,3 +199,24 @@ nav ul {
 body > footer {
   color: #777777;
 }
+
+a.blog-image-link { 
+  margin: 0 10%;
+  height: 100%;
+  min-height: 480px;
+  width: 80%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 0 3px #000, 0 0 15px #000, 0 0 25px #FFF;
+  font-size: 32pt;
+  font-weight: bold;
+}
+a.blog-image-link:hover { 
+  color: black;
+  text-shadow: 0 0 3px #FFF, 0 0 15px #FFF, 0 0 25px #000;
+}
