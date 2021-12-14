@@ -60,6 +60,14 @@ layout: default
     </p>
   </section>
 
+  <section>
+    <h3>Blog</h3>
+    <div class="fotorama">
+    {% for post in site.posts %} 
+        <div data-img="{{ post.image }}"><a class="blog-image-link" target="_blank" href="{{ post.url | relative_url }}">{{ post.title }}</a></div>
+    {% endfor %}
+    </div>
+  </section>
 
   <section>
     <h3>Lokalizacja</h3>

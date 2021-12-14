@@ -3,6 +3,7 @@ title: "ciphersack - szyfrowana geniza"
 author: d33tah
 tags: crypto
 layout: post
+image: https://upload.wikimedia.org/wikipedia/commons/8/86/TaggedGeniza.jpg
 ---
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/8/86/TaggedGeniza.jpg" width="360px" align="left" alt="współczesny pojemnik na kolekcję geniza przy ulicy w Nachlaot w Jerozolimie" title="źródło: Wikipedia, licencja: CC BY-SA 2.0, nazwa pliku: TaggedGeniza.jpg">

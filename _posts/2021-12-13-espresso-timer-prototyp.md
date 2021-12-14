@@ -2,6 +2,7 @@
 title: "Espresso timer. Prototyp."
 tags: DIY
 layout: post
+image: https://hssi.hs-ldz.pl/640x,q95/http://server/espresso-timer/DSCF4489.JPG
 ---
 
 Mamy w siedzibie niezły ekspres do kawy i najlepsza kawa parzy się około 24 sekund. Niestety nie mamy wagi do kawy z timer-em, a sięganie po smartfona za każdym razem nie jest wygodne. Postanowiłem więc zrobić osobne urządzenie. Od dawna chciałem spróbować zrobić coś podobnego bez [PLC](https://pl.wikipedia.org/wiki/Programowalny_sterownik_logiczny).

@@ -3,6 +3,7 @@ title: "O co chodzi z tymi hak(i)erami?"
 author: d33tah
 tags: meta
 layout: post
+image: https://hssi.hs-ldz.pl/640x480,q95/http://server/8afd69f05c34bd352a8a.png
 ---
 
 

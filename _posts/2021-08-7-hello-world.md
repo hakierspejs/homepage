@@ -3,6 +3,7 @@ title: "Hello World!"
 author: thinkofher
 website: "https://beniamindudek.xyz"
 tags: meta
+image: https://hssi.hs-ldz.pl/640x,q95/https://i.imgur.com/DrW0N8K.png
 layout: post
 ---
 
