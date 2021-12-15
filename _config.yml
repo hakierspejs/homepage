@@ -11,6 +11,11 @@ title: Hakierspejs Łódź 🦄
 url: "https://lodz.hackerspace.pl"
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
+
+feed:
+  excerpt_only: true
+  posts_limit: 20
 
 exclude:
   - scripts/

@@ -9,7 +9,7 @@ h2 ~ ul {
 </style>
 
 <article>
-  <h2>{% include icons/blog.html %}Blog</h2>
+  <h2><span style="display: block;  float: left;">{% include icons/blog.html %}Blog</span><a href="/feed.xml"><img width="32px" src="/assets/rss.svg" /></a></h2>
   <ul>
     {% for post in site.posts %}
       <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> - {% include date.txt time_arg=post.date no_hour=true no_weekday=true end=" " lang="pl" %}</li>
