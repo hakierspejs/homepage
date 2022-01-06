@@ -1,10 +1,10 @@
-balance_so_far: 11977.939999999999
+balance_so_far: 12177.939999999999
 balances_by_account_labels:
   Konto Jacka: 4995.529999999999
-  Konto stowarzyszenia: 6982.410000000002
-dues_last_updated: 04-01-2022
+  Konto stowarzyszenia: 7182.410000000002
+dues_last_updated: 05-01-2022
 dues_num_subscribers: 14
-dues_total_lastmonth: 1942.0
+dues_total_lastmonth: 2142.0
 extra_monthly_reservations: 2800
 monthly:
   Bilans:
@@ -51,7 +51,7 @@ monthly:
     2021-12:
       Suma: 45.340000000000146
     2022-01:
-      Suma: 575.0
+      Suma: 775.0
   Przychody:
     2020-04:
       Suma: 1232.0
@@ -96,7 +96,7 @@ monthly:
     2021-12:
       Suma: 1842.0
     2022-01:
-      Suma: 600.0
+      Suma: 800.0
   Saldo:
     2020-04:
       Suma: 1232.0
@@ -141,7 +141,7 @@ monthly:
     2021-12:
       Suma: 11402.939999999999
     2022-01:
-      Suma: 11977.939999999999
+      Suma: 12177.939999999999
   Wydatki:
     2020-08:
       "Pozosta\u0142e": 94.35999999999967
