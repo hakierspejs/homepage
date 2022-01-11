@@ -1,0 +1,39 @@
+---
+title: Strona Główna
+layout: default
+kiosk_mode: true
+---
+<article>
+  <section id="isitopen" style="display: none;">
+    <h2>{% include icons/door-open.html %} Otwarte!</h2>
+    <p>
+      Wpadnij na <strong>Zieloną 30</strong> jeśli jesteś w pobliżu albo
+      odwiedź nasz chat (link znajdziesz poniżej) żeby się upewnić, że
+      zdążysz do nas dotrzeć. Do zobaczenia!
+    </p>
+  </section>
+
+  <section>
+    <h3>Kim jesteśmy?</h3>
+    <p>
+    Jesteśmy społecznością pasjonatów open source, DIY, komputerów minionej
+    ery i ruchu wolnej kultury. Organizujemy spotkania, robimy projekty i wymieniamy
+    się wiedzą. Więcej informacji na nasz temat znajdziesz na
+    <a href="//github.com/hakierspejs/wiki/wiki/O-nas"
+       title="przenosi na inną stronę - Wiki stowarzyszenia">wiki</a>.
+    </p>
+  </section>
+
+  <section>
+    <h3>Wydarzenia</h3>
+    <p>
+    Następne spotkanie: {% include date.txt time_arg=site.data.meetings.date lang="pl" %}
+    </p>
+    <p>
+      {% if site.data.meetings.location %}Miejsce: {{ site.data.meetings.location }}. Zaczynamy wcześnie, ale nie ma problemu jeśli dołączysz później :).{% endif %}
+      {% if site.data.meetings.location %}{% else %}
+      Spotkanie online.{% endif %} Więcej info na <u><a href="{{ site.data.meetings.url }}" title="przenosi na inną stronę - z informacjami o najbliższym spotkaniu">meetup.com</a></u>.
+    </p>
+  </section>
+  
+</article>
