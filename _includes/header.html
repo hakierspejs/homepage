@@ -7,6 +7,7 @@
     <p>Budujemy <a href="https://pl.wikipedia.org/wiki/Hackerspace" title="przenosi na inną stronę - artykuł o hackerspace na polskiej Wikipedii">Hackerspace</a> w Łodzi. Szukamy ludzi.</p>
   </div>
 </div>
+{% unless page.kiosk_mode %}
 <nav>
   <ul>
     <li>{% include icons/people.html %}<a href="{{ "/index.html" | relative_url }}">O nas</a></li>
@@ -16,3 +17,4 @@
     <li>{% include icons/more.html %}<a href="{{ "/more" | relative_url }}">Więcej</a></li>
   </ul>
 </nav>
+{% endunless %}
