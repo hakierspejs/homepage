@@ -55,16 +55,17 @@ thead {
         legend: {orientation: 'h'},
         margin: {l: 50, r: 0, b: 25, t: 25, pad: 4}
     }, [
-        {% for kategoria in site.data.dues.by_period %}
-        {% if kategoria[0] == 'Saldo' %}
+        {% assign kategorie = "Bilans,Wydatki,Przychody" | split: "," %}
+        {% for kategoria in kategorie %}
+        {% if kategoria == 'Saldo' %}
             {% continue %}
         {% endif %}
         {
-            name: '{{ kategoria[0] }}',
+            name: '{{ kategoria }}',
             mode: 'scatter',
-            x: [{% for miesiac in kategoria[1][page.period] %}{% if forloop.first %}{% else %}, {% endif %} "{{ miesiac[0] }}" {% endfor %}] ,
+            x: [{% for miesiac in site.data.dues.by_period[kategoria][page.period] %}{% if forloop.first %}{% else %}, {% endif %} "{{ miesiac[0] }}" {% endfor %}] ,
             y: [
-                {% for miesiac in kategoria[1][page.period] %}
+                {% for miesiac in site.data.dues.by_period[kategoria][page.period] %}
                     {% if forloop.first %}{% else %}, {% endif %}
                         {% assign suma=0 %}
                         {% for podkategoria in miesiac[1] %}
