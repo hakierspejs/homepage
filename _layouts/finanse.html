@@ -4,9 +4,6 @@
 <meta charset="UTF-8" />
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> 
 <script>
-    function plot (domId, conf, data) {
-        return Plotly.newPlot(domId, data, conf);
-    }
     function pokazWiecej() {
         document.getElementById("ukryjMnie").style.display = "none";
         document.getElementById("ukryte").style.display = "block";
@@ -51,10 +48,7 @@ thead {
 <div id="main">
 <div id="plot-main" style="width:100%;height:300px;"></div>
 <script>
-    plot('plot-main', {
-        legend: {orientation: 'h'},
-        margin: {l: 50, r: 0, b: 25, t: 25, pad: 4}
-    }, [
+    Plotly.newPlot('plot-main', [
         {% assign kategorie = "Bilans,Wydatki,Przychody" | split: "," %}
         {% for kategoria in kategorie %}
         {% if kategoria == 'Saldo' %}
@@ -78,7 +72,21 @@ thead {
             fill: 'tozeroy'
         }, 
         {% endfor %}
-    ]);
+    ], {
+          showlegend: true,
+
+  legend: {
+
+    x: 1,
+
+    xanchor: 'left',
+
+    y: 1
+
+  },
+        margin: {l: 50, r: 50, b: 50, t: 25, pad: 4},
+        xaxis: {     type: 'category', }
+    });
 </script>
 
 <table>
@@ -143,10 +151,8 @@ thead {
 
 <div id="plot-podzial-bilansu-na-konta" style="width:100%;height:300px;"></div>
 <script>
-    plot('plot-podzial-bilansu-na-konta', {
-        title: 'Podział salda na konta',
-        margin: {l: 50, r: 0, b: 25, t: 50, pad: 4}
-    }, [
+    Plotly.newPlot('plot-podzial-bilansu-na-konta',
+    [
         {
             name: 'Podział',
             type: 'pie',
@@ -154,7 +160,10 @@ thead {
             values: [{% for nazwany_bilans in site.data.dues.balances_by_account_labels %}{% if forloop.first %}{% else %}, {% endif %}{{ nazwany_bilans[1] }}{% endfor %}],
             labels: [{% for nazwany_bilans in site.data.dues.balances_by_account_labels %}{% if forloop.first %}{% else %}, {% endif %}"{{ nazwany_bilans[0] }}" {% endfor %}],
         }
-    ]);
+    ], {
+        title: 'Podział salda na konta',
+        margin: {l: 50, r: 0, b: 25, t: 50, pad: 4}
+    });
 </script>
 
 {% assign ukryte="nie" %}
