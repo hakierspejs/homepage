@@ -1,0 +1,333 @@
+balance_so_far: 12687.329999999996
+balances_by_account_labels:
+  Konto Jacka: 4872.57
+  Konto stowarzyszenia: 7814.760000000002
+by_period:
+  Bilans:
+    monthly:
+      2020-04:
+        Suma: 1232.0
+      2020-05:
+        Suma: 717.37
+      2020-06:
+        Suma: 896.0
+      2020-07:
+        Suma: 800.0
+      2020-08:
+        Suma: 1105.6400000000003
+      2020-09:
+        Suma: 1650.0
+      2020-10:
+        Suma: 413.99
+      2020-11:
+        Suma: -664.3000000000002
+      2020-12:
+        Suma: 689.44
+      2021-01:
+        Suma: -94.18999999999892
+      2021-02:
+        Suma: -96.75
+      2021-03:
+        Suma: 340.8599999999983
+      2021-04:
+        Suma: 20.710000000000036
+      2021-05:
+        Suma: 1084.9899999999989
+      2021-06:
+        Suma: 618.8400000000001
+      2021-07:
+        Suma: 1242.69
+      2021-08:
+        Suma: 327.01999999999816
+      2021-09:
+        Suma: 5.710000000000491
+      2021-10:
+        Suma: 1153.6599999999994
+      2021-11:
+        Suma: -86.07999999999993
+      2021-12:
+        Suma: 45.340000000000146
+      2022-01:
+        Suma: 1284.39
+    quarterly:
+      2020Q2:
+        Suma: 2845.37
+      2020Q3:
+        Suma: 3555.6400000000003
+      2020Q4:
+        Suma: 439.1299999999992
+      2021Q1:
+        Suma: 149.91999999999916
+      2021Q2:
+        Suma: 1724.539999999999
+      2021Q3:
+        Suma: 1575.4199999999983
+      2021Q4:
+        Suma: 1112.92
+      2022Q1:
+        Suma: 1284.39
+    yearly:
+      '2020':
+        Suma: 6840.140000000001
+      '2021':
+        Suma: 4562.799999999996
+      '2022':
+        Suma: 1284.39
+  Przychody:
+    monthly:
+      2020-04:
+        Suma: 1232.0
+      2020-05:
+        Suma: 717.37
+      2020-06:
+        Suma: 896.0
+      2020-07:
+        Suma: 800.0
+      2020-08:
+        Suma: 1200.0
+      2020-09:
+        Suma: 1650.0
+      2020-10:
+        Suma: 1213.99
+      2020-11:
+        Suma: 1596.0
+      2020-12:
+        Suma: 1846.0
+      2021-01:
+        Suma: 1850.000000000001
+      2021-02:
+        Suma: 1842.0
+      2021-03:
+        Suma: 2045.9999999999982
+      2021-04:
+        Suma: 2021.37
+      2021-05:
+        Suma: 2392.0299999999997
+      2021-06:
+        Suma: 1746.0
+      2021-07:
+        Suma: 2300.0
+      2021-08:
+        Suma: 2296.0
+      2021-09:
+        Suma: 1592.0
+      2021-10:
+        Suma: 2328.0
+      2021-11:
+        Suma: 1900.0
+      2021-12:
+        Suma: 1842.0
+      2022-01:
+        Suma: 1500.0
+    quarterly:
+      2020Q2:
+        Suma: 2845.37
+      2020Q3:
+        Suma: 3650.0
+      2020Q4:
+        Suma: 4655.99
+      2021Q1:
+        Suma: 5737.999999999999
+      2021Q2:
+        Suma: 6159.4
+      2021Q3:
+        Suma: 6188.0
+      2021Q4:
+        Suma: 6070.0
+      2022Q1:
+        Suma: 1500.0
+    yearly:
+      '2020':
+        Suma: 11151.36
+      '2021':
+        Suma: 24155.4
+      '2022':
+        Suma: 1500.0
+  Saldo:
+    monthly:
+      2020-04:
+        Suma: 1232.0
+      2020-05:
+        Suma: 1949.37
+      2020-06:
+        Suma: 2845.37
+      2020-07:
+        Suma: 3645.37
+      2020-08:
+        Suma: 4751.01
+      2020-09:
+        Suma: 6401.01
+      2020-10:
+        Suma: 6815.0
+      2020-11:
+        Suma: 6150.7
+      2020-12:
+        Suma: 6840.139999999999
+      2021-01:
+        Suma: 6745.950000000001
+      2021-02:
+        Suma: 6649.200000000001
+      2021-03:
+        Suma: 6990.0599999999995
+      2021-04:
+        Suma: 7010.7699999999995
+      2021-05:
+        Suma: 8095.759999999998
+      2021-06:
+        Suma: 8714.599999999999
+      2021-07:
+        Suma: 9957.289999999999
+      2021-08:
+        Suma: 10284.309999999998
+      2021-09:
+        Suma: 10290.019999999999
+      2021-10:
+        Suma: 11443.679999999998
+      2021-11:
+        Suma: 11357.599999999999
+      2021-12:
+        Suma: 11402.939999999999
+      2022-01:
+        Suma: 12687.329999999998
+    quarterly:
+      2020Q2:
+        Suma: 2845.37
+      2020Q3:
+        Suma: 6401.01
+      2020Q4:
+        Suma: 6840.139999999999
+      2021Q1:
+        Suma: 6990.059999999999
+      2021Q2:
+        Suma: 8714.599999999999
+      2021Q3:
+        Suma: 10290.019999999997
+      2021Q4:
+        Suma: 11402.939999999997
+      2022Q1:
+        Suma: 12687.329999999996
+    yearly:
+      '2020':
+        Suma: 6840.140000000001
+      '2021':
+        Suma: 11402.939999999997
+      '2022':
+        Suma: 12687.329999999996
+  Wydatki:
+    monthly:
+      2020-08:
+        "Pozosta\u0142e": 94.35999999999967
+      2020-10:
+        Czynsz: 800.0
+      2020-11:
+        Czynsz: 800.0
+        "Pozosta\u0142e": 1460.3000000000002
+      2020-12:
+        Czynsz: 800.0
+        "Pozosta\u0142e": 356.55999999999995
+      2021-01:
+        Czynsz: 800.0
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 625.3
+        "Pozosta\u0142e": 518.89
+      2021-02:
+        Czynsz: 800.0
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 298.46
+        "Pozosta\u0142e": 840.2899999999998
+      2021-03:
+        Czynsz: 800.0
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 340.63
+        "Pozosta\u0142e": 564.51
+      2021-04:
+        Czynsz: 800.0
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 1145.77
+        "Pozosta\u0142e": 54.89
+      2021-05:
+        Czynsz: 800.0
+        "Ksi\u0119gowo\u015B\u0107": 25.0
+        "Pozosta\u0142e": 482.04000000000093
+      2021-06:
+        Czynsz: 800.0
+        "Ksi\u0119gowo\u015B\u0107": 25.0
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 223.04
+        "Pozosta\u0142e": 79.12
+      2021-07:
+        Czynsz: 800.0
+        "Ksi\u0119gowo\u015B\u0107": 25.0
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 177.42
+        "Pozosta\u0142e": 54.89
+      2021-08:
+        Czynsz: 800.0
+        "Ksi\u0119gowo\u015B\u0107": 25.0
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 149.4
+        "Pozosta\u0142e": 994.5800000000019
+      2021-09:
+        Czynsz: 800.0
+        "Ksi\u0119gowo\u015B\u0107": 25.0
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 177.5
+        "Pozosta\u0142e": 583.7899999999996
+      2021-10:
+        Czynsz: 800.0
+        "Pozosta\u0142e": 374.3400000000007
+      2021-11:
+        Czynsz: 800.0
+        "Ksi\u0119gowo\u015B\u0107": 25.0
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 706.38
+        "Pozosta\u0142e": 454.6999999999998
+      2021-12:
+        Czynsz: 800.0
+        Internet: 268.9
+        "Ksi\u0119gowo\u015B\u0107": 25.0
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 352.86
+        "Pozosta\u0142e": 349.89999999999964
+      2022-01:
+        Internet: 67.65
+        "Ksi\u0119gowo\u015B\u0107": 25.0
+        "Pozosta\u0142e": 122.96
+    quarterly:
+      2020Q3:
+        "Pozosta\u0142e": 94.35999999999967
+      2020Q4:
+        Czynsz: 2400.0
+        "Pozosta\u0142e": 1816.8600000000001
+      2021Q1:
+        Czynsz: 2400.0
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 1264.3899999999999
+        "Pozosta\u0142e": 1923.69
+      2021Q2:
+        Czynsz: 2400.0
+        "Ksi\u0119gowo\u015B\u0107": 50.0
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 1368.81
+        "Pozosta\u0142e": 616.0500000000009
+      2021Q3:
+        Czynsz: 2400.0
+        "Ksi\u0119gowo\u015B\u0107": 75.0
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 504.32
+        "Pozosta\u0142e": 1633.2600000000016
+      2021Q4:
+        Czynsz: 2400.0
+        Internet: 268.9
+        "Ksi\u0119gowo\u015B\u0107": 50.0
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 1059.24
+        "Pozosta\u0142e": 1178.94
+      2022Q1:
+        Internet: 67.65
+        "Ksi\u0119gowo\u015B\u0107": 25.0
+        "Pozosta\u0142e": 122.96
+    yearly:
+      '2020':
+        Czynsz: 2400.0
+        "Pozosta\u0142e": 1911.2199999999998
+      '2021':
+        Czynsz: 9600.0
+        Internet: 268.9
+        "Ksi\u0119gowo\u015B\u0107": 175.0
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 4196.76
+        "Pozosta\u0142e": 5351.940000000002
+      '2022':
+        Internet: 67.65
+        "Ksi\u0119gowo\u015B\u0107": 25.0
+        "Pozosta\u0142e": 122.96
+dues_last_updated: 11-01-2022
+dues_num_subscribers: 15
+dues_total_lastmonth: 2042.0
+extra_monthly_reservations: 2800
