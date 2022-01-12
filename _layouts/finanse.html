@@ -46,6 +46,19 @@ thead {
 </style>
 </head>
 <div id="main">
+{% assign kody_okresow = "monthly,quarterly,yearly" | split: "," %}
+{% assign nazwy_okresow = "Miesięcznie,Kwartalnie,Rocznie" | split: "," %}
+{% assign sufiksy_okresow = ",_quarterly,_yearly" | split: "," %}
+<p>
+{% for nazwa_okresu in nazwy_okresow %}
+    {% assign forloop_index = forloop.index0 %}
+    {% if page.period == kody_okresow[forloop.index0] %}
+    [{{ nazwa_okresu }}]
+    {% else %}
+    [<a href="finanse{{ sufiksy_okresow[forloop.index0] }}.html">{{ nazwa_okresu }}</a>]
+    {% endif %}
+{% endfor %}
+</p>
 <div id="plot-main" style="width:100%;height:300px;"></div>
 <script>
     Plotly.newPlot('plot-main', [
