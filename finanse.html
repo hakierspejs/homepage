@@ -58,16 +58,16 @@ thead {
         legend: {orientation: 'h'},
         margin: {l: 50, r: 0, b: 25, t: 25, pad: 4}
     }, [
-        {% for kategoria in site.data.dues.monthly %}
+        {% for kategoria in site.data.dues.by_period %}
         {% if kategoria[0] == 'Saldo' %}
             {% continue %}
         {% endif %}
         {
             name: '{{ kategoria[0] }}',
             mode: 'scatter',
-            x: [{% for miesiac in kategoria[1] %}{% if forloop.first %}{% else %}, {% endif %} "{{ miesiac[0] }}" {% endfor %}] ,
+            x: [{% for miesiac in kategoria[1].monthly %}{% if forloop.first %}{% else %}, {% endif %} "{{ miesiac[0] }}" {% endfor %}] ,
             y: [
-                {% for miesiac in kategoria[1] %}
+                {% for miesiac in kategoria[1].monthly %}
                     {% if forloop.first %}{% else %}, {% endif %}
                         {% assign suma=0 %}
                         {% for podkategoria in miesiac[1] %}
@@ -160,7 +160,7 @@ thead {
 </script>
 
 {% assign ukryte="nie" %}
-{% for miesiac in site.data.dues.monthly.Bilans reversed %}
+{% for miesiac in site.data.dues.by_period.Bilans.monthly reversed %}
 {% assign numer_miesiaca=miesiac[0] %}
 <table>
     <caption>
@@ -174,10 +174,10 @@ thead {
     </thead>
     <tbody>
         
-        {% for kategoria in site.data.dues.monthly %}
+        {% for kategoria in site.data.dues.by_period %}
         {% assign suma=0 %}
-        {% assign ile_podkategorii=kategoria[1][numer_miesiaca] | size %}
-        {% for podkategoria in kategoria[1][numer_miesiaca] %}
+        {% assign ile_podkategorii=kategoria[1].monthly[numer_miesiaca] | size %}
+        {% for podkategoria in kategoria[1].monthly[numer_miesiaca] %}
         <tr>
             <td class="name">{{ kategoria[0] }}{% if ile_podkategorii > 1 and podkategoria[0] != "Suma" %}: {{ podkategoria[0] }}{% endif %}</td>
             <td class="value {% if kategoria[0] == "Wydatki" or podkategoria[1] < 0 %}negative{% endif %}">
