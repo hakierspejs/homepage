@@ -1,7 +1,7 @@
-balance_so_far: 12687.329999999996
+balance_so_far: 12937.329999999996
 balances_by_account_labels:
   Konto Jacka: 4872.57
-  Konto stowarzyszenia: 7814.760000000002
+  Konto stowarzyszenia: 8064.760000000002
 by_period:
   Bilans:
     monthly:
@@ -48,7 +48,7 @@ by_period:
       2021-12:
         Suma: 45.340000000000146
       2022-01:
-        Suma: 1284.39
+        Suma: 1534.39
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -65,14 +65,14 @@ by_period:
       2021Q4:
         Suma: 1112.92
       2022Q1:
-        Suma: 1284.39
+        Suma: 1534.39
     yearly:
       '2020':
         Suma: 6840.140000000001
       '2021':
         Suma: 4562.799999999996
       '2022':
-        Suma: 1284.39
+        Suma: 1534.39
   Przychody:
     monthly:
       2020-04:
@@ -118,7 +118,7 @@ by_period:
       2021-12:
         Suma: 1842.0
       2022-01:
-        Suma: 1500.0
+        Suma: 1750.0
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -135,14 +135,14 @@ by_period:
       2021Q4:
         Suma: 6070.0
       2022Q1:
-        Suma: 1500.0
+        Suma: 1750.0
     yearly:
       '2020':
         Suma: 11151.36
       '2021':
         Suma: 24155.4
       '2022':
-        Suma: 1500.0
+        Suma: 1750.0
   Saldo:
     monthly:
       2020-04:
@@ -188,7 +188,7 @@ by_period:
       2021-12:
         Suma: 11402.939999999999
       2022-01:
-        Suma: 12687.329999999998
+        Suma: 12937.329999999998
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -205,14 +205,14 @@ by_period:
       2021Q4:
         Suma: 11402.939999999997
       2022Q1:
-        Suma: 12687.329999999996
+        Suma: 12937.329999999996
     yearly:
       '2020':
         Suma: 6840.140000000001
       '2021':
         Suma: 11402.939999999997
       '2022':
-        Suma: 12687.329999999996
+        Suma: 12937.329999999996
   Wydatki:
     monthly:
       2020-08:
@@ -327,7 +327,7 @@ by_period:
         Internet: 67.65
         "Ksi\u0119gowo\u015B\u0107": 25.0
         "Pozosta\u0142e": 122.96
-dues_last_updated: 11-01-2022
-dues_num_subscribers: 15
-dues_total_lastmonth: 2042.0
+dues_last_updated: 13-01-2022
+dues_num_subscribers: 17
+dues_total_lastmonth: 2292.0
 extra_monthly_reservations: 2800
