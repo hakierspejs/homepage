@@ -2,8 +2,8 @@ name: CI
 
 on:
   push:
-    schedule:
-      - cron: '0 * * * *'
+  schedule:
+    - cron: '0 * * * *'
 
 jobs:
   maybe_update_meetup:
