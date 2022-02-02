@@ -39,7 +39,7 @@ function parseDate(dateAndTime) {
   let [date, time] = dateAndTime.split(" ");
   let [day, month, year] = date.split("-");
 
-  return new Date(`${month}-${day}-${year} ${time}`);
+  return new Date(`${month} ${day} ${year} ${time}`);
 }
 
 const kioskDateNode = document.getElementById("kiosk-date");
@@ -52,7 +52,9 @@ async function main() {
     polish.days[parsedDate.getDay()]
   }, ${parsedDate.getDate()} ${
     polish.months[parsedDate.getMonth()]
-  } o godzine ${parsedDate.getHours()}:${parsedDate.getMinutes()}`;
+  } o godzinie ${parsedDate.getHours()}:${
+    parsedDate.getMinutes().toString().padStart(2, "0")
+  }`;
 }
 
 main();
