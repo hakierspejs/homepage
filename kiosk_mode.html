@@ -2,7 +2,7 @@
 ---
 <html>
 <head>
-    <meta http-equiv="Refresh" content="600">
+<script src="assets/js/kiosk.js" defer></script>
 <style>
     * {
         font-size: 6vw;
@@ -21,7 +21,9 @@
 </head>
 <body>
     <img class="qr" src="assets/images/kiosk_qr.png">
-    <p>    <strong>Organizujemy otwarte spotkania</strong> co drugi wtorek. Następne: {% include date.txt time_arg=site.data.live_meetings.date lang="pl" %}</p>
+    <p>
+      <strong>Organizujemy otwarte spotkania</strong> co drugi wtorek. Następne: <span id="kiosk-date"></span>.
+    </p>
     <p>Wpadnij nas poznać! Zapraszamy :)</p>
 </body>
 </html>
