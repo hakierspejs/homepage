@@ -9,37 +9,37 @@ async function fetchKioskAPI() {
   }
 }
 
-const polishMonths = {
-  "01": "stycznia",
-  "02": "lutego",
-  "03": "marca",
-  "04": "kwietnia",
-  "05": "maja",
-  "06": "czerwca",
-  "07": "lipca",
-  "08": "sierpnia",
-  "09": "września",
-  "10": "października",
-  "11": "listopada",
-  "12": "grudnia",
+const polish = {
+  days: [
+    "niedziela",
+    "poniedziałek",
+    "wtorek",
+    "środa",
+    "czwartek",
+    "piątek",
+    "sobota",
+  ],
+  months: [
+    "stycznia",
+    "lutego",
+    "marca",
+    "kwietnia",
+    "maja",
+    "czerwca",
+    "lipca",
+    "sierpnia",
+    "września",
+    "października",
+    "listopada",
+    "grudnia",
+  ],
 };
 
 function parseDate(dateAndTime) {
   let [date, time] = dateAndTime.split(" ");
   let [day, month, year] = date.split("-");
-  let [hours, minutes] = time.split(":");
 
-  return {
-    time: {
-      hours: hours,
-      minutes: minutes,
-    },
-    date: {
-      day: day,
-      month: month,
-      year: year,
-    },
-  };
+  return new Date(`${month}-${day}-${year} ${time}`);
 }
 
 const kioskDateNode = document.getElementById("kiosk-date");
@@ -48,10 +48,12 @@ async function main() {
   let kioskData = await fetchKioskAPI();
   let parsedDate = parseDate(kioskData.date);
 
-  kioskDateNode.innerText = `wtorek, ${parsedDate.date.day} ${
-    polishMonths[parsedDate.date.month]
-  } o godzine ${parsedDate.time.hours}:${parsedDate.time.minutes}`;
+  kioskDateNode.innerText = `${
+    polish.days[parsedDate.getDay()]
+  }, ${parsedDate.getDate()} ${
+    polish.months[parsedDate.getMonth()]
+  } o godzine ${parsedDate.getHours()}:${parsedDate.getMinutes()}`;
 }
 
-main()
-window.setInterval(main, 6000)
+main();
+window.setInterval(main, 6000);
