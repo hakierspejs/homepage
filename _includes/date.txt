@@ -16,7 +16,7 @@
             when '6' %}sobota{%
         endcase %},
     {% endif %}
-    {{ include.time_arg | date: "%d" | round }}
+    {{ include.time_arg | date: "%-d" }}
     {% assign month=include.time_arg | date: "%m" %}
     {% case month %}{%
     when '01' %}stycznia{%
