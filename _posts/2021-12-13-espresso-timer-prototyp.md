@@ -35,7 +35,7 @@ Później jednak zmieniłem tranzystor na P-MOSFET, bo pozwala on na "sterowanie
 Pierwotnie chciałem skorzystać z [generatora RC na podstawie NE555](https://www.electronics-tutorials.ws/waveforms/555_oscillator.html).
 Niestety okazało się, że nie jest on [wystarczająco precyzyjny](https://electronics.stackexchange.com/questions/288737/is-the-555-timer-accurate-and-uniform-enough-for-a-metronome),
 dlatego musiałem pójść w stronę [oscylatora kwarcowego](https://en.wikipedia.org/wiki/Crystal_oscillator) i dzielnika częstotliwości (zegarowy kwarc 32.768kHz (2^15) i przerzutniki typu D).
-Więcej info o generatorach kwarcowych i D-trigger-ach - [tutaj](https://eduinf.waw.pl/inf/prg/009_kurs_avr/2013_a.php#top).
+Więcej info o generatorach kwarcowych i D-triggerach - [tutaj](https://eduinf.waw.pl/inf/prg/009_kurs_avr/2013_a.php#top).
 
 Skoro dobranie układu scalonego, który ma wbudowany generator i podzielniki do 1Hz [było skomplikowane](https://electronics.stackexchange.com/questions/304418/why-is-a-15-stage-binary-counter-divider-so-cumbersome), wykombinowałem alternatywę na podstawie łatwo dostępnych układów [CD4060](https://www.build-electronic-circuits.com/4000-series-integrated-circuits/ic-4060/) ([datasheet](https://www.ti.com/lit/ds/symlink/cd4060b.pdf)).
 Do wygenerowania sygnału 1 Hz należy sygnał 32.768 kHz podzielić 15 razy; problem jest taki, że CD4060 ma tylko 14 podzielniki. W tym wypadku zwykle robi się coś podobnego do schematu z artykułu na [hackersbench.com](https://web.archive.org/web/20210901190437/http://www.hackersbench.com/Projects/1Hz/):
@@ -49,11 +49,11 @@ Jednak bardzo mi się nie chciało czekać na zamowienie kolejnego CD4027, więc
 
 ![img](https://hssi.hs-ldz.pl/640x,q75/http://server/espresso-timer/DSCF4478.JPG)
     
-Miałem parę 7-segmentowych wyświetlaczy, może ze względów energooszczędzania nie są najlepszym wyborem, ale są tanie i prawie każdy sterownik do nich ma wbudowany licznik, co upraszcza schemat. W moim przypadku były to dwa sterowniki CD4026. Podłączenie standardowe, zgodnie z [datasheet-em](https://www.ti.com/lit/ds/symlink/cd4026b.pdf), więcej szczegółów można znaleźć w artykule na [fobot.pl](https://forbot.pl/blog/technika-cyfrowa-sterowanie-wyswietlaczem-7-segmetnowym-id16152).
+Miałem parę 7-segmentowych wyświetlaczy, może ze względów energooszczędzania nie są najlepszym wyborem, ale są tanie i prawie każdy sterownik do nich ma wbudowany licznik, co upraszcza schemat. W moim przypadku były to dwa sterowniki CD4026. Podłączenie standardowe, zgodnie z [datasheetem](https://www.ti.com/lit/ds/symlink/cd4026b.pdf), więcej szczegółów można znaleźć w artykule na [forbot.pl](https://forbot.pl/blog/technika-cyfrowa-sterowanie-wyswietlaczem-7-segmetnowym-id16152).
 
 <video width="640" height="480" controls><source src="https://hssn.hs-ldz.pl/espresso-timer/MOV_0656_nosound.mp4" type="video/mp4">Your browser does not support the video tag.</video>
  
-Prototyp działa, wiec w kolejnym poście będziemy robili płytkę drukowaną.
+Prototyp działa, więc w kolejnym poście będziemy robili płytkę drukowaną.
 
 
 Autor: @Alex
