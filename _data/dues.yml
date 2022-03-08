@@ -1,7 +1,7 @@
-balance_so_far: 12497.749999999995
+balance_so_far: 13130.099999999995
 balances_by_account_labels:
   Konto Jacka: 4872.57
-  Konto stowarzyszenia: 7625.18
+  Konto stowarzyszenia: 8257.53
 by_period:
   Bilans:
     monthly:
@@ -52,7 +52,7 @@ by_period:
       2022-02:
         Suma: 703.1499999999975
       2022-03:
-        Suma: -325.0
+        Suma: 307.35
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -69,14 +69,14 @@ by_period:
       2021Q4:
         Suma: 1112.92
       2022Q1:
-        Suma: 1094.8099999999972
+        Suma: 1727.1599999999976
     yearly:
       '2020':
         Suma: 6840.140000000001
       '2021':
         Suma: 4562.799999999996
       '2022':
-        Suma: 1094.8099999999972
+        Suma: 1727.1599999999976
   Przychody:
     monthly:
       2020-04:
@@ -126,7 +126,7 @@ by_period:
       2022-02:
         Suma: 1700.0
       2022-03:
-        Suma: 500.0
+        Suma: 1200.0
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -143,14 +143,14 @@ by_period:
       2021Q4:
         Suma: 6070.0
       2022Q1:
-        Suma: 4242.0
+        Suma: 4942.0
     yearly:
       '2020':
         Suma: 11151.36
       '2021':
         Suma: 24155.4
       '2022':
-        Suma: 4242.0
+        Suma: 4942.0
   Saldo:
     monthly:
       2020-04:
@@ -200,7 +200,7 @@ by_period:
       2022-02:
         Suma: 12822.749999999996
       2022-03:
-        Suma: 12497.749999999996
+        Suma: 13130.099999999997
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -217,14 +217,14 @@ by_period:
       2021Q4:
         Suma: 11402.939999999997
       2022Q1:
-        Suma: 12497.749999999995
+        Suma: 13130.099999999995
     yearly:
       '2020':
         Suma: 6840.140000000001
       '2021':
         Suma: 11402.939999999997
       '2022':
-        Suma: 12497.749999999995
+        Suma: 13130.099999999995
   Wydatki:
     monthly:
       2020-08:
@@ -304,6 +304,7 @@ by_period:
         "Pozosta\u0142e": 104.20000000000255
       2022-03:
         Czynsz: 800.0
+        Internet: 67.65
         "Pozosta\u0142e": 25.0
     quarterly:
       2020Q3:
@@ -333,7 +334,7 @@ by_period:
         "Pozosta\u0142e": 1178.94
       2022Q1:
         Czynsz: 2400.0
-        Internet: 135.3
+        Internet: 202.95000000000002
         "Ksi\u0119gowo\u015B\u0107": 50.0
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 309.73
         "Pozosta\u0142e": 252.16000000000253
@@ -349,11 +350,11 @@ by_period:
         "Pozosta\u0142e": 5351.940000000002
       '2022':
         Czynsz: 2400.0
-        Internet: 135.3
+        Internet: 202.95000000000002
         "Ksi\u0119gowo\u015B\u0107": 50.0
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 309.73
         "Pozosta\u0142e": 252.16000000000253
-dues_last_updated: 04-03-2022
-dues_num_subscribers: 15
-dues_total_lastmonth: 1800.0
+dues_last_updated: 07-03-2022
+dues_num_subscribers: 14
+dues_total_lastmonth: 2400.0
 extra_monthly_reservations: 3200
