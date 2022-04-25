@@ -126,32 +126,32 @@ thead {
         <tr style="font-weight: bold">
             <td class="name"><strong>Cykliczne razem x {{ site.data.dues_config.obligations_reserve_months }} mies</td>
             {% assign dues_reserved_obligations_total = dues_reserved_obligations_total_monthly|times: site.data.dues_config.obligations_reserve_months %}
-            <td class="value">{{ dues_reserved_obligations_total }} zł</td>
+            <td class="value">{{ dues_reserved_obligations_total | round: 2 }} zł</td>
         </tr>
 
         <tr style="font-weight: bold">
             <td class="name">Autorezerwacja (od 11 listopada 2020)</td>
-            <td class="value">{{ site.data.dues.extra_monthly_reservations }} zł</td>
+            <td class="value">{{ site.data.dues.extra_monthly_reservations | round: 2 }} zł</td>
         </tr>
 
         {% assign oneoff_reservations_total = 0 %}
             {% for reservation in site.data.dues_config.reservations %}
                 <tr>
                 <td class="name">{{ reservation[0] }}</td>
-                <td class="value">{{ reservation[1].amount_pln }} zł</td>
+                <td class="value">{{ reservation[1].amount_pln | round: 2 }} zł</td>
                 {% assign oneoff_reservations_total = oneoff_reservations_total|plus: reservation[1].amount_pln %}
                 </tr>
             {% endfor %}
         
         <tr style="font-weight: bold">
             <td class="name"><strong>Jednorazowe razem</td>
-            <td class="value">{{ oneoff_reservations_total }} zł</td>
+            <td class="value">{{ oneoff_reservations_total | round: 2 }} zł</td>
         </tr>
 
         <tr style="font-weight: bold">
             {% assign reservations_total = oneoff_reservations_total|plus: dues_reserved_obligations_total|plus: site.data.dues.extra_monthly_reservations %}
             <td class="name"><strong>Cykliczne + autorezerwacja + jednorazowe</td>
-            <td class="value">{{ reservations_total }} zł</td>
+            <td class="value">{{ reservations_total | round: 2 }} zł</td>
         </tr>
         
         <tr>

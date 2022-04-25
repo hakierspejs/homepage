@@ -7,8 +7,8 @@ obligations:
   Księgowość:
     amount_pln: 25.0
     every_months: 1
-  Domena hs-ldz.pl:
-    amount_pln: 50.0
+  "Domeny (hs-ldz.pl, hakierspejs.pl)":
+    amount_pln: 104.79
     every_months: 12
   Internet Toya 100mbps:
     amount_pln: 67.65
