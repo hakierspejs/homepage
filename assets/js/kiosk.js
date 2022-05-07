@@ -58,4 +58,4 @@ async function main() {
 }
 
 main();
-window.setInterval(main, 6000);
+window.setInterval(main, 900000);
