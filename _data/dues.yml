@@ -1,7 +1,7 @@
-balance_so_far: 13486.359999999995
+balance_so_far: 13143.929999999995
 balances_by_account_labels:
   Konto Jacka: 4134.890000000001
-  Konto stowarzyszenia: 9351.47
+  Konto stowarzyszenia: 9009.039999999999
 by_period:
   Bilans:
     monthly:
@@ -56,7 +56,7 @@ by_period:
       2022-04:
         Suma: 351.12999999999874
       2022-05:
-        Suma: 592.0
+        Suma: 249.56999999999994
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -75,14 +75,14 @@ by_period:
       2022Q1:
         Suma: 1140.2899999999981
       2022Q2:
-        Suma: 943.1299999999987
+        Suma: 600.6999999999989
     yearly:
       '2020':
         Suma: 6840.140000000001
       '2021':
         Suma: 4562.799999999996
       '2022':
-        Suma: 2083.4199999999964
+        Suma: 1740.9899999999961
   Przychody:
     monthly:
       2020-04:
@@ -216,7 +216,7 @@ by_period:
       2022-04:
         Suma: 12894.359999999995
       2022-05:
-        Suma: 13486.359999999995
+        Suma: 13143.929999999995
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -235,14 +235,14 @@ by_period:
       2022Q1:
         Suma: 12543.229999999996
       2022Q2:
-        Suma: 13486.359999999995
+        Suma: 13143.929999999995
     yearly:
       '2020':
         Suma: 6840.140000000001
       '2021':
         Suma: 11402.939999999997
       '2022':
-        Suma: 13486.359999999993
+        Suma: 13143.929999999993
   Wydatki:
     monthly:
       2020-08:
@@ -331,6 +331,7 @@ by_period:
         "Pozosta\u0142e": 331.22000000000116
       2022-05:
         Czynsz: 800.0
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 342.43
     quarterly:
       2020Q3:
         "Pozosta\u0142e": 94.35999999999967
@@ -366,6 +367,7 @@ by_period:
       2022Q2:
         Czynsz: 1600.0
         Internet: 67.65
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 342.43
         "Pozosta\u0142e": 331.22000000000116
     yearly:
       '2020':
@@ -381,9 +383,9 @@ by_period:
         Czynsz: 4000.0
         Internet: 270.6
         "Ksi\u0119gowo\u015B\u0107": 50.0
-        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 1200.92
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 1543.3500000000001
         "Pozosta\u0142e": 1321.0700000000033
-dues_last_updated: 07-05-2022
-dues_num_subscribers: 14
-dues_total_lastmonth: 1842.0
+dues_last_updated: 09-05-2022
+dues_num_subscribers: 12
+dues_total_lastmonth: 1542.0
 extra_monthly_reservations: 3600
