@@ -1,4 +1,4 @@
-balance_so_far: 13856.019999999995
+balance_so_far: 13856.019999999991
 balances_by_account_labels:
   Konto Jacka: 4134.890000000001
   Konto stowarzyszenia: 9721.13
@@ -26,9 +26,9 @@ by_period:
       2021-01:
         Suma: -94.18999999999892
       2021-02:
-        Suma: -96.75
+        Suma: -96.74999999999977
       2021-03:
-        Suma: 340.8599999999983
+        Suma: 340.8599999999981
       2021-04:
         Suma: 20.710000000000036
       2021-05:
@@ -69,7 +69,7 @@ by_period:
       2021Q1:
         Suma: 149.91999999999916
       2021Q2:
-        Suma: 1724.539999999999
+        Suma: 1724.5399999999981
       2021Q3:
         Suma: 1575.4199999999983
       2021Q4:
@@ -80,7 +80,7 @@ by_period:
         Suma: 1312.789999999999
     yearly:
       '2020':
-        Suma: 6840.140000000001
+        Suma: 6840.14
       '2021':
         Suma: 4562.799999999996
       '2022':
@@ -192,11 +192,11 @@ by_period:
       2021-02:
         Suma: 6649.200000000001
       2021-03:
-        Suma: 6990.0599999999995
+        Suma: 6990.059999999999
       2021-04:
-        Suma: 7010.7699999999995
+        Suma: 7010.769999999999
       2021-05:
-        Suma: 8095.759999999998
+        Suma: 8095.7599999999975
       2021-06:
         Suma: 8714.599999999999
       2021-07:
@@ -233,88 +233,95 @@ by_period:
       2021Q1:
         Suma: 6990.059999999999
       2021Q2:
-        Suma: 8714.599999999999
+        Suma: 8714.599999999997
       2021Q3:
-        Suma: 10290.019999999997
+        Suma: 10290.019999999995
       2021Q4:
-        Suma: 11402.939999999997
+        Suma: 11402.939999999995
       2022Q1:
-        Suma: 12543.229999999996
+        Suma: 12543.229999999992
       2022Q2:
-        Suma: 13856.019999999995
+        Suma: 13856.019999999991
     yearly:
       '2020':
-        Suma: 6840.140000000001
+        Suma: 6840.14
       '2021':
-        Suma: 11402.939999999997
+        Suma: 11402.939999999995
       '2022':
-        Suma: 13856.019999999993
+        Suma: 13856.019999999991
   Wydatki:
     monthly:
       2020-08:
-        "Pozosta\u0142e": 94.35999999999967
+        Internet: 94.35999999999967
       2020-10:
         Czynsz: 800.0
       2020-11:
         Czynsz: 800.0
-        "Pozosta\u0142e": 1460.3000000000002
+        Internet: 1084.8000000000002
+        "Pozosta\u0142e": 375.5
       2020-12:
         Czynsz: 800.0
-        "Pozosta\u0142e": 356.55999999999995
+        Internet: 118.96
+        "Pozosta\u0142e": 237.6
       2021-01:
         Czynsz: 800.0
+        Internet: 368.89
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 625.3
-        "Pozosta\u0142e": 518.89
+        "Pozosta\u0142e": 150.0
       2021-02:
         Czynsz: 800.0
+        Internet: 793.0099999999999
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 298.46
-        "Pozosta\u0142e": 840.2899999999998
+        "Pozosta\u0142e": 47.28
       2021-03:
         Czynsz: 800.0
+        Internet: 54.89
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 340.63
-        "Pozosta\u0142e": 564.51
+        "Pozosta\u0142e": 509.62
       2021-04:
         Czynsz: 800.0
+        Internet: 54.89
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 1145.77
-        "Pozosta\u0142e": 54.89
       2021-05:
         Czynsz: 800.0
+        Internet: 254.8900000000009
         "Ksi\u0119gowo\u015B\u0107": 25.0
-        "Pozosta\u0142e": 482.04000000000093
+        "Pozosta\u0142e": 227.14999999999998
       2021-06:
         Czynsz: 800.0
+        Internet: 54.89
         "Ksi\u0119gowo\u015B\u0107": 25.0
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 223.04
-        "Pozosta\u0142e": 79.12
+        "Pozosta\u0142e": 24.23
       2021-07:
         Czynsz: 800.0
+        Internet: 54.89
         "Ksi\u0119gowo\u015B\u0107": 25.0
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 177.42
-        "Pozosta\u0142e": 54.89
       2021-08:
         Czynsz: 800.0
+        Internet: 994.5800000000019
         "Ksi\u0119gowo\u015B\u0107": 25.0
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 149.4
-        "Pozosta\u0142e": 994.5800000000019
       2021-09:
         Czynsz: 800.0
+        Internet: 243.78999999999962
         "Ksi\u0119gowo\u015B\u0107": 25.0
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 177.5
-        "Pozosta\u0142e": 583.7899999999996
+        "Pozosta\u0142e": 340.0
       2021-10:
         Czynsz: 800.0
-        "Pozosta\u0142e": 374.3400000000007
+        Internet: 374.3400000000007
       2021-11:
         Czynsz: 800.0
+        Internet: 454.6999999999998
         "Ksi\u0119gowo\u015B\u0107": 25.0
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 706.38
-        "Pozosta\u0142e": 454.6999999999998
       2021-12:
         Czynsz: 800.0
-        Internet: 268.9
+        Internet: 618.7999999999996
         "Ksi\u0119gowo\u015B\u0107": 25.0
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 352.86
-        "Pozosta\u0142e": 349.89999999999964
       2022-01:
         Czynsz: 800.0
         Internet: 67.65
@@ -323,18 +330,17 @@ by_period:
         "Pozosta\u0142e": 122.96
       2022-02:
         Czynsz: 800.0
-        Internet: 67.65
+        Internet: 171.85000000000255
         "Ksi\u0119gowo\u015B\u0107": 25.0
-        "Pozosta\u0142e": 104.20000000000255
       2022-03:
         Czynsz: 800.0
-        Internet: 67.65
+        Internet: 805.3399999999996
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 891.19
-        "Pozosta\u0142e": 762.6899999999996
+        "Pozosta\u0142e": 25.0
       2022-04:
         Czynsz: 800.0
-        Internet: 67.65
-        "Pozosta\u0142e": 331.22000000000116
+        Internet: 373.87000000000114
+        "Pozosta\u0142e": 25.0
       2022-05:
         Czynsz: 800.0
         Internet: 67.65
@@ -346,58 +352,62 @@ by_period:
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 464.61
     quarterly:
       2020Q3:
-        "Pozosta\u0142e": 94.35999999999967
+        Internet: 94.35999999999967
       2020Q4:
         Czynsz: 2400.0
-        "Pozosta\u0142e": 1816.8600000000001
+        Internet: 1203.7600000000002
+        "Pozosta\u0142e": 613.1
       2021Q1:
         Czynsz: 2400.0
+        Internet: 1216.79
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 1264.3899999999999
-        "Pozosta\u0142e": 1923.69
+        "Pozosta\u0142e": 706.9
       2021Q2:
         Czynsz: 2400.0
+        Internet: 364.67000000000087
         "Ksi\u0119gowo\u015B\u0107": 50.0
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 1368.81
-        "Pozosta\u0142e": 616.0500000000009
+        "Pozosta\u0142e": 251.37999999999997
       2021Q3:
         Czynsz: 2400.0
+        Internet: 1293.2600000000016
         "Ksi\u0119gowo\u015B\u0107": 75.0
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 504.32
-        "Pozosta\u0142e": 1633.2600000000016
+        "Pozosta\u0142e": 340.0
       2021Q4:
         Czynsz: 2400.0
-        Internet: 268.9
+        Internet: 1447.8400000000001
         "Ksi\u0119gowo\u015B\u0107": 50.0
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 1059.24
-        "Pozosta\u0142e": 1178.94
       2022Q1:
         Czynsz: 2400.0
-        Internet: 202.95000000000002
+        Internet: 1044.8400000000022
         "Ksi\u0119gowo\u015B\u0107": 50.0
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 1200.92
-        "Pozosta\u0142e": 989.8500000000022
+        "Pozosta\u0142e": 147.95999999999998
       2022Q2:
         Czynsz: 2400.0
-        Internet: 202.95000000000002
+        Internet: 509.1700000000011
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 807.04
-        "Pozosta\u0142e": 361.22000000000116
+        "Pozosta\u0142e": 55.0
     yearly:
       '2020':
         Czynsz: 2400.0
-        "Pozosta\u0142e": 1911.2199999999998
+        Internet: 1298.12
+        "Pozosta\u0142e": 613.1
       '2021':
         Czynsz: 9600.0
-        Internet: 268.9
+        Internet: 4322.560000000003
         "Ksi\u0119gowo\u015B\u0107": 175.0
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 4196.76
-        "Pozosta\u0142e": 5351.940000000002
+        "Pozosta\u0142e": 1298.2800000000002
       '2022':
         Czynsz: 4800.0
-        Internet: 405.9
+        Internet: 1554.0100000000036
         "Ksi\u0119gowo\u015B\u0107": 50.0
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 2007.96
-        "Pozosta\u0142e": 1351.0700000000033
-dues_last_updated: 16-06-2022
+        "Pozosta\u0142e": 202.95999999999998
+dues_last_updated: 17-06-2022
 dues_num_subscribers: 13
 dues_total_lastmonth: 1742.0
-extra_monthly_reservations: 3800
+extra_monthly_reservations: 4000
