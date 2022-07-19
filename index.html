@@ -30,9 +30,12 @@ layout: default
     Następne spotkanie: {% include date.txt time_arg=site.data.meetings.date lang="pl" %}
     </p>
     <p>
-      {% if site.data.meetings.location %}Miejsce: {{ site.data.meetings.location }}. Zaczynamy wcześnie, ale nie ma problemu jeśli dołączysz później :).{% endif %}
-      {% if site.data.meetings.location %}{% else %}
-      Spotkanie online.{% endif %} Więcej info na <u><a href="{{ site.data.meetings.url }}" title="przenosi na inną stronę - z informacjami o najbliższym spotkaniu">meetup.com</a></u>.
+      {% if site.data.meetings.location and site.data.meetings.location != '' %}
+      Miejsce: {{ site.data.meetings.location }}. Zaczynamy wcześnie, ale nie ma problemu jeśli dołączysz później :).
+      {% else %}
+      Spotkanie online.
+      {% endif %} 
+      Więcej info na <u><a href="{{ site.data.meetings.url }}" title="przenosi na inną stronę - z informacjami o najbliższym spotkaniu">meetup.com</a></u>.
     </p>
   </section>
 
