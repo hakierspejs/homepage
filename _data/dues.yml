@@ -1,7 +1,7 @@
-balance_so_far: 13588.369999999995
+balance_so_far: 13788.369999999995
 balances_by_account_labels:
   Konto Jacka: 4134.890000000001
-  Konto stowarzyszenia: 9453.479999999996
+  Konto stowarzyszenia: 9653.479999999996
 by_period:
   Bilans:
     monthly:
@@ -60,7 +60,7 @@ by_period:
       2022-06:
         Suma: 440.15999999999985
       2022-07:
-        Suma: -298.07000000000016
+        Suma: -98.07000000000016
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -81,14 +81,14 @@ by_period:
       2022Q2:
         Suma: 1343.2099999999991
       2022Q3:
-        Suma: -298.07000000000016
+        Suma: -98.07000000000016
     yearly:
       '2020':
         Suma: 6840.14
       '2021':
         Suma: 4562.799999999999
       '2022':
-        Suma: 2185.4299999999967
+        Suma: 2385.4299999999967
   Przychody:
     monthly:
       2020-04:
@@ -146,7 +146,7 @@ by_period:
       2022-06:
         Suma: 2142.0
       2022-07:
-        Suma: 1700.0
+        Suma: 1900.0
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -167,14 +167,14 @@ by_period:
       2022Q2:
         Suma: 5484.0
       2022Q3:
-        Suma: 1700.0
+        Suma: 1900.0
     yearly:
       '2020':
         Suma: 11151.36
       '2021':
         Suma: 24155.4
       '2022':
-        Suma: 13168.01
+        Suma: 13368.01
   Saldo:
     monthly:
       2020-04:
@@ -232,7 +232,7 @@ by_period:
       2022-06:
         Suma: 13886.439999999995
       2022-07:
-        Suma: 13588.369999999995
+        Suma: 13788.369999999995
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -253,14 +253,14 @@ by_period:
       2022Q2:
         Suma: 13886.439999999995
       2022Q3:
-        Suma: 13588.369999999995
+        Suma: 13788.369999999995
     yearly:
       '2020':
         Suma: 6840.14
       '2021':
         Suma: 11402.939999999999
       '2022':
-        Suma: 13588.369999999995
+        Suma: 13788.369999999995
   Wydatki:
     monthly:
       2020-08:
@@ -434,7 +434,7 @@ by_period:
         "Ksi\u0119gowo\u015B\u0107": 50.0
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 2224.94
         "Pozosta\u0142e": 1402.0700000000033
-dues_last_updated: 15-07-2022
-dues_num_subscribers: 15
-dues_total_lastmonth: 2442.0
+dues_last_updated: 18-07-2022
+dues_num_subscribers: 14
+dues_total_lastmonth: 2300.0
 extra_monthly_reservations: 4000
