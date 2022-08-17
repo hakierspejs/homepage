@@ -13,6 +13,9 @@ obligations:
   "Domeny (hs-ldz.pl, hakierspejs.pl)":
     amount_pln: 104.79
     every_months: 12
+  "Podatek od nieruchomości (orientacyjnie)"
+    amount_pln: 1200
+    every_months: 12
   Internet Toya 100mbps:
     amount_pln: 67.65
     every_months: 1
