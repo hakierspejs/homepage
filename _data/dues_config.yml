@@ -1,11 +1,8 @@
 dues_monthly_goal: 2000
 dues_total_goal: 7500
 obligations:
-  "Czynsz (w tym: podatki i \u015Bmieci, bez wody)":
-    amount_pln: 800.0
-    every_months: 1
   "Czynsz (Zielona 30 l.u. 3)":
-    amount_pln: 892.44
+    amount_pln: 973.50
     every_months: 1
   Księgowość:
     amount_pln: 25.0
