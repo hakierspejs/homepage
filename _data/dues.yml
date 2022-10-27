@@ -160,7 +160,7 @@ by_period:
       2022-09:
         Suma: 1759.0
       2022-10:
-        Suma: 1950.0
+        Suma: 2140.0
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -183,14 +183,14 @@ by_period:
       2022Q3:
         Suma: 5962.01
       2022Q4:
-        Suma: 1950.0
+        Suma: 2140.0
     yearly:
       '2020':
         Suma: 11151.36
       '2021':
         Suma: 24155.4
       '2022':
-        Suma: 19380.02
+        Suma: 19570.02
   Saldo:
     monthly:
       2020-04:
@@ -410,7 +410,7 @@ by_period:
         Czynsz: 973.5
         Internet: 67.65
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 881.84
-        "Pozosta\u0142e": 249.96999999999883
+        "Pozosta\u0142e": 439.96999999999883
     quarterly:
       2020Q3:
         "Pozosta\u0142e": 94.35999999999967
@@ -462,7 +462,7 @@ by_period:
         Czynsz: 973.5
         Internet: 67.65
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 881.84
-        "Pozosta\u0142e": 249.96999999999883
+        "Pozosta\u0142e": 439.96999999999883
     yearly:
       '2020':
         Czynsz: 2400.0
@@ -480,8 +480,8 @@ by_period:
         "Ksi\u0119gowo\u015B\u0107": 50.0
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 3603.44
         "Podatek od nieruchomo\u015Bci": 324.0
-        "Pozosta\u0142e": 5117.65999999999
-dues_last_updated: 24-10-2022
+        "Pozosta\u0142e": 5307.65999999999
+dues_last_updated: 26-10-2022
 dues_num_subscribers: 16
-dues_total_lastmonth: 2051.0
+dues_total_lastmonth: 2241.0
 extra_monthly_reservations: 4800
