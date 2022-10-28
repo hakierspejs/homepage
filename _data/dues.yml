@@ -1,7 +1,7 @@
-balance_so_far: 10230.440000000008
+balance_so_far: 10200.440000000008
 balances_by_account_labels:
   Konto Jacka: 3768.5499999999993
-  Konto stowarzyszenia: 6461.889999999999
+  Konto stowarzyszenia: 6431.889999999999
 by_period:
   Bilans:
     monthly:
@@ -66,7 +66,7 @@ by_period:
       2022-09:
         Suma: -2533.949999999988
       2022-10:
-        Suma: -222.95999999999867
+        Suma: -252.95999999999867
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -89,14 +89,14 @@ by_period:
       2022Q3:
         Suma: -3433.039999999988
       2022Q4:
-        Suma: -222.95999999999867
+        Suma: -252.95999999999867
     yearly:
       '2020':
         Suma: 6840.14
       '2021':
         Suma: 4562.799999999999
       '2022':
-        Suma: -1172.499999999989
+        Suma: -1202.499999999989
   Przychody:
     monthly:
       2020-04:
@@ -254,7 +254,7 @@ by_period:
       2022-09:
         Suma: 10453.400000000005
       2022-10:
-        Suma: 10230.440000000006
+        Suma: 10200.440000000006
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -277,14 +277,14 @@ by_period:
       2022Q3:
         Suma: 10453.400000000007
       2022Q4:
-        Suma: 10230.440000000008
+        Suma: 10200.440000000008
     yearly:
       '2020':
         Suma: 6840.14
       '2021':
         Suma: 11402.939999999999
       '2022':
-        Suma: 10230.44000000001
+        Suma: 10200.44000000001
   Wydatki:
     monthly:
       2020-08:
@@ -410,7 +410,7 @@ by_period:
         Czynsz: 973.5
         Internet: 67.65
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 881.84
-        "Pozosta\u0142e": 439.96999999999883
+        "Pozosta\u0142e": 469.96999999999883
     quarterly:
       2020Q3:
         "Pozosta\u0142e": 94.35999999999967
@@ -462,7 +462,7 @@ by_period:
         Czynsz: 973.5
         Internet: 67.65
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 881.84
-        "Pozosta\u0142e": 439.96999999999883
+        "Pozosta\u0142e": 469.96999999999883
     yearly:
       '2020':
         Czynsz: 2400.0
@@ -480,8 +480,8 @@ by_period:
         "Ksi\u0119gowo\u015B\u0107": 50.0
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 3603.44
         "Podatek od nieruchomo\u015Bci": 324.0
-        "Pozosta\u0142e": 5307.65999999999
-dues_last_updated: 26-10-2022
+        "Pozosta\u0142e": 5337.65999999999
+dues_last_updated: 27-10-2022
 dues_num_subscribers: 16
 dues_total_lastmonth: 2241.0
 extra_monthly_reservations: 4800
