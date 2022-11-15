@@ -1,7 +1,7 @@
-balance_so_far: 9338.000000000007
+balance_so_far: 9388.000000000007
 balances_by_account_labels:
   Konto Jacka: 3768.5499999999993
-  Konto stowarzyszenia: 5569.449999999997
+  Konto stowarzyszenia: 5619.449999999997
 by_period:
   Bilans:
     monthly:
@@ -68,7 +68,7 @@ by_period:
       2022-10:
         Suma: -333.9599999999987
       2022-11:
-        Suma: -781.44
+        Suma: -731.44
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -91,14 +91,14 @@ by_period:
       2022Q3:
         Suma: -3433.039999999988
       2022Q4:
-        Suma: -1115.3999999999987
+        Suma: -1065.3999999999987
     yearly:
       '2020':
         Suma: 6840.14
       '2021':
         Suma: 4562.799999999999
       '2022':
-        Suma: -2064.939999999988
+        Suma: -2014.9399999999878
   Przychody:
     monthly:
       2020-04:
@@ -164,7 +164,7 @@ by_period:
       2022-10:
         Suma: 2140.0
       2022-11:
-        Suma: 1300.0
+        Suma: 1350.0
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -187,14 +187,14 @@ by_period:
       2022Q3:
         Suma: 5962.01
       2022Q4:
-        Suma: 3440.0
+        Suma: 3490.0
     yearly:
       '2020':
         Suma: 11151.36
       '2021':
         Suma: 24155.4
       '2022':
-        Suma: 20870.02
+        Suma: 20920.02
   Saldo:
     monthly:
       2020-04:
@@ -260,7 +260,7 @@ by_period:
       2022-10:
         Suma: 10119.440000000006
       2022-11:
-        Suma: 9338.000000000005
+        Suma: 9388.000000000005
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -283,14 +283,14 @@ by_period:
       2022Q3:
         Suma: 10453.400000000007
       2022Q4:
-        Suma: 9338.000000000007
+        Suma: 9388.000000000007
     yearly:
       '2020':
         Suma: 6840.14
       '2021':
         Suma: 11402.939999999999
       '2022':
-        Suma: 9338.000000000011
+        Suma: 9388.000000000011
   Wydatki:
     monthly:
       2020-08:
@@ -493,7 +493,7 @@ by_period:
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 3603.44
         "Podatek od nieruchomo\u015Bci": 405.0
         "Pozosta\u0142e": 6377.94999999999
-dues_last_updated: 10-11-2022
-dues_num_subscribers: 13
-dues_total_lastmonth: 2040.0
+dues_last_updated: 14-11-2022
+dues_num_subscribers: 12
+dues_total_lastmonth: 1940.0
 extra_monthly_reservations: 4800
