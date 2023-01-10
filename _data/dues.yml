@@ -1,7 +1,7 @@
-balance_so_far: 11118.55000000001
+balance_so_far: 11058.28000000001
 balances_by_account_labels:
   Konto Jacka: 3768.5499999999993
-  Konto stowarzyszenia: 7349.99999999999
+  Konto stowarzyszenia: 7289.729999999993
 by_period:
   Bilans:
     monthly:
@@ -72,7 +72,7 @@ by_period:
       2022-12:
         Suma: -298.6600000000003
       2023-01:
-        Suma: -73.5
+        Suma: -133.76999999999998
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -97,7 +97,7 @@ by_period:
       2022Q4:
         Suma: 738.6500000000033
       2023Q1:
-        Suma: -73.5
+        Suma: -133.76999999999998
     yearly:
       '2020':
         Suma: 6840.14
@@ -106,7 +106,7 @@ by_period:
       '2022':
         Suma: -210.88999999998487
       '2023':
-        Suma: -73.5
+        Suma: -133.76999999999998
   Przychody:
     monthly:
       2020-04:
@@ -280,7 +280,7 @@ by_period:
       2022-12:
         Suma: 11192.05000000001
       2023-01:
-        Suma: 11118.55000000001
+        Suma: 11058.28000000001
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -305,7 +305,7 @@ by_period:
       2022Q4:
         Suma: 11192.05000000001
       2023Q1:
-        Suma: 11118.55000000001
+        Suma: 11058.28000000001
     yearly:
       '2020':
         Suma: 6840.14
@@ -314,7 +314,7 @@ by_period:
       '2022':
         Suma: 11192.050000000014
       '2023':
-        Suma: 11118.550000000014
+        Suma: 11058.280000000013
   Wydatki:
     monthly:
       2020-08:
@@ -455,6 +455,7 @@ by_period:
         "Pozosta\u0142e": 1455.67
       2023-01:
         Czynsz: 973.5
+        Internet: 60.27
     quarterly:
       2020Q3:
         "Pozosta\u0142e": 94.35999999999967
@@ -510,6 +511,7 @@ by_period:
         "Pozosta\u0142e": 4781.019999999995
       2023Q1:
         Czynsz: 973.5
+        Internet: 60.27
     yearly:
       '2020':
         Czynsz: 2400.0
@@ -530,7 +532,8 @@ by_period:
         "Pozosta\u0142e": 9648.709999999986
       '2023':
         Czynsz: 973.5
-dues_last_updated: 07-01-2023
-dues_num_subscribers: 12
-dues_total_lastmonth: 2650.0
+        Internet: 60.27
+dues_last_updated: 09-01-2023
+dues_num_subscribers: 11
+dues_total_lastmonth: 2450.0
 extra_monthly_reservations: 5200
