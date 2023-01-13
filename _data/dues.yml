@@ -1,7 +1,7 @@
-balance_so_far: 11030.400000000018
+balance_so_far: 10956.900000000018
 balances_by_account_labels:
   Konto Jacka: 3768.5499999999993
-  Konto stowarzyszenia: 7261.850000000003
+  Konto stowarzyszenia: 7188.350000000003
 by_period:
   Bilans:
     monthly:
@@ -72,7 +72,7 @@ by_period:
       2022-12:
         Suma: -298.6600000000003
       2023-01:
-        Suma: -161.64999999999281
+        Suma: -235.14999999999281
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -97,7 +97,7 @@ by_period:
       2022Q4:
         Suma: 738.6500000000033
       2023Q1:
-        Suma: -161.64999999999281
+        Suma: -235.14999999999281
     yearly:
       '2020':
         Suma: 6840.14
@@ -106,7 +106,7 @@ by_period:
       '2022':
         Suma: -210.88999999998487
       '2023':
-        Suma: -161.64999999999281
+        Suma: -235.14999999999281
   Przychody:
     monthly:
       2020-04:
@@ -176,7 +176,7 @@ by_period:
       2022-12:
         Suma: 3307.89
       2023-01:
-        Suma: 1200.0
+        Suma: 1250.0
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -201,7 +201,7 @@ by_period:
       2022Q4:
         Suma: 11255.48
       2023Q1:
-        Suma: 1200.0
+        Suma: 1250.0
     yearly:
       '2020':
         Suma: 11151.36
@@ -210,7 +210,7 @@ by_period:
       '2022':
         Suma: 28685.5
       '2023':
-        Suma: 1200.0
+        Suma: 1250.0
   Saldo:
     monthly:
       2020-04:
@@ -280,7 +280,7 @@ by_period:
       2022-12:
         Suma: 11192.05000000001
       2023-01:
-        Suma: 11030.400000000018
+        Suma: 10956.900000000018
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -305,7 +305,7 @@ by_period:
       2022Q4:
         Suma: 11192.05000000001
       2023Q1:
-        Suma: 11030.400000000018
+        Suma: 10956.900000000018
     yearly:
       '2020':
         Suma: 6840.14
@@ -314,7 +314,7 @@ by_period:
       '2022':
         Suma: 11192.050000000014
       '2023':
-        Suma: 11030.400000000021
+        Suma: 10956.900000000021
   Wydatki:
     monthly:
       2020-08:
@@ -456,7 +456,7 @@ by_period:
       2023-01:
         Czynsz: 973.5
         Internet: 60.27
-        "Pozosta\u0142e": 327.87999999999283
+        "Pozosta\u0142e": 451.37999999999283
     quarterly:
       2020Q3:
         "Pozosta\u0142e": 94.35999999999967
@@ -513,7 +513,7 @@ by_period:
       2023Q1:
         Czynsz: 973.5
         Internet: 60.27
-        "Pozosta\u0142e": 327.87999999999283
+        "Pozosta\u0142e": 451.37999999999283
     yearly:
       '2020':
         Czynsz: 2400.0
@@ -535,8 +535,8 @@ by_period:
       '2023':
         Czynsz: 973.5
         Internet: 60.27
-        "Pozosta\u0142e": 327.87999999999283
-dues_last_updated: 11-01-2023
+        "Pozosta\u0142e": 451.37999999999283
+dues_last_updated: 12-01-2023
 dues_num_subscribers: 13
 dues_total_lastmonth: 2750.0
 extra_monthly_reservations: 5200
