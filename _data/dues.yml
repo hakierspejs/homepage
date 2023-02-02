@@ -1,7 +1,7 @@
-balance_so_far: 11573.770000000017
+balance_so_far: 11773.770000000017
 balances_by_account_labels:
   Konto Jacka: 3768.5499999999993
-  Konto stowarzyszenia: 7805.219999999995
+  Konto stowarzyszenia: 8005.219999999995
 by_period:
   Bilans:
     monthly:
@@ -73,6 +73,8 @@ by_period:
         Suma: -298.6600000000003
       2023-01:
         Suma: 381.7200000000071
+      2023-02:
+        Suma: 200.0
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -97,7 +99,7 @@ by_period:
       2022Q4:
         Suma: 738.6500000000033
       2023Q1:
-        Suma: 381.7200000000071
+        Suma: 581.7200000000071
     yearly:
       '2020':
         Suma: 6840.14
@@ -106,7 +108,7 @@ by_period:
       '2022':
         Suma: -210.88999999998487
       '2023':
-        Suma: 381.7200000000071
+        Suma: 581.7200000000071
   Przychody:
     monthly:
       2020-04:
@@ -177,6 +179,8 @@ by_period:
         Suma: 3307.89
       2023-01:
         Suma: 2275.44
+      2023-02:
+        Suma: 200.0
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -201,7 +205,7 @@ by_period:
       2022Q4:
         Suma: 11255.48
       2023Q1:
-        Suma: 2275.44
+        Suma: 2475.44
     yearly:
       '2020':
         Suma: 11151.36
@@ -210,7 +214,7 @@ by_period:
       '2022':
         Suma: 28685.5
       '2023':
-        Suma: 2275.44
+        Suma: 2475.44
   Saldo:
     monthly:
       2020-04:
@@ -281,6 +285,8 @@ by_period:
         Suma: 11192.05000000001
       2023-01:
         Suma: 11573.770000000017
+      2023-02:
+        Suma: 11773.770000000017
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -305,7 +311,7 @@ by_period:
       2022Q4:
         Suma: 11192.05000000001
       2023Q1:
-        Suma: 11573.770000000017
+        Suma: 11773.770000000017
     yearly:
       '2020':
         Suma: 6840.14
@@ -314,7 +320,7 @@ by_period:
       '2022':
         Suma: 11192.050000000014
       '2023':
-        Suma: 11573.77000000002
+        Suma: 11773.77000000002
   Wydatki:
     monthly:
       2020-08:
@@ -539,7 +545,7 @@ by_period:
         Internet: 127.92000000000002
         "Podatek od nieruchomo\u015Bci": 106.0
         "Pozosta\u0142e": 686.2999999999929
-dues_last_updated: 30-01-2023
+dues_last_updated: 01-02-2023
 dues_num_subscribers: 12
 dues_total_lastmonth: 2275.44
 extra_monthly_reservations: 5400
