@@ -1,7 +1,7 @@
-balance_so_far: 13699.440000000017
+balance_so_far: 13468.000000000025
 balances_by_account_labels:
   Konto Jacka: 3768.5499999999993
-  Konto stowarzyszenia: 9930.889999999992
+  Konto stowarzyszenia: 9699.449999999997
 by_period:
   Bilans:
     monthly:
@@ -74,7 +74,7 @@ by_period:
       2023-01:
         Suma: 381.7200000000071
       2023-02:
-        Suma: 2125.67
+        Suma: 1894.2300000000087
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -99,7 +99,7 @@ by_period:
       2022Q4:
         Suma: 738.6500000000033
       2023Q1:
-        Suma: 2507.3900000000076
+        Suma: 2275.950000000016
     yearly:
       '2020':
         Suma: 6840.14
@@ -108,7 +108,7 @@ by_period:
       '2022':
         Suma: -210.88999999998487
       '2023':
-        Suma: 2507.3900000000076
+        Suma: 2275.950000000016
   Przychody:
     monthly:
       2020-04:
@@ -286,7 +286,7 @@ by_period:
       2023-01:
         Suma: 11573.770000000017
       2023-02:
-        Suma: 13699.440000000017
+        Suma: 13468.000000000025
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -311,7 +311,7 @@ by_period:
       2022Q4:
         Suma: 11192.05000000001
       2023Q1:
-        Suma: 13699.440000000017
+        Suma: 13468.000000000025
     yearly:
       '2020':
         Suma: 6840.14
@@ -320,7 +320,7 @@ by_period:
       '2022':
         Suma: 11192.050000000014
       '2023':
-        Suma: 13699.44000000002
+        Suma: 13468.00000000003
   Wydatki:
     monthly:
       2020-08:
@@ -467,6 +467,8 @@ by_period:
       2023-02:
         Czynsz: 973.5
         Internet: 0.83
+        "Podatek od nieruchomo\u015Bci": 106.0
+        "Pozosta\u0142e": 125.43999999999141
     quarterly:
       2020Q3:
         "Pozosta\u0142e": 94.35999999999967
@@ -523,8 +525,8 @@ by_period:
       2023Q1:
         Czynsz: 1947.0
         Internet: 128.75000000000003
-        "Podatek od nieruchomo\u015Bci": 106.0
-        "Pozosta\u0142e": 686.2999999999929
+        "Podatek od nieruchomo\u015Bci": 212.0
+        "Pozosta\u0142e": 811.7399999999843
     yearly:
       '2020':
         Czynsz: 2400.0
@@ -546,9 +548,9 @@ by_period:
       '2023':
         Czynsz: 1947.0
         Internet: 128.75000000000003
-        "Podatek od nieruchomo\u015Bci": 106.0
-        "Pozosta\u0142e": 686.2999999999929
-dues_last_updated: 07-02-2023
+        "Podatek od nieruchomo\u015Bci": 212.0
+        "Pozosta\u0142e": 811.7399999999843
+dues_last_updated: 08-02-2023
 dues_num_subscribers: 13
 dues_total_lastmonth: 4475.4400000000005
 extra_monthly_reservations: 5400
