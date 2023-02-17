@@ -3,9 +3,9 @@
 :root {
   --bg-color: #000000;
   --fg-color: #003300;
-  --light-color: #00ff00;
-  --dark-color: #00cc00;
-  --border-color: #339900;
+  --light-color: white;
+  --dark-color: #00ff00;
+  --border-color: white;
 }
 
 html {
@@ -18,12 +18,14 @@ a {
 }
 a:visited {
   color: var(--dark-color);
+  border:1px solid var(--dark-color);
 }
 a:visited:hover {
   color: var(--light-color);
+  border:1px solid var(--light-color);
 }
 a, nav a:visited {
-  color: var(--dark-color);
+  color: var(--light-color);
 }
 
 .button {
@@ -48,8 +50,11 @@ a, nav a:visited {
 .button:focus{
   border:1px solid white;
 }
-.button:not([disabled]):hover{
-  border:1px solid white;
+.button:not([disabled]):not([visited]):hover {
+  border:1px solid var(--dark-color);
+}
+.button:not([disabled]):visited:hover {
+  border:1px solid var(--light-color);
 }
 .button:active{
   background-color:#777777;
@@ -169,7 +174,7 @@ nav ul {
 }
 
 #isitopen:hover {
-  border-color: white;
+  border-color: var(--dark-color);
   color: var(--dark-color);
 }
 
