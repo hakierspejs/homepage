@@ -2,7 +2,7 @@
 title: "Drugie życie monitora VGA"
 tags: DIY
 layout: post
-image: https://hssn.hs-ldz.pl/img/7f1b3a5f-65ed-40f3-9b28-5dd80151c446.png
+image: https://hssi.hs-ldz.pl/640x480/http://server/img/7f1b3a5f-65ed-40f3-9b28-5dd80151c446.png
 ---
 
 
