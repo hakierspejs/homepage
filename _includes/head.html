@@ -1,4 +1,13 @@
 <meta charset="UTF-8">
+<meta property="og:type"  content="article" />
+<meta property="og:title" content="{{ site.title }} | {{ page.title }}" />
+
+{% if page.image %}
+    <meta property="og:image" content="{{ page.image }}" />
+{% else %}
+    <meta property="og:image" content="https://hssn.hs-ldz.pl/img/16604100f22b86378997ad2d2571714c9fb3764f.png" />
+{% endif %} 
+
 <link rel="stylesheet" href="{{ "/assets/styles/awsm.min.css" | relative_url }}">
 <link rel="stylesheet" href="{{ "/assets/styles/custom.css" | relative_url }}">
 <link xmlns="http://www.w3.org/1999/xhtml" rel="shortcut icon" href="{{ "/assets/logo.svg" | relative_url }}" />
