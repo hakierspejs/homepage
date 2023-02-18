@@ -36,7 +36,7 @@ Drugi problem to kwestia dokładności zegara i ustawiania godziny - na pewno ni
 * [OCXO](https://en.wikipedia.org/wiki/Crystal_oven)
 * [Rubidium standard](https://en.wikipedia.org/wiki/Rubidium_standard)
 
-Wybrałem NTP ze względu na bezobsługowość (czas letni należy oczywiście jebać prądem - patrz: ostatni akapit). Przejście na Pi Pico W wiązało się z komplikacjami: część RAMu była zarezerwowana na stos WiFi, który dodatkowo zajmował pierwszy interfejs PIO. Sterownik był napisany pod właśnie ten slot, więc musiałem to zmienić. Żeby zwolnić pamięć, z trybu ośmikolorowego przeszedłem na czarno-czerwony (1-bit). Po tygodniu debuggingu miałem już prototyp własnego sterownika.
+Wybrałem NTP ze względu na bezobsługowość (czas letni należy oczywiście je[a-z]{2}ć prądem - patrz: ostatni akapit). Przejście na Pi Pico W wiązało się z komplikacjami: część RAMu była zarezerwowana na stos WiFi, który dodatkowo zajmował pierwszy interfejs PIO. Sterownik był napisany pod właśnie ten slot, więc musiałem to zmienić. Żeby zwolnić pamięć, z trybu ośmikolorowego przeszedłem na czarno-czerwony (1-bit). Po tygodniu debuggingu miałem już prototyp własnego sterownika.
  
 ![](https://hssi.hs-ldz.pl/cx100,cy350,cw1000,ch850,640x/http://server/img/1736459728345.jpeg)
 
@@ -47,7 +47,7 @@ Kiedy już miałem [odpowiedni sterownik](https://github.com/hakierspejs/pico-vg
 
 Kod do projektu umieściłem na naszym spejsowym Githubie:
 
-https://github.com/hakierspejs/faugea-clock
+[https://github.com/hakierspejs/faugea-clock](https://github.com/hakierspejs/faugea-clock)
 
 Mam parę pomysłów, co możnaby w przyszłości ulepszyć w tym projekcie. Najbardziej denerwuje mnie brak niezawodnej obsługi stref czasowych, w szczególności czasu letniego. O ile dziś możemy obsłużyć to [ifami](https://github.com/hakierspejs/faugea-clock/blob/master/timezone.py#L19), to nieprzewidywalności polityki Unii Europejskiej sprawia, że mój projekt za parę lat może wskazywać złą godzinę. Niestety nie znam żadnego stabilnego źródła albo protokołu, którym mógłbym dostać tę informację w przyszłości.
 
