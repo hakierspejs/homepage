@@ -1,7 +1,7 @@
-balance_so_far: 10881.240000000027
+balance_so_far: 11081.240000000027
 balances_by_account_labels:
   Konto Jacka: 3758.5499999999993
-  Konto stowarzyszenia: 7122.690000000004
+  Konto stowarzyszenia: 7322.690000000004
 by_period:
   Bilans:
     monthly:
@@ -75,6 +75,8 @@ by_period:
         Suma: 381.7200000000071
       2023-02:
         Suma: -692.5299999999916
+      2023-03:
+        Suma: 200.0
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -99,7 +101,7 @@ by_period:
       2022Q4:
         Suma: 738.6500000000033
       2023Q1:
-        Suma: -310.80999999998403
+        Suma: -110.80999999998403
     yearly:
       '2020':
         Suma: 6840.14
@@ -108,7 +110,7 @@ by_period:
       '2022':
         Suma: -210.88999999998487
       '2023':
-        Suma: -310.80999999998403
+        Suma: -110.80999999998403
   Przychody:
     monthly:
       2020-04:
@@ -181,6 +183,8 @@ by_period:
         Suma: 2275.44
       2023-02:
         Suma: 3350.0
+      2023-03:
+        Suma: 200.0
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -205,7 +209,7 @@ by_period:
       2022Q4:
         Suma: 11255.48
       2023Q1:
-        Suma: 5625.4400000000005
+        Suma: 5825.4400000000005
     yearly:
       '2020':
         Suma: 11151.36
@@ -214,7 +218,7 @@ by_period:
       '2022':
         Suma: 28685.5
       '2023':
-        Suma: 5625.4400000000005
+        Suma: 5825.4400000000005
   Saldo:
     monthly:
       2020-04:
@@ -287,6 +291,8 @@ by_period:
         Suma: 11573.770000000017
       2023-02:
         Suma: 10881.240000000025
+      2023-03:
+        Suma: 11081.240000000025
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -311,7 +317,7 @@ by_period:
       2022Q4:
         Suma: 11192.05000000001
       2023Q1:
-        Suma: 10881.240000000027
+        Suma: 11081.240000000027
     yearly:
       '2020':
         Suma: 6840.14
@@ -320,7 +326,7 @@ by_period:
       '2022':
         Suma: 11192.050000000014
       '2023':
-        Suma: 10881.24000000003
+        Suma: 11081.24000000003
   Wydatki:
     monthly:
       2020-08:
@@ -553,7 +559,7 @@ by_period:
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 1124.88
         "Podatek od nieruchomo\u015Bci": 212.0
         "Pozosta\u0142e": 2455.9699999999843
-dues_last_updated: 28-02-2023
+dues_last_updated: 01-03-2023
 dues_num_subscribers: 11
-dues_total_lastmonth: 3350.0
+dues_total_lastmonth: 3550.0
 extra_monthly_reservations: 5600
