@@ -70,7 +70,7 @@ thead {
         {
             name: '{{ kategoria }}',
             mode: 'scatter',
-            x: [{% for miesiac in site.data.dues.by_period[kategoria][page.period] %}{% if forloop.first %}{% else %}, {% endif %} "{{ miesiac[0] }}" {% endfor %}] ,
+            x: [{% for miesiac in site.data.dues.by_period[kategoria][page.period] %}{% if forloop.first %}{% else %}, {% endif %} "{{ miesiac[0] | remove_first: "20" }}" {% endfor %}] ,
             y: [
                 {% for miesiac in site.data.dues.by_period[kategoria][page.period] %}
                     {% if forloop.first %}{% else %}, {% endif %}
