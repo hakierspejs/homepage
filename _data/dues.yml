@@ -1,7 +1,7 @@
-balance_so_far: 9542.740000000025
+balance_so_far: 9379.670000000026
 balances_by_account_labels:
   Konto Jacka: 3758.5499999999993
-  Konto stowarzyszenia: 5784.189999999997
+  Konto stowarzyszenia: 5621.119999999997
 by_period:
   Bilans:
     monthly:
@@ -80,7 +80,7 @@ by_period:
       2023-04:
         Suma: -332.1300000000001
       2023-05:
-        Suma: -0.5
+        Suma: -163.56999999999994
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -107,7 +107,7 @@ by_period:
       2023Q1:
         Suma: -1316.679999999984
       2023Q2:
-        Suma: -332.63000000000056
+        Suma: -495.7000000000003
     yearly:
       '2020':
         Suma: 6840.14
@@ -116,7 +116,7 @@ by_period:
       '2022':
         Suma: -210.88999999998487
       '2023':
-        Suma: -1649.309999999985
+        Suma: -1812.3799999999846
   Przychody:
     monthly:
       2020-04:
@@ -308,7 +308,7 @@ by_period:
       2023-04:
         Suma: 9543.240000000023
       2023-05:
-        Suma: 9542.740000000023
+        Suma: 9379.670000000024
     quarterly:
       2020Q2:
         Suma: 2845.37
@@ -335,7 +335,7 @@ by_period:
       2023Q1:
         Suma: 9875.370000000026
       2023Q2:
-        Suma: 9542.740000000025
+        Suma: 9379.670000000026
     yearly:
       '2020':
         Suma: 6840.14
@@ -344,7 +344,7 @@ by_period:
       '2022':
         Suma: 11192.050000000014
       '2023':
-        Suma: 9542.740000000029
+        Suma: 9379.67000000003
   Wydatki:
     monthly:
       2020-08:
@@ -508,6 +508,7 @@ by_period:
         "Pozosta\u0142e": 309.94000000000034
       2023-05:
         Czynsz: 973.5
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 163.07
         "Podatek od nieruchomo\u015Bci": 106.0
         "Pozosta\u0142e": 71.0
     quarterly:
@@ -572,7 +573,7 @@ by_period:
       2023Q2:
         Czynsz: 1947.0
         Internet: 67.83000000000001
-        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 224.86
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 387.93
         "Podatek od nieruchomo\u015Bci": 212.0
         "Pozosta\u0142e": 380.94000000000034
     yearly:
@@ -596,10 +597,10 @@ by_period:
       '2023':
         Czynsz: 4867.5
         Internet: 331.8800000000001
-        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 1885.2600000000002
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 2048.3300000000004
         "Podatek od nieruchomo\u015Bci": 530.0
         "Pozosta\u0142e": 3310.1099999999847
-dues_last_updated: 12-05-2023
+dues_last_updated: 15-05-2023
 dues_num_subscribers: 10
-dues_total_lastmonth: 1400.0
+dues_total_lastmonth: 1350.0
 extra_monthly_reservations: 6000
