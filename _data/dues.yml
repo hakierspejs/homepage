@@ -1,6 +1,6 @@
-balance_so_far: 6626.0100000000375
+balance_so_far: 5995.250000000037
 balances_by_account_labels:
-  Konto stowarzyszenia: 6626.009999999997
+  Konto stowarzyszenia: 5995.2499999999945
 by_period:
   Bilans:
     monthly:
@@ -57,7 +57,7 @@ by_period:
       2023-06:
         Suma: -646.4100000000017
       2023-07:
-        Suma: 370.5
+        Suma: -260.26
     quarterly:
       2021Q2:
         Suma: 2660.8799999999997
@@ -78,14 +78,14 @@ by_period:
       2023Q2:
         Suma: 138.69000000000506
       2023Q3:
-        Suma: 370.5
+        Suma: -260.26
     yearly:
       '2021':
         Suma: 6407.41
       '2022':
         Suma: 1016.0900000000111
       '2023':
-        Suma: -797.4899999999798
+        Suma: -1428.2499999999818
   Przychody:
     monthly:
       2021-05:
@@ -225,7 +225,7 @@ by_period:
       2023-06:
         Suma: 6255.510000000033
       2023-07:
-        Suma: 6626.010000000033
+        Suma: 5995.250000000033
     quarterly:
       2021Q2:
         Suma: 2660.8799999999997
@@ -246,14 +246,14 @@ by_period:
       2023Q2:
         Suma: 6255.5100000000375
       2023Q3:
-        Suma: 6626.0100000000375
+        Suma: 5995.250000000037
     yearly:
       '2021':
         Suma: 6407.41
       '2022':
         Suma: 7423.500000000011
       '2023':
-        Suma: 6626.010000000031
+        Suma: 5995.250000000029
   Wydatki:
     monthly:
       2021-05:
@@ -390,6 +390,7 @@ by_period:
       2023-07:
         Czynsz: 973.5
         "Podatek od nieruchomo\u015Bci": 106.0
+        "Pozosta\u0142e": 630.76
     quarterly:
       2021Q2:
         Czynsz: 800.0
@@ -444,6 +445,7 @@ by_period:
       2023Q3:
         Czynsz: 973.5
         "Podatek od nieruchomo\u015Bci": 106.0
+        "Pozosta\u0142e": 630.76
     yearly:
       '2021':
         Czynsz: 5600.0
@@ -463,8 +465,8 @@ by_period:
         Internet: 467.4100000000001
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 2295.8100000000004
         "Podatek od nieruchomo\u015Bci": 742.0
-        "Pozosta\u0142e": 4433.869999999986
-dues_last_updated: 12-07-2023
+        "Pozosta\u0142e": 5064.6299999999865
+dues_last_updated: 13-07-2023
 dues_num_subscribers: 12
-dues_total_lastmonth: 1600.0
+dues_total_lastmonth: 1550.0
 extra_monthly_reservations: 1600
