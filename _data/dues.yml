@@ -1,6 +1,6 @@
-balance_so_far: 15834.000000000036
+balance_so_far: 15556.350000000046
 balances_by_account_labels:
-  Konto stowarzyszenia: 15833.999999999995
+  Konto stowarzyszenia: 15556.35
 by_period:
   Bilans:
     monthly:
@@ -57,7 +57,7 @@ by_period:
       2023-06:
         Suma: -646.4100000000017
       2023-07:
-        Suma: 9578.49
+        Suma: 9300.840000000007
     quarterly:
       2021Q2:
         Suma: 2660.8799999999997
@@ -78,14 +78,14 @@ by_period:
       2023Q2:
         Suma: 138.69000000000506
       2023Q3:
-        Suma: 9578.49
+        Suma: 9300.840000000007
     yearly:
       '2021':
         Suma: 6407.41
       '2022':
         Suma: 1016.0900000000111
       '2023':
-        Suma: 8410.500000000018
+        Suma: 8132.850000000024
   Przychody:
     monthly:
       2021-05:
@@ -225,7 +225,7 @@ by_period:
       2023-06:
         Suma: 6255.510000000033
       2023-07:
-        Suma: 15834.000000000033
+        Suma: 15556.35000000004
     quarterly:
       2021Q2:
         Suma: 2660.8799999999997
@@ -246,14 +246,14 @@ by_period:
       2023Q2:
         Suma: 6255.5100000000375
       2023Q3:
-        Suma: 15834.000000000036
+        Suma: 15556.350000000046
     yearly:
       '2021':
         Suma: 6407.41
       '2022':
         Suma: 7423.500000000011
       '2023':
-        Suma: 15834.00000000003
+        Suma: 15556.350000000035
   Wydatki:
     monthly:
       2021-05:
@@ -389,8 +389,9 @@ by_period:
         "Pozosta\u0142e": 601.7800000000015
       2023-07:
         Czynsz: 973.5
+        Internet: 67.65
         "Podatek od nieruchomo\u015Bci": 106.0
-        "Pozosta\u0142e": 630.76
+        "Pozosta\u0142e": 840.7599999999927
     quarterly:
       2021Q2:
         Czynsz: 800.0
@@ -444,8 +445,9 @@ by_period:
         "Pozosta\u0142e": 1514.7000000000016
       2023Q3:
         Czynsz: 973.5
+        Internet: 67.65
         "Podatek od nieruchomo\u015Bci": 106.0
-        "Pozosta\u0142e": 630.76
+        "Pozosta\u0142e": 840.7599999999927
     yearly:
       '2021':
         Czynsz: 5600.0
@@ -462,11 +464,11 @@ by_period:
         "Pozosta\u0142e": 8421.709999999986
       '2023':
         Czynsz: 6814.5
-        Internet: 467.4100000000001
+        Internet: 535.0600000000001
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 2295.8100000000004
         "Podatek od nieruchomo\u015Bci": 742.0
-        "Pozosta\u0142e": 5064.6299999999865
-dues_last_updated: 17-07-2023
+        "Pozosta\u0142e": 5274.629999999979
+dues_last_updated: 20-07-2023
 dues_num_subscribers: 14
-dues_total_lastmonth: 11388.75
+dues_total_lastmonth: 11288.75
 extra_monthly_reservations: 1600
