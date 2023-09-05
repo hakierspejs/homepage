@@ -22,6 +22,9 @@ obligations:
   "Pr\u0105d (150% \u015Br. op\u0142., zaokr.)":
     amount_pln: 600
     every_months: 1
+  "Hosting w HSWAW":
+    amount_pln: 128
+    every_months: 1
 obligations_reserve_months: 3
 reservations:
   "Wyr\xF3wnanie ze starym stanem":
