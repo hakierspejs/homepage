@@ -1,6 +1,6 @@
-balance_so_far: 12918.760000000038
+balance_so_far: 13352.46000000004
 balances_by_account_labels:
-  Konto stowarzyszenia: 12918.759999999998
+  Konto stowarzyszenia: 13352.46
 by_period:
   Bilans:
     monthly:
@@ -63,7 +63,7 @@ by_period:
       2023-09:
         Suma: -3455.780000000007
       2023-10:
-        Suma: 250.0
+        Suma: 683.7
     quarterly:
       2021Q2:
         Suma: 2660.8799999999997
@@ -86,14 +86,14 @@ by_period:
       2023Q3:
         Suma: 6413.250000000002
       2023Q4:
-        Suma: 250.0
+        Suma: 683.7
     yearly:
       '2021':
         Suma: 6407.41
       '2022':
         Suma: 1016.0900000000111
       '2023':
-        Suma: 5495.26000000002
+        Suma: 5928.960000000021
   Przychody:
     monthly:
       2021-05:
@@ -155,7 +155,7 @@ by_period:
       2023-09:
         Suma: 2433.7
       2023-10:
-        Suma: 250.0
+        Suma: 683.7
     quarterly:
       2021Q2:
         Suma: 3738.0299999999997
@@ -178,14 +178,14 @@ by_period:
       2023Q3:
         Suma: 15792.880000000001
       2023Q4:
-        Suma: 250.0
+        Suma: 683.7
     yearly:
       '2021':
         Suma: 15896.029999999999
       '2022':
         Suma: 28685.479999999996
       '2023':
-        Suma: 28548.980000000007
+        Suma: 28982.680000000008
   Saldo:
     monthly:
       2021-05:
@@ -247,7 +247,7 @@ by_period:
       2023-09:
         Suma: 12668.760000000035
       2023-10:
-        Suma: 12918.760000000035
+        Suma: 13352.460000000036
     quarterly:
       2021Q2:
         Suma: 2660.8799999999997
@@ -270,14 +270,14 @@ by_period:
       2023Q3:
         Suma: 12668.760000000038
       2023Q4:
-        Suma: 12918.760000000038
+        Suma: 13352.46000000004
     yearly:
       '2021':
         Suma: 6407.41
       '2022':
         Suma: 7423.500000000011
       '2023':
-        Suma: 12918.760000000031
+        Suma: 13352.460000000032
   Wydatki:
     monthly:
       2021-05:
@@ -507,7 +507,7 @@ by_period:
         "Podatek od nieruchomo\u015Bci": 954.0
         "Pozosta\u0142e": 6662.069999999987
         "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 3060.24
-dues_last_updated: 01-10-2023
+dues_last_updated: 02-10-2023
 dues_num_subscribers: 16
-dues_total_lastmonth: 2433.7
+dues_total_lastmonth: 2733.7
 extra_monthly_reservations: 2200
