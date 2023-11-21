@@ -1,6 +1,6 @@
-balance_so_far: 13316.350000000039
+balance_so_far: 13248.700000000039
 balances_by_account_labels:
-  Konto stowarzyszenia: 13316.349999999995
+  Konto stowarzyszenia: 13248.699999999993
 by_period:
   Bilans:
     monthly:
@@ -65,7 +65,7 @@ by_period:
       2023-10:
         Suma: 406.54999999999995
       2023-11:
-        Suma: 241.03999999999996
+        Suma: 173.38999999999987
     quarterly:
       2021Q2:
         Suma: 2660.8799999999997
@@ -88,14 +88,14 @@ by_period:
       2023Q3:
         Suma: 6413.250000000002
       2023Q4:
-        Suma: 647.5900000000001
+        Suma: 579.94
     yearly:
       '2021':
         Suma: 6407.41
       '2022':
         Suma: 1016.0900000000111
       '2023':
-        Suma: 5892.850000000024
+        Suma: 5825.200000000023
   Przychody:
     monthly:
       2021-05:
@@ -253,7 +253,7 @@ by_period:
       2023-10:
         Suma: 13075.310000000034
       2023-11:
-        Suma: 13316.350000000035
+        Suma: 13248.700000000033
     quarterly:
       2021Q2:
         Suma: 2660.8799999999997
@@ -276,14 +276,14 @@ by_period:
       2023Q3:
         Suma: 12668.760000000038
       2023Q4:
-        Suma: 13316.350000000039
+        Suma: 13248.700000000039
     yearly:
       '2021':
         Suma: 6407.41
       '2022':
         Suma: 7423.500000000011
       '2023':
-        Suma: 13316.350000000035
+        Suma: 13248.700000000033
   Wydatki:
     monthly:
       2021-05:
@@ -441,6 +441,7 @@ by_period:
         "Pozosta\u0142e": 30.0
       2023-11:
         Czynsz: 973.5
+        Internet: 67.65
         "Podatek od nieruchomo\u015Bci": 106.0
         "Pozosta\u0142e": 278.91
     quarterly:
@@ -503,7 +504,7 @@ by_period:
         "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 3060.24
       2023Q4:
         Czynsz: 1947.0
-        Internet: 67.65
+        Internet: 135.3
         "Podatek od nieruchomo\u015Bci": 212.0
         "Pozosta\u0142e": 308.91
     yearly:
@@ -522,12 +523,12 @@ by_period:
         "Pozosta\u0142e": 8421.709999999986
       '2023':
         Czynsz: 10708.5
-        Internet: 738.01
+        Internet: 805.66
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 2945.5500000000006
         "Podatek od nieruchomo\u015Bci": 1166.0
         "Pozosta\u0142e": 6970.979999999987
         "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 3060.24
-dues_last_updated: 17-11-2023
+dues_last_updated: 20-11-2023
 dues_num_subscribers: 17
 dues_total_lastmonth: 1699.45
 extra_monthly_reservations: 2400
