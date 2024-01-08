@@ -1,6 +1,6 @@
-balance_so_far: 11464.870000000043
+balance_so_far: 11764.870000000043
 balances_by_account_labels:
-  Konto stowarzyszenia: 11464.870000000015
+  Konto stowarzyszenia: 11764.870000000015
 by_period:
   Bilans:
     monthly:
@@ -69,7 +69,7 @@ by_period:
       2023-12:
         Suma: -4010.119999999996
       2024-01:
-        Suma: -439.79999999999995
+        Suma: -139.79999999999995
     quarterly:
       2021Q2:
         Suma: 2660.8799999999997
@@ -94,7 +94,7 @@ by_period:
       2023Q4:
         Suma: -764.0899999999974
       2024Q1:
-        Suma: -439.79999999999995
+        Suma: -139.79999999999995
     yearly:
       '2021':
         Suma: 6407.41
@@ -103,7 +103,7 @@ by_period:
       '2023':
         Suma: 4481.17000000002
       '2024':
-        Suma: -439.79999999999995
+        Suma: -139.79999999999995
   Przychody:
     monthly:
       2021-05:
@@ -171,7 +171,7 @@ by_period:
       2023-12:
         Suma: 1688.1
       2024-01:
-        Suma: 883.7
+        Suma: 1183.7
     quarterly:
       2021Q2:
         Suma: 3738.0299999999997
@@ -196,7 +196,7 @@ by_period:
       2023Q4:
         Suma: 8119.11
       2024Q1:
-        Suma: 883.7
+        Suma: 1183.7
     yearly:
       '2021':
         Suma: 15896.029999999999
@@ -205,7 +205,7 @@ by_period:
       '2023':
         Suma: 36418.090000000004
       '2024':
-        Suma: 883.7
+        Suma: 1183.7
   Saldo:
     monthly:
       2021-05:
@@ -273,7 +273,7 @@ by_period:
       2023-12:
         Suma: 11904.670000000038
       2024-01:
-        Suma: 11464.870000000039
+        Suma: 11764.870000000039
     quarterly:
       2021Q2:
         Suma: 2660.8799999999997
@@ -298,7 +298,7 @@ by_period:
       2023Q4:
         Suma: 11904.670000000042
       2024Q1:
-        Suma: 11464.870000000043
+        Suma: 11764.870000000043
     yearly:
       '2021':
         Suma: 6407.41
@@ -307,7 +307,7 @@ by_period:
       '2023':
         Suma: 11904.670000000031
       '2024':
-        Suma: 11464.870000000032
+        Suma: 11764.870000000032
   Wydatki:
     monthly:
       2021-05:
@@ -570,7 +570,7 @@ by_period:
       '2024':
         Czynsz: 973.5
         "Pozosta\u0142e": 350.0
-dues_last_updated: 05-01-2024
-dues_num_subscribers: 16
-dues_total_lastmonth: 1683.7
+dues_last_updated: 07-01-2024
+dues_num_subscribers: 15
+dues_total_lastmonth: 1583.7
 extra_monthly_reservations: 2800
