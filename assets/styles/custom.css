@@ -160,10 +160,10 @@ nav ul {
 }
 
 /*
- * #isitopen is a container for message that is shown
+ * #isitopen_bigmessage is a container for message that is shown
  * when there are people hacking physically in the hackerspace.
  */
-#isitopen {
+#isitopen_bigmessage {
   margin-top: 1em;
   padding: calc(.25em - 1px) 0.5em;
   font-family: inherit;
@@ -173,16 +173,16 @@ nav ul {
   color: var(--light-color);
 }
 
-#isitopen:hover {
+#isitopen_bigmessage:hover {
   border-color: var(--dark-color);
   color: var(--dark-color);
 }
 
-#isitopen h2 {
+#isitopen_bigmessage h2 {
   margin-top: 0.25em;
 }
 
-#isitopen p {
+#isitopen_bigmessage p {
   margin-bottom: 0.25em;
 }
 

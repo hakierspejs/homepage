@@ -3,7 +3,7 @@ title: Strona Główna
 layout: default
 ---
 <article>
-  <section id="isitopen" style="display: none;">
+  <section id="isitopen_bigmessage" style="display: none;">
     <h2>{% include icons/door-open.html %} Otwarte!</h2>
     <p>
       Wpadnij na <strong>Zieloną 30</strong> jeśli jesteś w pobliżu albo
@@ -36,6 +36,9 @@ layout: default
       Spotkanie online.
       {% endif %} 
       Więcej info na <u><a href="{{ site.data.meetings.url }}" title="przenosi na inną stronę - z informacjami o najbliższym spotkaniu">meetup.com</a></u>.
+    </p>
+    <p id="isitopen_normaltext" style="display: none;">
+      Spejs jest w tym momencie <strong>otwarty</strong>. Chcesz wejść? Zadzwoń pod&nbsp;<strong>42&nbsp;203&nbsp;20&nbsp;50</strong> lub wybierz <strong>50</strong> na&nbsp;domofonie. Odbierzemy i&nbsp;otworzymy drzwi.
     </p>
   </section>
 
