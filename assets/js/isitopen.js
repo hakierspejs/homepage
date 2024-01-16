@@ -1,5 +1,6 @@
 const atUrl = "//at.hs-ldz.pl/api/v1/users?online=true";
-const isItOpenElement = document.getElementById("isitopen");
+const isItOpenElementBigMessage = document.getElementById("isitopen_bigmessage");
+const isItOpenElementNormalText = document.getElementById("isitopen_normaltext");
 
 /*
  * isItOpen pulls online users from our at system and
@@ -16,7 +17,8 @@ async function isItOpen() {
     if (json.length == 0) {
       return;
     }
-    isItOpenElement.style.display = "block";
+    isItOpenElementBigMessage.style.display = "block";
+    isItOpenElementNormalText.style.display = "block";
   } catch (error) {
     return;
   }
