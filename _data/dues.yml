@@ -1,6 +1,6 @@
-balance_so_far: 11819.850000000042
+balance_so_far: 11752.20000000004
 balances_by_account_labels:
-  Konto stowarzyszenia: 11819.850000000011
+  Konto stowarzyszenia: 11752.200000000017
 by_period:
   Bilans:
     monthly:
@@ -69,7 +69,7 @@ by_period:
       2023-12:
         Suma: -4010.119999999996
       2024-01:
-        Suma: -84.82000000000016
+        Suma: -152.47000000000025
     quarterly:
       2021Q2:
         Suma: 2660.8799999999997
@@ -94,7 +94,7 @@ by_period:
       2023Q4:
         Suma: -764.0899999999974
       2024Q1:
-        Suma: -84.82000000000016
+        Suma: -152.47000000000025
     yearly:
       '2021':
         Suma: 6407.41
@@ -103,7 +103,7 @@ by_period:
       '2023':
         Suma: 4481.17000000002
       '2024':
-        Suma: -84.82000000000016
+        Suma: -152.47000000000025
   Przychody:
     monthly:
       2021-05:
@@ -273,7 +273,7 @@ by_period:
       2023-12:
         Suma: 11904.670000000038
       2024-01:
-        Suma: 11819.850000000039
+        Suma: 11752.200000000037
     quarterly:
       2021Q2:
         Suma: 2660.8799999999997
@@ -298,7 +298,7 @@ by_period:
       2023Q4:
         Suma: 11904.670000000042
       2024Q1:
-        Suma: 11819.850000000042
+        Suma: 11752.20000000004
     yearly:
       '2021':
         Suma: 6407.41
@@ -307,7 +307,7 @@ by_period:
       '2023':
         Suma: 11904.670000000031
       '2024':
-        Suma: 11819.850000000031
+        Suma: 11752.20000000003
   Wydatki:
     monthly:
       2021-05:
@@ -477,6 +477,7 @@ by_period:
         "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 321.03
       2024-01:
         Czynsz: 973.5
+        Internet: 67.65
         "Pozosta\u0142e": 788.0100000000001
         "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
     quarterly:
@@ -546,6 +547,7 @@ by_period:
         "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 321.03
       2024Q1:
         Czynsz: 973.5
+        Internet: 67.65
         "Pozosta\u0142e": 788.0100000000001
         "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
     yearly:
@@ -571,9 +573,10 @@ by_period:
         "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 3381.2699999999995
       '2024':
         Czynsz: 973.5
+        Internet: 67.65
         "Pozosta\u0142e": 788.0100000000001
         "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
-dues_last_updated: 18-01-2024
+dues_last_updated: 19-01-2024
 dues_num_subscribers: 17
 dues_total_lastmonth: 1783.7
 extra_monthly_reservations: 2800
