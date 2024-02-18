@@ -1,6 +1,6 @@
-balance_so_far: 10942.95000000004
+balance_so_far: 10874.070000000042
 balances_by_account_labels:
-  Konto stowarzyszenia: 10942.950000000019
+  Konto stowarzyszenia: 10874.070000000014
 by_period:
   Bilans:
     monthly:
@@ -71,7 +71,7 @@ by_period:
       2024-01:
         Suma: 1017.5299999999995
       2024-02:
-        Suma: -1979.2499999999998
+        Suma: -2048.13
     quarterly:
       2021Q2:
         Suma: 2660.8799999999997
@@ -96,7 +96,7 @@ by_period:
       2023Q4:
         Suma: -764.0899999999974
       2024Q1:
-        Suma: -961.7200000000003
+        Suma: -1030.6000000000004
     yearly:
       '2021':
         Suma: 6407.41
@@ -105,7 +105,7 @@ by_period:
       '2023':
         Suma: 4481.17000000002
       '2024':
-        Suma: -961.7200000000003
+        Suma: -1030.6000000000004
   Przychody:
     monthly:
       2021-05:
@@ -279,7 +279,7 @@ by_period:
       2024-01:
         Suma: 12922.200000000037
       2024-02:
-        Suma: 10942.950000000037
+        Suma: 10874.070000000036
     quarterly:
       2021Q2:
         Suma: 2660.8799999999997
@@ -304,7 +304,7 @@ by_period:
       2023Q4:
         Suma: 11904.670000000042
       2024Q1:
-        Suma: 10942.95000000004
+        Suma: 10874.070000000042
     yearly:
       '2021':
         Suma: 6407.41
@@ -313,7 +313,7 @@ by_period:
       '2023':
         Suma: 11904.670000000031
       '2024':
-        Suma: 10942.95000000003
+        Suma: 10874.07000000003
   Wydatki:
     monthly:
       2021-05:
@@ -489,7 +489,7 @@ by_period:
       2024-02:
         Czynsz: 973.5
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 2273.47
-        "Pozosta\u0142e": 345.98
+        "Pozosta\u0142e": 414.86
     quarterly:
       2021Q2:
         Czynsz: 800.0
@@ -559,7 +559,7 @@ by_period:
         Czynsz: 1947.0
         Internet: 67.65
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 2273.47
-        "Pozosta\u0142e": 1163.99
+        "Pozosta\u0142e": 1232.87
         "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
     yearly:
       '2021':
@@ -586,9 +586,9 @@ by_period:
         Czynsz: 1947.0
         Internet: 67.65
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 2273.47
-        "Pozosta\u0142e": 1163.99
+        "Pozosta\u0142e": 1232.87
         "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
-dues_last_updated: 16-02-2024
+dues_last_updated: 17-02-2024
 dues_num_subscribers: 16
-dues_total_lastmonth: 2963.7
+dues_total_lastmonth: 2913.7
 extra_monthly_reservations: 3000
