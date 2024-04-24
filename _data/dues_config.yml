@@ -29,3 +29,5 @@ obligations_reserve_months: 3
 reservations:
   "Wyr\xF3wnanie ze starym stanem":
     amount_pln: 327.83
+  "Dodatkowe 600 PLN rezerwacji wg spotorgu z 23 kwietnia 2024r":
+    amount_pln: 600.00
