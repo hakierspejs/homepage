@@ -159,6 +159,20 @@ nav ul {
   margin-top: 0.5em;
 }
 
+#footer-elements {
+  display: flex;
+}
+
+.fel-box {
+  float: left;
+  margin-bottom: auto;
+  flex-grow: 1;
+}
+
+.fel-box img {
+  float: right;
+}
+
 /*
  * #isitopen_bigmessage is a container for message that is shown
  * when there are people hacking physically in the hackerspace.
