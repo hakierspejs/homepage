@@ -159,13 +159,17 @@ nav ul {
   margin-top: 0.5em;
 }
 
+/*
+ * used inside footer to display hs-ldz correctly
+ */
+
 #footer-elements {
   display: flex;
 }
 
 .fel-box {
   float: left;
-  margin-bottom: auto;
+  margin: auto;
   flex-grow: 1;
 }
 
