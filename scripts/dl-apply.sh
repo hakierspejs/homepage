@@ -7,10 +7,10 @@
 
 URL="https://raw.githubusercontent.com/wiki/hakierspejs/wiki/Jak-si%C4%99-zapisa%C4%87.md"
 
-if [[ -f "../apply.md" ]]; then
-	rm -r "../apply.md"
+if [[ -f "./apply.md" ]]; then
+	rm -r "./apply.md"
 fi
 
-echo -e "---\ntitle: Zapisz się!\nlayout: default\n---\n" >> ../apply.md
-echo -e "## Jak się zapisać?\n" >> ../apply.md
-wget $URL -O ->> ../apply.md
+echo -e "---\ntitle: Zapisz się!\nlayout: default\n---\n" >> ./apply.md
+echo -e "## Jak się zapisać?\n" >> ./apply.md
+wget $URL -O ->> ./apply.md
