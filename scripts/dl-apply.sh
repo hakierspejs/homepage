@@ -18,4 +18,4 @@ wget $URL_Apply -O ->> ./apply.md
 
 # faq page
 echo -e "---\ntitle: FAQ\nlayout: default\n---\n" >> ./faq.md
-wget $URL_FAQ -O ->> ./faq.md
+wget $URL_FAQ -O ->> ./faq.md && sed -i "s/##/###/g" ./faq.md
