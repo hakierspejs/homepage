@@ -254,3 +254,8 @@ p {
   hyphens: auto;
   text-align: justify;
 }
+
+#interests td
+{
+  border: none;
+}
