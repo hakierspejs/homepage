@@ -28,54 +28,75 @@ layout: default
         <td>
           <ul>
           <li>język chiński</li>
-          <li>lotnictwo</li>
-          <li>planszówki</li>
-          <li>anime</li>
-          <li>budowlanka</li>
-          <li>edukacja</li>
-          <li>AI</li>
-          <li>gotowanie</li>
-          <li>fotografia</li>
-          <li>szydełkowanie</li>
-          <li>podróżnowanie</li>
-          <li>wikipedia</li>
+          <li class="more">lotnictwo</li>
+          <li class="more">planszówki</li>
+          <li class="more">anime</li>
+          <li class="more">budowlanka</li>
+          <li class="more">edukacja</li>
+          <li class="more">AI</li>
+          <li class="more">gotowanie</li>
+          <li class="more">fotografia</li>
+          <li class="more">szydełkowanie</li>
+          <li class="more">podróżnowanie</li>
+          <li class="more">wikipedia</li>
           </ul>
         </td>
         <td>
           <ul>
           <li>DJowanie</li>
-          <li>RPG</li>
-          <li>adminka</li>
-          <li>muzyka EDM</li>
-          <li>muzyka z trackerów</li>
-          <li>infosec</li>
-          <li>psychologia</li>
-          <li>kartografia</li>
-          <li>OpenStreetMap</li>
-          <li>Bitcoin</li>
-          <li>kryptowaluty</li>
-          <li>Linux</li>
+          <li class="more">RPG</li>
+          <li class="more">adminka</li>
+          <li class="more">muzyka EDM</li>
+          <li class="more">muzyka z trackerów</li>
+          <li class="more">infosec</li>
+          <li class="more">psychologia</li>
+          <li class="more">kartografia</li>
+          <li class="more">OpenStreetMap</li>
+          <li class="more">Bitcoin</li>
+          <li class="more">kryptowaluty</li>
+          <li class="more">Linux</li>
           </ul>
         </td>
         <td>
           <ul>
           <li>elektronika</li>
-          <li>FOSS</li>
-          <li>gry komputerowe</li>
-          <li>automatyka przemysłowa</li>
-          <li>la lingvo Esperanto</li>
-          <li>rowery</li>
-          <li>Vocaloid</li>
-          <li>druk 3D</li>
-          <li>informatyka retro</li>
-          <li>Wixapol })</li>
-          <li>krótkofalarstwo</li>
-          <li>literatura</li>
+          <li class="more">FOSS</li>
+          <li class="more">gry komputerowe</li>
+          <li class="more">automatyka przemysłowa</li>
+          <li class="more">la lingvo Esperanto</li>
+          <li class="more">rowery</li>
+          <li class="more">Vocaloid</li>
+          <li class="more">druk 3D</li>
+          <li class="more">informatyka retro</li>
+          <li class="more">Wixapol })</li>
+          <li class="more">krótkofalarstwo</li>
+          <li class="more">literatura</li>
           </ul>
         </td>
       </tr>
     </table>
   </section>
+  <a href="#" id="toggleLink">Więcej</a>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    const toggleLink = document.getElementById('toggleLink');
+    const moreElements = document.querySelectorAll('.more');
+
+    toggleLink.addEventListener('click', function(event) {
+        event.preventDefault();
+
+        moreElements.forEach(function(element) {
+            if (element.style.display === 'none' || element.style.display === '') {
+                element.style.display = 'list-item';
+                toggleLink.textContent = 'Ukryj';
+            } else {
+                element.style.display = 'none';
+                toggleLink.textContent = 'Więcej';
+            }
+        });
+    });
+  });
+  </script>
 
   <section>
     <h3>Wydarzenia</h3>
