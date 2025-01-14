@@ -32,7 +32,7 @@ layout: default
       <tr>
         <td>
           <ul>
-          <li>język chiński</li>
+          <li class="more">język chiński</li>
           <li class="more">lotnictwo</li>
           <li class="more">planszówki</li>
           <li class="more">anime</li>
@@ -48,7 +48,7 @@ layout: default
         </td>
         <td>
           <ul>
-          <li>DJowanie</li>
+          <li class="more">DJowanie</li>
           <li class="more">RPG</li>
           <li class="more">adminka</li>
           <li class="more">muzyka EDM</li>
@@ -64,7 +64,7 @@ layout: default
         </td>
         <td>
           <ul>
-          <li>elektronika</li>
+          <li class="more">elektronika</li>
           <li class="more">FOSS</li>
           <li class="more">gry komputerowe</li>
           <li class="more">automatyka przemysłowa</li>
@@ -81,7 +81,7 @@ layout: default
       </tr>
     </table>
   </section>
-  <a href="#" id="toggleLink">Więcej</a>
+  <a href="#" id="toggleLink">Wyświetl listę</a>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
     const toggleLink = document.getElementById('toggleLink');
@@ -93,7 +93,7 @@ layout: default
         moreElements.forEach(function(element) {
             if (element.style.display === 'none' || element.style.display === '') {
                 element.style.display = 'list-item';
-                toggleLink.textContent = 'Ukryj';
+                toggleLink.textContent = 'Ukryj listę';
             } else {
                 element.style.display = 'none';
                 toggleLink.textContent = 'Więcej';
