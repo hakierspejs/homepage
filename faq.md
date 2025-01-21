@@ -258,7 +258,13 @@ uczynić hackerspace lepszym miejscem.
 
 ### Czy mogę Was wesprzeć *jednym procentem* (obecnie 1,5%) przy rozliczeniu PIT?
 
-Jeszcze nie, ale pracujemy nad tym.
+Nie mamy statusu NGO, ale nawiązaliśmy współpracę z Fundacją Studencką Młodzi-Młodym, która specjalizuje się w pozyskiwaniu tych funduszy na rzecz innych organizacji.
+
+Aby przekazać 1,5% podatku na rzecz naszego hackerspejsu, należy wskazać numer KRS __0000270261__ oraz cel szczegółowy „__HSŁ 24806__”.
+
+90% zebranej kwoty zostanie przekazane na realizację celów statutowych Hakierspejsu, w szczególności – na rozwój infrastruktury naszej siedziby – natomiast pozostałe 10% trafi do Fundacji Studenckiej jako prowizja.
+
+![Grafika przedstawiająca sposób wypełnienia formularza PIT](https://raw.githubusercontent.com/hakierspejs/wiki/refs/heads/master/media-w-wiki/fsmm.png)
 
 ### Dlaczego to robicie? *(dowolną rzecz robioną w hackerspejsie)* Czy to konstruktywne? Czy będzie z tego jakiś użytek?
 
@@ -271,4 +277,3 @@ przyjemności. Wartością dodaną jest rozwój naszej wiedzy i umiejętności.
 Jesteśmy [stowarzyszeniem zarejestrowanym w KRS](https://krs.hs-ldz.pl).
 Jeśli chodzi o to, na co idą składki i darowizny – staramy się być
 w tej kwestii [maksymalnie transparentni](https://finanse.hs-ldz.pl/).
-
