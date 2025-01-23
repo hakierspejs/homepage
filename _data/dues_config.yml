@@ -16,8 +16,8 @@ obligations:
   Internet Toya 1000mbps:
     amount_pln: 150.00
     every_months: 1
-  "Meetup (73.73 USD \xB1 kurs)":
-    amount_pln: 290.0
+  "Meetup (130 USD \xB1 kurs wg ost. trans.)":
+    amount_pln: 519.73
     every_months: 6
   "Pr\u0105d (150% \u015Br. op\u0142., zaokr.)":
     amount_pln: 600
