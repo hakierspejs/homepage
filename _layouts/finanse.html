@@ -1,5 +1,6 @@
 {% include dues.txt %}
 <head>
+<meta name="robots" content="noindex">
 <title>Finanse HSŁ - dashboard</title>
 <meta charset="UTF-8" />
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> 
@@ -130,7 +131,7 @@ thead {
         </tr>
 
         <tr style="font-weight: bold">
-            <td class="name">Autorezerwacja (od 11 listopada 2020)</td>
+            <td class="name">Autorezerwacja (od 11 listopada 2022)</td>
             <td class="value">{{ site.data.dues.extra_monthly_reservations | round: 2 }} zł</td>
         </tr>
 
@@ -161,23 +162,6 @@ thead {
 
     </tbody>
 </table>
-
-<div id="plot-podzial-bilansu-na-konta" style="width:100%;height:300px;"></div>
-<script>
-    Plotly.newPlot('plot-podzial-bilansu-na-konta',
-    [
-        {
-            name: 'Podział',
-            type: 'pie',
-            domain: {x: [0.5, 1.0], y: [0.0, 1.0]},
-            values: [{% for nazwany_bilans in site.data.dues.balances_by_account_labels %}{% if forloop.first %}{% else %}, {% endif %}{{ nazwany_bilans[1] }}{% endfor %}],
-            labels: [{% for nazwany_bilans in site.data.dues.balances_by_account_labels %}{% if forloop.first %}{% else %}, {% endif %}"{{ nazwany_bilans[0] }}" {% endfor %}],
-        }
-    ], {
-        title: 'Podział salda na konta',
-        margin: {l: 50, r: 0, b: 25, t: 50, pad: 4}
-    });
-</script>
 
 {% assign ukryte="nie" %}
 {% for miesiac in site.data.dues.by_period.Bilans[page.period] reversed %}

@@ -3,7 +3,7 @@ title: Strona Główna
 layout: default
 ---
 <article>
-  <section id="isitopen" style="display: none;">
+  <section id="isitopen_bigmessage" style="display: none;">
     <h2>{% include icons/door-open.html %} Otwarte!</h2>
     <p>
       Wpadnij na <strong>Zieloną 30</strong> jeśli jesteś w pobliżu albo
@@ -22,7 +22,86 @@ layout: default
     <a href="//github.com/hakierspejs/wiki/wiki/O-nas"
        title="przenosi na inną stronę - Wiki stowarzyszenia">wiki</a>.
     </p>
+    <p>Zainteresowania naszych hakierów (wg Tablicy Zainteresowań, stan na 04.01.2025)</p>
+    <style>
+    .more {
+        display: none;
+    }
+    </style>
+    <table id="interests">
+      <tr>
+        <td>
+          <ul>
+          <li class="more">język chiński</li>
+          <li class="more">lotnictwo</li>
+          <li class="more">planszówki</li>
+          <li class="more">anime</li>
+          <li class="more">budowlanka</li>
+          <li class="more">edukacja</li>
+          <li class="more">AI</li>
+          <li class="more">gotowanie</li>
+          <li class="more">fotografia</li>
+          <li class="more">szydełkowanie</li>
+          <li class="more">podróżnowanie</li>
+          <li class="more">wikipedia</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+          <li class="more">DJowanie</li>
+          <li class="more">RPG</li>
+          <li class="more">adminka</li>
+          <li class="more">muzyka EDM</li>
+          <li class="more">muzyka z trackerów</li>
+          <li class="more">infosec</li>
+          <li class="more">psychologia</li>
+          <li class="more">kartografia</li>
+          <li class="more">OpenStreetMap</li>
+          <li class="more">Bitcoin</li>
+          <li class="more">kryptowaluty</li>
+          <li class="more">Linux</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+          <li class="more">elektronika</li>
+          <li class="more">FOSS</li>
+          <li class="more">gry komputerowe</li>
+          <li class="more">automatyka przemysłowa</li>
+          <li class="more">la lingvo Esperanto</li>
+          <li class="more">rowery</li>
+          <li class="more">Vocaloid</li>
+          <li class="more">druk 3D</li>
+          <li class="more">informatyka retro</li>
+          <li class="more">Wixapol })</li>
+          <li class="more">krótkofalarstwo</li>
+          <li class="more">literatura</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
   </section>
+  <a href="#" id="toggleLink">Wyświetl listę</a>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    const toggleLink = document.getElementById('toggleLink');
+    const moreElements = document.querySelectorAll('.more');
+
+    toggleLink.addEventListener('click', function(event) {
+        event.preventDefault();
+
+        moreElements.forEach(function(element) {
+            if (element.style.display === 'none' || element.style.display === '') {
+                element.style.display = 'list-item';
+                toggleLink.textContent = 'Ukryj listę';
+            } else {
+                element.style.display = 'none';
+                toggleLink.textContent = 'Więcej';
+            }
+        });
+    });
+  });
+  </script>
 
   <section>
     <h3>Wydarzenia</h3>
@@ -37,6 +116,12 @@ layout: default
       {% endif %} 
       Więcej info na <u><a href="{{ site.data.meetings.url }}" title="przenosi na inną stronę - z informacjami o najbliższym spotkaniu">meetup.com</a></u>.
     </p>
+    <p id="isitopen_normaltext" style="display: none;">
+      Spejs jest w tym momencie <strong>otwarty</strong>. Chcesz wejść? Zadzwoń pod&nbsp;<strong>42&nbsp;203&nbsp;20&nbsp;50</strong> lub wybierz <strong>50</strong> na&nbsp;domofonie. Odbierzemy i&nbsp;otworzymy drzwi.
+    </p>
+    <p id="isitopen_normaltext" style="display: none;">
+      <a href="https://at.hs-ldz.pl">At</a> powie ci, kto aktualnie jest na miejscu.
+    </p>
   </section>
 
   <section>
@@ -44,8 +129,8 @@ layout: default
     <p>Żeby do nas dołączyć, wejdź na naszego chata przez jeden z komunikatorów (wszystkie prowadzą do tego samego chata).</p>
     <p>
     <a class="button" href="//t.me/joinchat/K73_2BVhRxP6nb4I81YIPQ" title="przenosi na inną stronę - czat Telegram">{% include icons/chat-left.html %}Telegram</a>
-    <a class="button" href="//web.libera.chat/#hakierspejs" title="przenosi na inną stronę - czat IRC">{% include icons/chat-center.html %}IRC</a>
-    <a class="button" href="//app.element.io/#/room/#hs-ldz:hackerspace.pl" title="przenosi na inną stronę - czat Matrix">{% include icons/chat-right.html %}Matrix</a>
+    <!-- <a class="button" href="//web.libera.chat/#hakierspejs" title="przenosi na inną stronę - czat IRC">{% include icons/chat-center.html %}IRC</a> -->
+    <a class="button" href="//matrix.to/#/#hs-ldz:hackerspace.pl" title="przenosi na inną stronę - czat Matrix">{% include icons/chat-right.html %}Matrix</a>
     </p>
 
     <p>Możesz też odwiedzić nasze forum lub napisać do nas maila:</p>
@@ -79,7 +164,7 @@ layout: default
     {% include map.html %}
     </p>
     <p>
-    <a class="button" href="https://www.openstreetmap.org/?mlat=51.76951&amp;mlon=19.44514#map=19/51.76951/19.44514&amp;layers=N" title="przenosi na inną stronę - mapę OSM">{% include icons/map.html %}Zobacz większą mapę</a>
+    <a class="button" href="https://www.openstreetmap.org/?mlat=51.76927&amp;mlon=19.44527#map=19/51.76927/19.44527&amp;layers=N" title="przenosi na inną stronę - mapę OSM">{% include icons/map.html %}Zobacz większą mapę</a>
     </p>
   </section>
 
@@ -87,6 +172,11 @@ layout: default
   <section>
     <h3>Galeria</h3>
     <div class="fotorama">
+
+      <img src="https://hssn.hs-ldz.pl/photo_2023-09-01_19-00-31.jpg" alt="Zdjecie spejsu " loading="lazy">
+      <img src="https://hssn.hs-ldz.pl/photo_2023-09-01_19-00-46.jpg" alt="Zdjecie spejsu " loading="lazy">
+      <img src="https://hssn.hs-ldz.pl/photo_2023-09-01_19-00-51.jpg" alt="Zdjecie spejsu " loading="lazy">
+      <img src="https://hssn.hs-ldz.pl/2_6910086c75ac2187.jpg" alt="Zdjecie spejsu " loading="lazy">
       <img src="https://hssi.hs-ldz.pl/640x,q95/http://server/siedziba/e7141d0af14e71a71006.jpg" alt="Zdjecie spejsu " loading="lazy">
       <img src="https://hssi.hs-ldz.pl/640x,q95/http://server/siedziba/3e5fd2bcecc01c49340b.jpg" alt="Zdjecie spejsu " loading="lazy">
       <img src="https://hssi.hs-ldz.pl/640x,q95/http://server/siedziba/4afb040d910f16e4a90f.jpg" alt="Zdjecie spejsu " loading="lazy">

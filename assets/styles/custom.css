@@ -160,10 +160,29 @@ nav ul {
 }
 
 /*
- * #isitopen is a container for message that is shown
+ * used inside footer to display hs-ldz correctly
+ */
+
+#footer-elements {
+  display: flex;
+}
+
+.fel-box {
+  float: left;
+  margin: auto;
+  flex-grow: 1;
+}
+
+.fel-box img {
+  float: right;
+  margin-left: 0.5em;
+}
+
+/*
+ * #isitopen_bigmessage is a container for message that is shown
  * when there are people hacking physically in the hackerspace.
  */
-#isitopen {
+#isitopen_bigmessage {
   margin-top: 1em;
   padding: calc(.25em - 1px) 0.5em;
   font-family: inherit;
@@ -173,16 +192,16 @@ nav ul {
   color: var(--light-color);
 }
 
-#isitopen:hover {
+#isitopen_bigmessage:hover {
   border-color: var(--dark-color);
   color: var(--dark-color);
 }
 
-#isitopen h2 {
+#isitopen_bigmessage h2 {
   margin-top: 0.25em;
 }
 
-#isitopen p {
+#isitopen_bigmessage p {
   margin-bottom: 0.25em;
 }
 
@@ -234,4 +253,9 @@ p {
   -ms-hyphens: auto;
   hyphens: auto;
   text-align: justify;
+}
+
+#interests td
+{
+  border: none;
 }

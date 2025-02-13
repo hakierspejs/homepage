@@ -13,16 +13,21 @@ obligations:
   "Podatek od nieruchomości (orientacyjnie)":
     amount_pln: 1200
     every_months: 12
-  Internet Toya 100mbps:
-    amount_pln: 67.65
+  Internet Toya 1000mbps:
+    amount_pln: 100.86
     every_months: 1
-  "Meetup (73.73 USD \xB1 kurs)":
-    amount_pln: 290.0
+  "Meetup (130 USD \xB1 kurs wg ost. trans.)":
+    amount_pln: 519.73
     every_months: 6
   "Pr\u0105d (150% \u015Br. op\u0142., zaokr.)":
     amount_pln: 600
+    every_months: 1
+  "Hosting w HSWAW (VM 8CPU/16G/200G)":
+    amount_pln: 128
     every_months: 1
 obligations_reserve_months: 3
 reservations:
   "Wyr\xF3wnanie ze starym stanem":
     amount_pln: 327.83
+  "Dodatkowe 600 PLN rezerwacji wg spotorgu z 23 kwietnia 2024r":
+    amount_pln: 600.00
