@@ -1,5 +1,5 @@
 ---
-title: Kluby
+title: Gildie
 layout: default
 ---
 
@@ -18,13 +18,18 @@ W spejsie funkcjonują następujące gildie:
 Radioamatorzy spotykają się w co drugą (parzyste tygodnie) środę, od godziny
 19:00 w siedzibie spejsu.
 
-Czat klubu radiowego na Matrixie: https://matrix.to/#/#hsl-ham-radio:matrix.org
+Czat klubu radiowego na Matrixie:
+[https://matrix.to/#/#hsl-ham-radio:matrix.org](https://matrix.to/#/#hsl-ham-radio:matrix.org)
 
-oraz na Telegramie: https://t.me/hsl_hamradio
+oraz na Telegramie:
+[https://t.me/hsl_hamradio](https://t.me/hsl_hamradio)
 
 ## Gildia cyberbezpieczeństwa (CTF)
 
 Spotykamy się w nieparzyste środy, od godziny 19:00.
 
-Czat klubu radiowego na Matrixie: https://matrix.to/#/#hakierspejs-ctf:matrix.org
-oraz na Telegramie: https://t.me/hakierspejs_cryptoparty
+Czat klubu ctfowego na Matrixie: 
+[https://matrix.to/#/#hakierspejs-ctf:matrix.org](https://matrix.to/#/#hakierspejs-ctf:matrix.org)
+
+oraz na Telegramie:
+[https://t.me/hakierspejs_cryptoparty](https://t.me/hakierspejs_cryptoparty)
