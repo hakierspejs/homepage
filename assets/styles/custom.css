@@ -15,6 +15,10 @@ html {
   /* font-family: monospace; */
 }
 
+h3 {
+  color: var(--light-color);
+}
+
 a {
   color: var(--light-color);
 }
