@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+* {
+  font-size: 96%;
+}
+
 :root {
   --bg-color: #000000;
   --fg-color: #003300;
