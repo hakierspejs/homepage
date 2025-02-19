@@ -4,7 +4,7 @@ layout: default
 ---
 <article>
   <section id="isitopen_bigmessage" style="display: none;">
-    <h2>{% include icons/door-open.html %} Otwarte!</h2>
+    <h2>{% include icons/door-open.html %} Mamy w tym momencie otwarte!</h2>
     <p>
       Wpadnij na <strong>Zieloną 30</strong> jeśli jesteś w pobliżu albo
       odwiedź nasz chat (link znajdziesz poniżej) żeby się upewnić, że
@@ -15,14 +15,25 @@ layout: default
   <section>
     <h3>Kim jesteśmy?</h3>
     <p>
-    Jesteśmy społecznością pasjonatów open source, DIY, komputerów minionej
-    ery, radioamatorów i ruchu wolnej kultury. Organizujemy spotkania, 
-    robimy projekty i wymieniamy
-    się wiedzą. Więcej informacji na nasz temat znajdziesz na
-    <a href="//github.com/hakierspejs/wiki/wiki/O-nas"
-       title="przenosi na inną stronę - Wiki stowarzyszenia">wiki</a>.
+    <strong>Hakierspejs</strong>, czyli łódzki hackerspace, to:
     </p>
-    <p>Zainteresowania naszych hakierów (wg Tablicy Zainteresowań, stan na 04.01.2025)</p>
+    <ul>
+      <li>otwarta <strong>społeczność</strong> osób o różnorodnych zainteresowaniach
+      lub pasjach – skupiających się głównie, ale nie tylko, wokół technologii, komputerów,
+      majsterkowania (DIY) i wolnej kultury – sugerujemy zapoznanie się z listą poniżej oraz z podstroną 
+      <a href="guilds.html">Gildie</a>,</li>
+      <li>tworzona wspólnie przez nas <strong>przestrzeń</strong> – w Łodzi przy <strong>Zielonej 30</strong>
+      – wraz z wyposażeniem, będąca dla nas miejscem spotkań i pomagająca nam wspomniane zainteresowania realizować,</li>
+      <li><strong>stowarzyszenie</strong> – prowadzona przez nas formalna organizacja, której istnienie
+      ułatwia nam utrzymanie wspomnianego miejsca – pozwala na wspólne wynajmowanie lokalu, opłacanie rachunków,
+      wspólne posiadanie narzędzi, i tak dalej.</li>
+    </ul>
+    <p>Działamy całkowicie <strong>non profit</strong>, naszą działalność finansujemy ze składek członkowskich
+    oraz z darowizn. Organizujemy się w sposób maksymalnie <strong>oddolny</strong>, nie ma u nas lidera
+    czy kierownika – stowarzyszenie posiada zarząd, jednak w praktyce jego rola ograniczona jest do sytuacji,
+    w których jego udział jest bezwzględnie konieczny.</p>
+    <p>Mnogość naszych zainteresowań i pasji obrazuje znajdująca się w naszej siedzibie Tablica zainteresowań.
+      Oto one (stan na 04.01.2025):</p>
     <style>
     .more {
         display: none;
@@ -80,8 +91,13 @@ layout: default
         </td>
       </tr>
     </table>
+  <a href="#" id="toggleLink">Rozwiń</a>
+  <p>
+    Więcej informacji na nasz temat znajdziesz na
+    <a href="//github.com/hakierspejs/wiki/wiki/O-nas"
+       title="przenosi na inną stronę - Wiki stowarzyszenia">wiki</a>.
+    </p>
   </section>
-  <a href="#" id="toggleLink">Wyświetl listę</a>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
     const toggleLink = document.getElementById('toggleLink');
@@ -93,7 +109,7 @@ layout: default
         moreElements.forEach(function(element) {
             if (element.style.display === 'none' || element.style.display === '') {
                 element.style.display = 'list-item';
-                toggleLink.textContent = 'Ukryj listę';
+                toggleLink.textContent = 'Zwiń';
             } else {
                 element.style.display = 'none';
                 toggleLink.textContent = 'Więcej';
@@ -104,9 +120,22 @@ layout: default
   </script>
 
   <section>
-    <h3>Wydarzenia</h3>
+    <h3>Co się u nas dzieje?</h3>
     <p>
-    Następne spotkanie: {% include date.txt time_arg=site.data.meetings.date lang="pl" %}
+      Regularnie się <strong>spotykamy</strong>, zazwyczaj w naszej siedzibie przy Zielonej 30 w Łodzi.
+    </p>
+    <p></p>Co drugi wtorek mamy
+      otwarte spotkania ogólnotematyczne, podczas których rozmawiamy oraz konstruujemy lub psujemy przypadkowe rzeczy.
+      Organizujemy też spotkania skupiające się na konkretnych tematach, takich jak np. radio amatorskie czy cyberbezpieczeństwo.
+      Specyficznym rodzajem spotkań są też spotkania organizacyjne, podczas których rozmawiamy o różnych aspektach
+      związanych z kierunkami rozwoju naszej przestrzeni oraz społeczności.
+    </p>
+    <p>
+      Ogłoszone spotkania są otwarte dla <strong>wszystkich chętnych</strong> i gorąco zachęcamy do uczestnictwa – nie trzeba
+      się zapisywać.
+    </p>
+    <p>
+    Termin najbliższego spotkania: {% include date.txt time_arg=site.data.meetings.date lang="pl" %}
     </p>
     <p>
       {% if site.data.meetings.location and site.data.meetings.location != '' %}
@@ -126,12 +155,14 @@ layout: default
 
   <section>
     <h3 id="kontakt_h3">Kontakt</h3>
-    <p>Żeby do nas dołączyć, wejdź na naszego chata przez jeden z komunikatorów (wszystkie prowadzą do tego samego chata).</p>
+    <p>Najlepszym sposobem, by się z nami skontaktować, jest napisanie do nas na czacie. W ten sposób najszybciej uzyskasz odpowiedź. Czatujemy
+    z użyciem dwóch komunikatorów – Telegrama i Matrixa – jednak te czaty są ze sobą połączone i użytkownicy obu widzą nawzajem swoje wiadomości.</p>
     <p>
     <a class="button" href="//t.me/joinchat/K73_2BVhRxP6nb4I81YIPQ" title="przenosi na inną stronę - czat Telegram">{% include icons/chat-left.html %}Telegram</a>
-    <!-- <a class="button" href="//web.libera.chat/#hakierspejs" title="przenosi na inną stronę - czat IRC">{% include icons/chat-center.html %}IRC</a> -->
     <a class="button" href="//matrix.to/#/#hs-ldz:hackerspace.pl" title="przenosi na inną stronę - czat Matrix">{% include icons/chat-right.html %}Matrix</a>
     </p>
+
+    <p>(poza powyższym głównym kanałem mamy też szereg <a href="https://czaty.hs-ldz.pl/" title="przenosi na inną stronę - strona Wiki o czatach">czatów poświęconych różnym konkretnym tematom</a>)</p>
 
     <p>Możesz też odwiedzić nasze forum lub napisać do nas maila:</p>
     <p>
