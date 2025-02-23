@@ -57,7 +57,7 @@ I used the [Engineer SS-02 solder sucker](https://www.tme.eu/pl/details/fut.ss-0
 
 <figure class="image">
   <img src="/assets/images/blog/2025-02-23-tuya-mmwave-motion-sensor/tuya-mcu-pcb.jpg" alt="Tuya MCU PCB with the Wi-Fi module already removed">
-  <figcaption>Oops, the Wi-Fi module is already removed here.</figcaption>
+  <figcaption>Oops, the Wi-Fi (not Zigbee?) module is already removed here.</figcaption>
 </figure>
 
 
