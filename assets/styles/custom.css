@@ -38,8 +38,10 @@ a, nav a:visited {
   font-size:1em;
   border:1px solid var(--border-color);
   border-radius:2px;
-  background:black;
-  display:inline-block;
+  background: black;
+  display: inline-flex;
+  gap: 4px;
+  align-items: center;
   width:auto;
   background: var(--fg-color);
   cursor:pointer;
