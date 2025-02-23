@@ -264,7 +264,7 @@ Aby przekazać 1,5% podatku na rzecz naszego hackerspejsu, należy wskazać nume
 
 90% zebranej kwoty zostanie przekazane na realizację celów statutowych Hakierspejsu, w szczególności – na rozwój infrastruktury naszej siedziby – natomiast pozostałe 10% trafi do Fundacji Studenckiej jako prowizja.
 
-[![Grafika przedstawiająca sposób wypełnienia formularza PIT](https://raw.githubusercontent.com/hakierspejs/wiki/refs/heads/master/media-w-wiki/fsmm.png)](https://fsmm.pl/partner/stowarzyszenie-hakierspejs-lodz/)
+[![Grafika przedstawiająca sposób wypełnienia formularza PIT](https://raw.githubusercontent.com/hakierspejs/homepage/refs/heads/master/assets/images/1_procent.png)](https://fsmm.pl/partner/stowarzyszenie-hakierspejs-lodz/)
 
 ### Dlaczego to robicie? *(dowolną rzecz robioną w hackerspejsie)* Czy to konstruktywne? Czy będzie z tego jakiś użytek?
 
