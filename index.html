@@ -15,18 +15,18 @@ layout: default
   <section>
     <h3>Kim jesteśmy?</h3>
     <p>
-    <strong>Hakierspejs</strong>, czyli łódzki hackerspace, to:
+      <strong>Hakierspejs</strong>, czyli łódzki hackerspace, to:
     </p>
     <ul>
       <li>otwarta <strong>społeczność</strong> osób o różnorodnych zainteresowaniach
       lub pasjach – skupiających się głównie, ale nie tylko, wokół technologii, komputerów,
-      majsterkowania (DIY) i wolnej kultury – sugerujemy zapoznanie się z listą poniżej oraz z podstroną 
+      majsterkowania (DIY) i wolnej kultury – sugerujemy zapoznanie się z <a href="#interests">listą poniżej</a> oraz z podstroną 
       <a href="guilds.html">Gildie</a>,</li>
-      <li>tworzona wspólnie przez nas <strong>przestrzeń</strong> – w Łodzi przy <strong>Zielonej 30</strong>
-      – wraz z wyposażeniem, będąca dla nas miejscem spotkań i pomagająca nam wspomniane zainteresowania realizować,</li>
+      <li>tworzona wspólnie przez nas <strong>przestrzeń</strong> – w Łodzi przy <a style="font-weight: bold" href="#map">Zielonej 30</a >
+      – będąca dla nas miejscem spotkań, rozwoju zainteresowań oraz realizacji projektów,</li>
       <li><strong>stowarzyszenie</strong> – prowadzona przez nas formalna organizacja, której istnienie
       ułatwia nam utrzymanie wspomnianego miejsca – pozwala na wspólne wynajmowanie lokalu, opłacanie rachunków,
-      wspólne posiadanie narzędzi, i tak dalej.</li>
+      wspólne posiadanie narzędzi itd.</li>
     </ul>
     <p>Działamy całkowicie <strong>non profit</strong>, naszą działalność finansujemy ze składek członkowskich
     oraz z darowizn. Organizujemy się w sposób maksymalnie <strong>oddolny</strong>, nie ma u nas lidera
@@ -68,7 +68,7 @@ layout: default
           <li class="more">psychologia</li>
           <li class="more">kartografia</li>
           <li class="more">OpenStreetMap</li>
-          <li class="more">Bitcoin</li>
+          <li class="more">rowery</li>
           <li class="more">kryptowaluty</li>
           <li class="more">Linux</li>
           </ul>
@@ -104,17 +104,17 @@ layout: default
     const moreElements = document.querySelectorAll('.more');
 
     toggleLink.addEventListener('click', function(event) {
-        event.preventDefault();
+      event.preventDefault();
 
-        moreElements.forEach(function(element) {
-            if (element.style.display === 'none' || element.style.display === '') {
-                element.style.display = 'list-item';
-                toggleLink.textContent = 'Zwiń';
-            } else {
-                element.style.display = 'none';
-                toggleLink.textContent = 'Więcej';
-            }
-        });
+      moreElements.forEach(function(element) {
+        if (element.style.display === 'none' || element.style.display === '') {
+          element.style.display = 'list-item';
+          toggleLink.textContent = 'Zwiń';
+        } else {
+          element.style.display = 'none';
+          toggleLink.textContent = 'Więcej';
+        }
+      });
     });
   });
   </script>
@@ -122,17 +122,15 @@ layout: default
   <section>
     <h3>Co się u nas dzieje?</h3>
     <p>
-      Regularnie się <strong>spotykamy</strong>, zazwyczaj w naszej siedzibie przy Zielonej 30 w Łodzi.
-    </p>
-    <p></p>Co drugi wtorek mamy
-      otwarte spotkania ogólnotematyczne, podczas których rozmawiamy oraz konstruujemy lub psujemy przypadkowe rzeczy.
-      Organizujemy też spotkania skupiające się na konkretnych tematach, takich jak np. radio amatorskie czy cyberbezpieczeństwo.
-      Specyficznym rodzajem spotkań są też spotkania organizacyjne, podczas których rozmawiamy o różnych aspektach
-      związanych z kierunkami rozwoju naszej przestrzeni oraz społeczności.
+      Regularnie <strong>spotykamy się</strong>, zazwyczaj w naszej siedzibie przy Zielonej 30 w Łodzi.
     </p>
     <p>
-      Ogłoszone spotkania są otwarte dla <strong>wszystkich chętnych</strong> i gorąco zachęcamy do uczestnictwa – nie trzeba
-      się zapisywać.
+      Co drugi wtorek organizujemy spotkania ogólnotematyczne, podczas których rozmawiamy, konstruujemy oraz psujemy przypadkowe rzeczy.
+      Prowadzimy też spotkania skupiające się na konkretnych tematach, takich jak np. radio amatorskie czy cyberbezpieczeństwo.
+      Zgodnie ze statutem Stowarzyszenia organizujemy też spotkania organizacyjne, podczas których rozmawiamy o różnych aspektach związanych z kierunkami rozwoju naszej przestrzeni oraz społeczności.
+    </p>
+    <p>
+      Ogłoszone spotkania są otwarte dla <strong>wszystkich chętnych</strong> i gorąco zachęcamy do uczestnictwa – nie trzeba się zapisywać.
     </p>
     <p>
     Termin najbliższego spotkania: {% include date.txt time_arg=site.data.meetings.date lang="pl" %}
@@ -186,7 +184,7 @@ layout: default
     </div>
   </section>
 
-  <section>
+  <section id="map">
     <h3>Lokalizacja</h3>
 
     <p>Łódzki Hackerspace znajduje się przy ul. Zielonej 30.</p>
