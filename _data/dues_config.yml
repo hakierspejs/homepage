@@ -31,3 +31,5 @@ reservations:
     amount_pln: 327.83
   "Dodatkowe 600 PLN rezerwacji wg spotorgu z 23 kwietnia 2024r":
     amount_pln: 600.00
+  "Tymczasowo (do 28 marca 2025): rezerwacja na ogrzewanie"
+    amount_pln: 15577.51
