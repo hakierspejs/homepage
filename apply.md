@@ -1,5 +1,6 @@
 ---
-title: Zapisz się!
+title: Zapisz się
+title_en: Sign up
 layout: default
 ---
 

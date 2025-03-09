@@ -1,5 +1,6 @@
 ---
-title: titles.guilds
+title: Gildie
+title_en: Guilds
 layout: default
 ---
 
