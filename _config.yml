@@ -12,6 +12,11 @@ url: "https://lodz.hackerspace.pl"
 plugins:
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-multiple-languages-plugin
+
+# multi language settings
+languages: ["pl", "en"]
+default_locale_in_subfolder: false
 
 feed:
   excerpt_only: true
