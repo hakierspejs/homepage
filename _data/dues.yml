@@ -1,6 +1,6 @@
-balance_so_far: 23974.82999999993
+balance_so_far: 23633.14999999993
 balances_by_account_labels:
-  Konto stowarzyszenia: 23974.82999999999
+  Konto stowarzyszenia: 23633.149999999987
 by_period:
   Bilans:
     monthly:
@@ -95,7 +95,9 @@ by_period:
       2025-01:
         Suma: 2224.83000000001
       2025-02:
-        Suma: 4202.12
+        Suma: 4108.12
+      2025-03:
+        Suma: -247.68000000000006
     quarterly:
       2021Q2:
         Suma: 2660.8799999999997
@@ -128,7 +130,7 @@ by_period:
       2024Q4:
         Suma: 2353.8799999999756
       2025Q1:
-        Suma: 6426.95000000001
+        Suma: 6085.27000000001
     yearly:
       '2021':
         Suma: 6407.41
@@ -139,7 +141,7 @@ by_period:
       '2024':
         Suma: 5643.209999999883
       '2025':
-        Suma: 6426.95000000001
+        Suma: 6085.27000000001
   Przychody:
     monthly:
       2021-05:
@@ -233,7 +235,9 @@ by_period:
       2025-01:
         Suma: 5043.7
       2025-02:
-        Suma: 6233.7
+        Suma: 6333.7
+      2025-03:
+        Suma: 1608.7
     quarterly:
       2021Q2:
         Suma: 3738.0299999999997
@@ -266,7 +270,7 @@ by_period:
       2024Q4:
         Suma: 9007.32
       2025Q1:
-        Suma: 11277.4
+        Suma: 12986.1
     yearly:
       '2021':
         Suma: 15896.029999999999
@@ -277,7 +281,7 @@ by_period:
       '2024':
         Suma: 35676.840000000004
       '2025':
-        Suma: 11277.4
+        Suma: 12986.1
   Saldo:
     monthly:
       2021-05:
@@ -371,7 +375,9 @@ by_period:
       2025-01:
         Suma: 19772.70999999992
       2025-02:
-        Suma: 23974.829999999918
+        Suma: 23880.829999999918
+      2025-03:
+        Suma: 23633.149999999918
     quarterly:
       2021Q2:
         Suma: 2660.8799999999997
@@ -404,7 +410,7 @@ by_period:
       2024Q4:
         Suma: 17547.879999999917
       2025Q1:
-        Suma: 23974.82999999993
+        Suma: 23633.14999999993
     yearly:
       '2021':
         Suma: 6407.41
@@ -415,7 +421,7 @@ by_period:
       '2024':
         Suma: 17547.879999999914
       '2025':
-        Suma: 23974.82999999992
+        Suma: 23633.149999999925
   Wydatki:
     monthly:
       2021-05:
@@ -663,7 +669,13 @@ by_period:
         Czynsz: 975.41
         Internet: 201.78
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 747.38
+        "Podatek od nieruchomo\u015Bci": 126.0
+        "Pozosta\u0142e": 68.0
         "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2025-03:
+        Czynsz: 975.41
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 857.01
+        "Pozosta\u0142e": 23.96
     quarterly:
       2021Q2:
         Czynsz: 800.0
@@ -755,11 +767,11 @@ by_period:
         "Pozosta\u0142e": 1515.0500000000252
         "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 321.03000000000003
       2025Q1:
-        Czynsz: 1950.82
+        Czynsz: 2926.23
         Internet: 275.58
-        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 1468.02
-        "Podatek od nieruchomo\u015Bci": 126.0
-        "Pozosta\u0142e": 816.0099999999895
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 2325.0299999999997
+        "Podatek od nieruchomo\u015Bci": 252.0
+        "Pozosta\u0142e": 907.9699999999896
         "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 214.02
     yearly:
       '2021':
@@ -790,13 +802,13 @@ by_period:
         "Pozosta\u0142e": 8966.11000000012
         "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 1177.1100000000001
       '2025':
-        Czynsz: 1950.82
+        Czynsz: 2926.23
         Internet: 275.58
-        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 1468.02
-        "Podatek od nieruchomo\u015Bci": 126.0
-        "Pozosta\u0142e": 816.0099999999895
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 2325.0299999999997
+        "Podatek od nieruchomo\u015Bci": 252.0
+        "Pozosta\u0142e": 907.9699999999896
         "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 214.02
-dues_last_updated: 21-02-2025
-dues_num_subscribers: 26
-dues_total_lastmonth: 6433.7
-extra_monthly_reservations: 5400
+dues_last_updated: 07-03-2025
+dues_num_subscribers: 28
+dues_total_lastmonth: 7108.7
+extra_monthly_reservations: 5600
