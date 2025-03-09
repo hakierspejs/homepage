@@ -1,5 +1,5 @@
 ---
-title: Gildie
+title: titles.guilds
 layout: default
 ---
 

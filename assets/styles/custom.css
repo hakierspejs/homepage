@@ -117,6 +117,13 @@ nav ul li .bi {
   color: var(--dark-color);
 }
 
+nav ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+
 /* Horizontal navigation on big screens. */
 nav ul {
   display: flex;
