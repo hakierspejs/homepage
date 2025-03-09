@@ -6,6 +6,17 @@
     <h1>Hakierspejs Łódź 🦄</h1>
     <p>{% t header.subtitle %}</p>
   </div>
+  <div class="language-selector">
+    {% if site.lang == "pl" %}
+      <div class="flag-pl"></div>
+      {% capture link %}{{ site.baseurl_root }}/en{{ page.url }}{% endcapture %}
+      <a href="{{ link }}" class="flag-gb"></a>
+    {% elsif site.lang == "en" %}
+      {% capture link2 %}{{ site.baseurl_root }}{{ page.url }}{% endcapture %}
+      <a href="{{ link2 }}" class="flag-pl"></a>
+      <div class="flag-gb"></div>
+    {% endif %}
+  </div>
 </div>
 <nav>
   <ul>

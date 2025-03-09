@@ -98,11 +98,12 @@ progress:not([value])::-moz-progress-bar {
   align-self: flex-end;
   max-width: 5em;
   max-height: 5em;
-  padding-left:: 0.25em;
+  padding-left: 0.25em;
 }
 
 .header-title {
   align-self: flex-end;
+  flex-grow: 1;
 }
 
 .bi {
@@ -267,4 +268,30 @@ p {
 #interests td
 {
   border: none;
+}
+
+.language-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.language-selector a, .language-selector div {
+  display: flex;
+  width: 32px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.language-selector a {
+  opacity: 0.6;
+}
+
+.language-selector .flag-gb {
+  background-image: url("/assets/images/flags/gb.svg");
+}
+
+.language-selector .flag-pl {
+  background-image: url("/assets/images/flags/pl.svg");
 }
