@@ -4,16 +4,45 @@
   </div>
   <div class="header-title">
     <h1>Hakierspejs Łódź 🦄</h1>
-    <p>Budujemy Hackerspace w Łodzi. Szukamy ludzi.</p>
+    <p>{% t header.subtitle %}</p>
+  </div>
+  <div class="language-selector">
+    {% if site.lang == "pl" %}
+      <div class="flag-pl"></div>
+      {% capture link %}{{ site.baseurl_root }}/en{{ page.url }}{% endcapture %}
+      <a href="{{ link }}" class="flag-gb"></a>
+    {% elsif site.lang == "en" %}
+      {% capture link %}{{ site.baseurl_root }}{{ page.url }}{% endcapture %}
+      <a href="{{ link }}" class="flag-pl"></a>
+      <div class="flag-gb"></div>
+    {% endif %}
   </div>
 </div>
 <nav>
   <ul>
-    <li>{% include icons/people.html %}<a href="{{ "/index.html" | relative_url }}">O nas</a></li>
-    <li>{% include icons/guilds.html %}<a href="{{ "/guilds.html" | relative_url }}">Gildie</a></li>
-	<li>{% include icons/faq.html %}<a href="{{ "/faq.html" | relative_url }}">FAQ</a></li>
-    <li>{% include icons/person-circle.html %}<a href="{{ "/apply.html" | relative_url }}">Zapisz się</a></li>
-    <li>{% include icons/building.html %}<a href="{{ "/ourvalues.html" | relative_url }}">Wartości HSŁ</a></li>
-    <li>{% include icons/more.html %}<a href="{{ "/more" | relative_url }}">Więcej</a></li>
+    <li>
+      {% include icons/people.html %}
+      <a href="{{ "/index.html" | | prepend: site.baseurl }}">{% t titles.about %}</a>
+    </li>
+    <li>
+      {% include icons/guilds.html %}
+      <a href="{{ "/guilds.html" | | prepend: site.baseurl }}">{% t titles.guilds %}</a>
+    </li>
+	  <li>
+      {% include icons/faq.html %}
+      <a href="{{ "/faq.html" | | prepend: site.baseurl }}">{% t titles.faq %}</a>
+    </li>
+    <li>
+      {% include icons/person-circle.html %}
+      <a href="{{ "/apply.html" | | prepend: site.baseurl }}">{% t titles.sign-up %}</a>
+    </li>
+    <li>
+      {% include icons/building.html %}
+      <a href="{{ "/ourvalues.html" | | prepend: site.baseurl }}">{% t titles.values %}</a>
+    </li>
+    <li>
+      {% include icons/more.html %}
+      <a href="{{ "/more" | | prepend: site.baseurl }}">{% t titles.more %}</a>
+    </li>
   </ul>
 </nav>
