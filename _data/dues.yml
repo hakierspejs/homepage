@@ -1,6 +1,6 @@
-balance_so_far: 23407.49999999994
+balance_so_far: 23507.49999999994
 balances_by_account_labels:
-  Konto stowarzyszenia: 23407.499999999993
+  Konto stowarzyszenia: 23507.499999999993
 by_period:
   Bilans:
     monthly:
@@ -97,7 +97,7 @@ by_period:
       2025-02:
         Suma: 4108.12
       2025-03:
-        Suma: -473.3299999999872
+        Suma: -373.3299999999872
     quarterly:
       2021Q2:
         Suma: 2660.8799999999997
@@ -130,7 +130,7 @@ by_period:
       2024Q4:
         Suma: 2353.8799999999756
       2025Q1:
-        Suma: 5859.6200000000235
+        Suma: 5959.6200000000235
     yearly:
       '2021':
         Suma: 6407.41
@@ -141,7 +141,7 @@ by_period:
       '2024':
         Suma: 5643.209999999883
       '2025':
-        Suma: 5859.6200000000235
+        Suma: 5959.6200000000235
   Przychody:
     monthly:
       2021-05:
@@ -237,7 +237,7 @@ by_period:
       2025-02:
         Suma: 6333.7
       2025-03:
-        Suma: 2233.7
+        Suma: 2333.7
     quarterly:
       2021Q2:
         Suma: 3738.0299999999997
@@ -270,7 +270,7 @@ by_period:
       2024Q4:
         Suma: 9007.32
       2025Q1:
-        Suma: 13611.1
+        Suma: 13711.1
     yearly:
       '2021':
         Suma: 15896.029999999999
@@ -281,7 +281,7 @@ by_period:
       '2024':
         Suma: 35676.840000000004
       '2025':
-        Suma: 13611.1
+        Suma: 13711.1
   Saldo:
     monthly:
       2021-05:
@@ -377,7 +377,7 @@ by_period:
       2025-02:
         Suma: 23880.829999999918
       2025-03:
-        Suma: 23407.49999999993
+        Suma: 23507.49999999993
     quarterly:
       2021Q2:
         Suma: 2660.8799999999997
@@ -410,7 +410,7 @@ by_period:
       2024Q4:
         Suma: 17547.879999999917
       2025Q1:
-        Suma: 23407.49999999994
+        Suma: 23507.49999999994
     yearly:
       '2021':
         Suma: 6407.41
@@ -421,7 +421,7 @@ by_period:
       '2024':
         Suma: 17547.879999999914
       '2025':
-        Suma: 23407.499999999938
+        Suma: 23507.499999999938
   Wydatki:
     monthly:
       2021-05:
@@ -808,7 +808,7 @@ by_period:
         "Podatek od nieruchomo\u015Bci": 252.0
         "Pozosta\u0142e": 1758.6199999999765
         "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 214.02
-dues_last_updated: 18-03-2025
-dues_num_subscribers: 28
-dues_total_lastmonth: 6433.7
+dues_last_updated: 19-03-2025
+dues_num_subscribers: 29
+dues_total_lastmonth: 6533.7
 extra_monthly_reservations: 5600
