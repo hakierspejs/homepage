@@ -11,11 +11,12 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Set up Python 3.8
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v5
       with:
         python-version: 3.8
     - name: regenerate _data/meetings.json
       run: python3.8 -m pip install meetupscraper && TZ=Europe/Warsaw python3.8 ./scripts/meetings.py && cp _data/live_meetings.json api_live_meetings.json
-    - uses: stefanzweifel/git-auto-commit-action@v4.2.0
+    - uses: stefanzweifel/git-auto-commit-action@v5.2.0
       with:
         commit_message: Autoupdate _data/meetings.json
+        commit_author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>

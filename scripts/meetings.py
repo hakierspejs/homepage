@@ -15,7 +15,7 @@ def save_event(next_event, fpath):
     }
 
     json_data['location'] = ''
-    if next_event.venue.name != 'Online event':
+    if next_event.venue and next_event.venue.name != 'Online event':
         json_data['location'] = next_event.venue.name
 
     with open(fpath, 'w') as f:
@@ -30,5 +30,4 @@ if __name__ == '__main__':
 
     next_event = next_events[0]
     save_event(next_event, './_data/meetings.json')
-    next_live_event = [e for e in next_events if e.venue.name == 'Hakierspejs'][0]
-    save_event(next_live_event, './_data/live_meetings.json')
+    save_event(next_event, './_data/live_meetings.json')

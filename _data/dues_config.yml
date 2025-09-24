@@ -5,13 +5,13 @@ obligations:
     amount_pln: 973.50
     every_months: 1
   Księgowość:
-    amount_pln: 25.0
+    amount_pln: 30.0
     every_months: 1
   "Domeny (hs-ldz.pl, hakierspejs.pl)":
     amount_pln: 104.79
     every_months: 12
   "Podatek od nieruchomości (orientacyjnie)":
-    amount_pln: 1200
+    amount_pln: 1506
     every_months: 12
   Internet Toya 1000mbps:
     amount_pln: 100.86
@@ -31,3 +31,5 @@ reservations:
     amount_pln: 327.83
   "Dodatkowe 600 PLN rezerwacji wg spotorgu z 23 kwietnia 2024r":
     amount_pln: 600.00
+  "Tymczasowo (do 28 marca 2025): rezerwacja na ogrzewanie":
+    amount_pln: 15577.51
