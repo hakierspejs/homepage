@@ -6,11 +6,17 @@
   --light-color: white;
   --dark-color: #00ff00;
   --border-color: white;
+  --text-color: #ddd;
 }
 
 html {
   background: var(--bg-color);
+  color: var(--text-color);
   /* font-family: monospace; */
+}
+
+h3 {
+  color: var(--light-color);
 }
 
 a {
