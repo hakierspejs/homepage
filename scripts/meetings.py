@@ -15,6 +15,8 @@ def save_event(next_event, fpath):
     }
 
     json_data['location'] = ''
+    if not next_event.venue:
+        json_data['location'] = 'Hakierspejs' # Default location
     if next_event.venue and next_event.venue.name != 'Online event':
         json_data['location'] = next_event.venue.name
 
