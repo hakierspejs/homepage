@@ -11,7 +11,7 @@
     miesięczny - czyli np 200zł co 2 miesiące to tak naprawdę 100zł co miesiąc.
 
     Na koniec, policzona tak zarezerwowana kwota jest powiększana o
-    zarezerwowaną "na sztywno" w YAMLu oraz miesięczne dodatki z extra_monthly.
+    zarezerwowaną "na sztywno" w YAMLu.
 
     Dopiero wtedy można uznać że policzyliśmy całość rezerwacji i wyliczyć
     procenty oraz pozostałe koszty.
@@ -29,7 +29,7 @@
     {% assign oneoff_reservations_total = oneoff_reservations_total | plus: reservation[1].amount_pln %}
 {% endfor %}
 
-{% assign dues_reserved = dues_reserved_obligations_total |plus: site.data.dues.extra_monthly_reservations %}
+{% assign dues_reserved = dues_reserved_obligations_total  %}
 {% assign dues_reserved = dues_reserved|plus: oneoff_reservations_total %}
 
 {% assign dues_total_unreserved = site.data.dues.balance_so_far | minus: dues_reserved %}
