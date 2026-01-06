@@ -146,7 +146,7 @@ thead {
 
         <tr style="font-weight: bold">
             {% assign reservations_total = oneoff_reservations_total|plus: dues_reserved_obligations_total %}
-            <td class="name"><strong>Cykliczne + autorezerwacja + jednorazowe</td>
+            <td class="name"><strong>Cykliczne + jednorazowe</td>
             <td class="value">{{ reservations_total | round: 2 }} zł</td>
         </tr>
         
