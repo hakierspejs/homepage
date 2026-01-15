@@ -1,6 +1,6 @@
-balance_so_far: 35109.87999999997
+balance_so_far: 34510.88999999996
 balances_by_account_labels:
-  Konto stowarzyszenia: 35109.87999999999
+  Konto stowarzyszenia: 34510.89000000001
 by_period:
   Bilans:
     monthly:
@@ -117,7 +117,7 @@ by_period:
       2025-12:
         Suma: 3925.6899999999996
       2026-01:
-        Suma: 336.30999999999995
+        Suma: -262.68000000000757
     quarterly:
       2021Q2:
         Suma: 2660.8799999999997
@@ -158,7 +158,7 @@ by_period:
       2025Q4:
         Suma: 536.8900000000212
       2026Q1:
-        Suma: 336.30999999999995
+        Suma: -262.68000000000757
     yearly:
       '2021':
         Suma: 6407.41
@@ -171,7 +171,7 @@ by_period:
       '2025':
         Suma: 17225.690000000053
       '2026':
-        Suma: 336.30999999999995
+        Suma: -262.68000000000757
   Przychody:
     monthly:
       2021-05:
@@ -457,7 +457,7 @@ by_period:
       2025-12:
         Suma: 34773.56999999996
       2026-01:
-        Suma: 35109.87999999996
+        Suma: 34510.889999999956
     quarterly:
       2021Q2:
         Suma: 2660.8799999999997
@@ -498,7 +498,7 @@ by_period:
       2025Q4:
         Suma: 34773.56999999997
       2026Q1:
-        Suma: 35109.87999999997
+        Suma: 34510.88999999996
     yearly:
       '2021':
         Suma: 6407.41
@@ -511,7 +511,7 @@ by_period:
       '2025':
         Suma: 34773.56999999996
       '2026':
-        Suma: 35109.87999999996
+        Suma: 34510.889999999956
   Wydatki:
     monthly:
       2021-05:
@@ -833,7 +833,7 @@ by_period:
         Czynsz: 1013.49
         Internet: 100.86
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 1448.04
-        "Pozosta\u0142e": 90.0
+        "Pozosta\u0142e": 688.9900000000073
     quarterly:
       2021Q2:
         Czynsz: 800.0
@@ -956,7 +956,7 @@ by_period:
         Czynsz: 1013.49
         Internet: 100.86
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 1448.04
-        "Pozosta\u0142e": 90.0
+        "Pozosta\u0142e": 688.9900000000073
     yearly:
       '2021':
         Czynsz: 5600.0
@@ -996,8 +996,8 @@ by_period:
         Czynsz: 1013.49
         Internet: 100.86
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 1448.04
-        "Pozosta\u0142e": 90.0
-dues_last_updated: 12-01-2026
+        "Pozosta\u0142e": 688.9900000000073
+dues_last_updated: 14-01-2026
 dues_num_subscribers: 35
 dues_total_lastmonth: 4088.7
 extra_monthly_reservations: 7600
