@@ -11,8 +11,8 @@ obligations:
     amount_pln: 140
     every_months: 12
   "Podatek od nieruchomości (orientacyjnie)":
-    amount_pln: 1512
-    every_months: 12
+    amount_pln: 132
+    every_months: 1
   Internet Toya 1000mbps:
     amount_pln: 100.86
     every_months: 1
@@ -27,6 +27,12 @@ obligations:
     every_months: 1
 obligations_reserve_months: 6
 reservations:
+  "Rezerwa na remont hardroomu":
+    amount_pln: 3000
+  "Rezerwa na remont 404":
+    amount_pln: 300
+  "Rezerwa na planszówki":
+    amount_pln: 500
   "Wyr\xF3wnanie ze starym stanem":
     amount_pln: 327.83
   "Rezerwacja na ogrzewanie":
