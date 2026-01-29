@@ -27,10 +27,10 @@ obligations:
     every_months: 1
 obligations_reserve_months: 6
 reservations:
-  "Rezerwa na remont hardroomu":
+  "Rezerwa na hardroom":
     amount_pln: 3000
   "Rezerwa na remont 404":
-    amount_pln: 300
+    amount_pln: 3000
   "Rezerwa na planszówki":
     amount_pln: 500
   "Wyr\xF3wnanie ze starym stanem":
