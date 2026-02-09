@@ -19,10 +19,10 @@ def save_event(next_event, fpath):
     try:                                                                                                           
         event_id = re.search(r".+\/(\d+)\/", json_data['url']).groups()[0]                                                
         gql_data = get_gql_data(event_id)                                                                          
-        json_data['location'] = gql_data['event']['venue']['name'] + ', ' + gql_data['event']['venue']['address'] + ', ' + gql_data['event']['venue']['city']           
+        json_data['location'] = '<strong>' + gql_data['event']['venue']['name'] + '</strong>, ' + gql_data['event']['venue']['address'] + ', ' + gql_data['event']['venue']['city']           
                                                                                                                   
     except:                                                                                                        
-        json_data['location'] = 'Hakierspejs Łódź'
+        json_data['location'] = '<strong>Hakierspejs Łódź</strong>'
 
     #if not next_event.venue:
     #    json_data['location'] = 'Hakierspejs Łódź' # Default location
