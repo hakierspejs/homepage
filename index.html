@@ -150,6 +150,11 @@ layout: default
     <p>
     Termin najbliższego spotkania: {% include date.txt time_arg=site.data.meetings.date lang="pl" %}
     </p>
+    {% if site.data.meetings.title and site.data.meetings.title != '' %}
+    <p>
+    Temat spotkania: {{ site.data.meetings.title }}
+    </p>
+    {% endif %}
     <p>
       {% if site.data.meetings.location and site.data.meetings.location != '' %}
       Miejsce: {{ site.data.meetings.location }}. Zaczynamy wcześnie, ale nie ma problemu jeśli dołączysz później :).
