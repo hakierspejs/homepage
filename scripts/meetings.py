@@ -4,6 +4,8 @@ import meetupscraper
 import textwrap
 import sys
 import json
+import re
+from gql_data import get_gql_data
 
 
 def save_event(next_event, fpath):
@@ -14,11 +16,18 @@ def save_event(next_event, fpath):
         'url': next_event.url,
     }
 
-    json_data['location'] = ''
-    if not next_event.venue:
-        json_data['location'] = 'Hakierspejs Łódź' # Default location
-    if next_event.venue and next_event.venue.name != 'Online event':
-        json_data['location'] = next_event.venue.name
+    try:                                                                                                           
+        event_id = re.search(r".+\/(\d+)\/", json_data['url']).groups()[0]                                                
+        gql_data = get_gql_data(event_id)                                                                          
+        json_data['location'] = gql_data['event']['venue']['name'] + ', ' + gql_data['event']['venue']['address'] + ', ' + gql_data['event']['venue']['city']           
+        )                                                                                                          
+    except:                                                                                                        
+        json_data['location'] = 'Hakierspejs Łódź'
+
+    #if not next_event.venue:
+    #    json_data['location'] = 'Hakierspejs Łódź' # Default location
+    #if next_event.venue and next_event.venue.name != 'Online event':
+    #    json_data['location'] = next_event.venue.name
 
     json_data['title'] = ''
     if not next_event.title:
