@@ -155,12 +155,17 @@ layout: default
         {% endif %}
       </p>
       <p>Termin: {% include date.txt time_arg=site.data.meetings.date lang="pl" %}</p>
+      {% if site.data.meetings.location and site.data.meetings.location != '' and site.data.meetings.location != 'Online event' %}
       <p>
-        {% if site.data.meetings.location and site.data.meetings.location != '' %}
-        Miejsce: {{ site.data.meetings.location }}. Zaczynamy wcześnie, ale nie ma problemu jeśli dołączysz później :).
-        {% else %}
-        Spotkanie online.
-        {% endif %} 
+        Miejsce: {{ site.data.meetings.location }}.
+      </p>
+      <p>
+        Zaczynamy wcześnie, ale nie ma problemu jeśli dołączysz później :).
+      </p>
+      {% else %}
+      <p>Spotkanie online.</p>
+      {% endif %} 
+      <p>
         Więcej info na <u><a href="{{ site.data.meetings.url }}" title="przenosi na inną stronę - z informacjami o najbliższym spotkaniu">meetup.com</a></u>.
       </p>
       <p id="isitopen_normaltext" style="display: none;">
