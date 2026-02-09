@@ -148,10 +148,12 @@ layout: default
       Ogłoszone spotkania są otwarte dla <strong>wszystkich chętnych</strong> i gorąco zachęcamy do uczestnictwa – nie trzeba się zapisywać.
     </p>
     <section id="isitopen_bigmessage">
-      <p>Najbliższe spotkanie:</p>
-      {% if site.data.meetings.title and site.data.meetings.title != '' %}
-      <p><strong>{{ site.data.meetings.title }}</strong></p>
-      {% endif %}
+      <p>
+        Najbliższe spotkanie:
+        {% if site.data.meetings.title and site.data.meetings.title != '' %}
+        <strong>{{ site.data.meetings.title }}</strong>
+        {% endif %}
+      </p>
       <p>Termin: {% include date.txt time_arg=site.data.meetings.date lang="pl" %}</p>
       <p>
         {% if site.data.meetings.location and site.data.meetings.location != '' %}
