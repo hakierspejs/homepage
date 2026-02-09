@@ -20,6 +20,12 @@ def save_event(next_event, fpath):
     if next_event.venue and next_event.venue.name != 'Online event':
         json_data['location'] = next_event.venue.name
 
+    json_data['title'] = ''
+    if not next_event.title:
+        json_data['title'] = 'Nie znaleziono tytułu'
+    else:
+        json_data['title'] = next_event.title
+
     with open(fpath, 'w') as f:
         f.write(json.dumps(json_data))
 
