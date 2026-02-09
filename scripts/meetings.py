@@ -20,7 +20,7 @@ def save_event(next_event, fpath):
         event_id = re.search(r".+\/(\d+)\/", json_data['url']).groups()[0]                                                
         gql_data = get_gql_data(event_id)                                                                          
         json_data['location'] = gql_data['event']['venue']['name'] + ', ' + gql_data['event']['venue']['address'] + ', ' + gql_data['event']['venue']['city']           
-        )                                                                                                          
+                                                                                                                  
     except:                                                                                                        
         json_data['location'] = 'Hakierspejs Łódź'
 
