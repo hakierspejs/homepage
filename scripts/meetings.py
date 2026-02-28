@@ -36,7 +36,7 @@ def save_event(next_event, fpath):
         json_data['title'] = next_event.title
 
     with open(fpath, 'w') as f:
-        f.write(json.dumps(json_data))
+        f.write(json.dumps(json_data, ensure_ascii=False))
 
 if __name__ == '__main__':
     next_events = meetupscraper.get_upcoming_events('Hakierspejs-Łódź')
