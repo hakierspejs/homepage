@@ -31,6 +31,8 @@ reservations:
     amount_pln: 3000
   "Rezerwa na remont 404":
     amount_pln: 3000
+  "Rezerwa na planszówki":
+    amount_pln: 500
   "Wyr\xF3wnanie ze starym stanem":
     amount_pln: 327.83
   "Rezerwacja na ogrzewanie":
