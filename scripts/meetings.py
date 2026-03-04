@@ -5,7 +5,37 @@ import textwrap
 import sys
 import json
 import re
-from gql_data import get_gql_data
+from gql import Client, gql
+from gql.transport.aiohttp import AIOHTTPTransport
+
+
+def get_gql_data(event_id):
+    transport = AIOHTTPTransport(url="https://www.meetup.com/gql2")
+    client = Client(transport=transport)
+    query = gql(
+        """
+    query GetEvent($eventId: ID!) {
+      event(id: $eventId) {
+        id
+        title
+        dateTime
+        description
+        group {
+          name
+          urlname
+        }
+        venue {
+          address
+          city
+          lat
+          lon
+          name
+        }
+      }
+    }
+    """
+    )
+    return client.execute(query, variable_values={"eventId": str(event_id)})
 
 
 def save_event(next_event, fpath):
