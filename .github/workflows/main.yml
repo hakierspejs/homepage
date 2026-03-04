@@ -10,13 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: Set up Python 3.8
+    - name: Set up Python 3.14
       uses: actions/setup-python@v6
       with:
-        python-version: 3.8
+        python-version: 3.14
         cache: 'pip'
     - name: regenerate _data/meetings.json
-      run: python3.8 -m pip install -r scripts/requirements.txt && TZ=Europe/Warsaw python3.8 ./scripts/meetings.py && cp _data/live_meetings.json api_live_meetings.json
+      run: python3.14 -m pip install -r scripts/requirements.txt && TZ=Europe/Warsaw python3.14 ./scripts/meetings.py && cp _data/live_meetings.json api_live_meetings.json
     - uses: stefanzweifel/git-auto-commit-action@v5.2.0
       with:
         commit_message: Autoupdate _data/meetings.json
