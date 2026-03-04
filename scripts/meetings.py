@@ -42,39 +42,47 @@ def save_event(next_event, fpath):
     next_date = next_event.date.strftime("%d-%m-%Y %H:%M")
 
     json_data = {
-        'date': next_event.date.strftime("%d-%m-%Y %H:%M"),
-        'url': next_event.url,
+        "date": next_event.date.strftime("%d-%m-%Y %H:%M"),
+        "url": next_event.url,
     }
 
-    try:                                                                                                           
-        event_id = re.search(r".+\/(\d+)\/", json_data['url']).groups()[0]                                                
-        gql_data = get_gql_data(event_id)                                                                          
-        json_data['location'] = '<strong>' + gql_data['event']['venue']['name'] + '</strong>, ' + gql_data['event']['venue']['address'] + ', ' + gql_data['event']['venue']['city']           
-                                                                                                                  
-    except:                                                                                                        
-        json_data['location'] = '<strong>Hakierspejs Łódź</strong>'
+    try:
+        event_id = re.search(r".+\/(\d+)\/", json_data["url"]).groups()[0]
+        gql_data = get_gql_data(event_id)
+        json_data["location"] = (
+            "<strong>"
+            + gql_data["event"]["venue"]["name"]
+            + "</strong>, "
+            + gql_data["event"]["venue"]["address"]
+            + ", "
+            + gql_data["event"]["venue"]["city"]
+        )
 
-    #if not next_event.venue:
+    except:
+        json_data["location"] = "<strong>Hakierspejs Łódź</strong>"
+
+    # if not next_event.venue:
     #    json_data['location'] = 'Hakierspejs Łódź' # Default location
-    #if next_event.venue and next_event.venue.name != 'Online event':
+    # if next_event.venue and next_event.venue.name != 'Online event':
     #    json_data['location'] = next_event.venue.name
 
-    json_data['title'] = ''
+    json_data["title"] = ""
     if not next_event.title:
-        json_data['title'] = 'Nie znaleziono tytułu'
+        json_data["title"] = "Nie znaleziono tytułu"
     else:
-        json_data['title'] = next_event.title
+        json_data["title"] = next_event.title
 
-    with open(fpath, 'w') as f:
+    with open(fpath, "w") as f:
         f.write(json.dumps(json_data, ensure_ascii=False))
 
-if __name__ == '__main__':
-    next_events = meetupscraper.get_upcoming_events('Hakierspejs-Łódź')
+
+if __name__ == "__main__":
+    next_events = meetupscraper.get_upcoming_events("Hakierspejs-Łódź")
     next_events = list(sorted(next_events, key=lambda x: x.date))
 
     if not next_events:
         sys.exit()
 
     next_event = next_events[0]
-    save_event(next_event, './_data/meetings.json')
-    save_event(next_event, './_data/live_meetings.json')
+    save_event(next_event, "./_data/meetings.json")
+    save_event(next_event, "./_data/live_meetings.json")
