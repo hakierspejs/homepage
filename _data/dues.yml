@@ -1,6 +1,6 @@
-balance_so_far: 44454.82999999994
+balance_so_far: 44337.52999999995
 balances_by_account_labels:
-  Konto stowarzyszenia: 44454.830000000016
+  Konto stowarzyszenia: 44337.53000000003
 by_period:
   Bilans:
     monthly:
@@ -123,7 +123,7 @@ by_period:
       2026-03:
         Suma: 10738.379999999977
       2026-04:
-        Suma: -3807.01
+        Suma: -3924.3099999999995
     quarterly:
       2021Q2:
         Suma: 2660.8799999999997
@@ -166,7 +166,7 @@ by_period:
       2026Q1:
         Suma: 13488.269999999975
       2026Q2:
-        Suma: -3807.01
+        Suma: -3924.3099999999995
     yearly:
       '2021':
         Suma: 6407.41
@@ -179,7 +179,7 @@ by_period:
       '2025':
         Suma: 17225.690000000053
       '2026':
-        Suma: 9681.259999999973
+        Suma: 9563.959999999977
   Przychody:
     monthly:
       2021-05:
@@ -301,7 +301,7 @@ by_period:
       2026-03:
         Suma: 23149.620000000003
       2026-04:
-        Suma: 3050.0
+        Suma: 3150.0
     quarterly:
       2021Q2:
         Suma: 3738.0299999999997
@@ -344,7 +344,7 @@ by_period:
       2026Q1:
         Suma: 34681.91
       2026Q2:
-        Suma: 3050.0
+        Suma: 3150.0
     yearly:
       '2021':
         Suma: 15896.029999999999
@@ -357,7 +357,7 @@ by_period:
       '2025':
         Suma: 67298.84
       '2026':
-        Suma: 37731.91
+        Suma: 37831.91
   Saldo:
     monthly:
       2021-05:
@@ -479,7 +479,7 @@ by_period:
       2026-03:
         Suma: 48261.83999999993
       2026-04:
-        Suma: 44454.82999999993
+        Suma: 44337.52999999993
     quarterly:
       2021Q2:
         Suma: 2660.8799999999997
@@ -522,7 +522,7 @@ by_period:
       2026Q1:
         Suma: 48261.839999999946
       2026Q2:
-        Suma: 44454.82999999994
+        Suma: 44337.52999999995
     yearly:
       '2021':
         Suma: 6407.41
@@ -535,7 +535,7 @@ by_period:
       '2025':
         Suma: 34773.56999999996
       '2026':
-        Suma: 44454.829999999936
+        Suma: 44337.52999999994
   Wydatki:
     monthly:
       2021-05:
@@ -877,7 +877,7 @@ by_period:
         Internet: 100.86
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 951.81
         "Podatek od nieruchomo\u015Bci": 396.0
-        "Pozosta\u0142e": 4027.46
+        "Pozosta\u0142e": 4244.76
         "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
     quarterly:
       2021Q2:
@@ -1009,7 +1009,7 @@ by_period:
         Internet: 100.86
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 951.81
         "Podatek od nieruchomo\u015Bci": 396.0
-        "Pozosta\u0142e": 4027.46
+        "Pozosta\u0142e": 4244.76
         "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
     yearly:
       '2021':
@@ -1051,9 +1051,9 @@ by_period:
         Internet: 403.44
         "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 6180.449999999999
         "Podatek od nieruchomo\u015Bci": 674.0
-        "Pozosta\u0142e": 15524.760000000031
+        "Pozosta\u0142e": 15742.06000000003
         "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 428.04
-dues_last_updated: 24-04-2026
+dues_last_updated: 27-04-2026
 dues_num_subscribers: 32
-dues_total_lastmonth: 22999.620000000003
+dues_total_lastmonth: 14099.62
 extra_monthly_reservations: 8400
