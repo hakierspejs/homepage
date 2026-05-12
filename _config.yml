@@ -9,6 +9,7 @@ title: Hakierspejs Łódź 🦄
 # their entries' file path in the `include:` list.
 #
 url: "https://lodz.hackerspace.pl"
+timezone: Europe/Warsaw
 plugins:
   - jekyll-sitemap
   - jekyll-feed
