@@ -2,7 +2,7 @@
 title: Strona Główna
 layout: default
 ---
-{% assign meeting_ts = normalized | date: "%s" | plus: 0 %}
+{% assign meeting_ts = site.data.meetings.date | date: "%s" | plus: 0 %}
 {% assign now_ts = "now" | date: "%s" | plus: 0 %}
 {% assign diff = meeting_ts | minus: now_ts %}
 <!-- Deploy test: meeting_ts: {{ meeting_ts | date: "%Y-%m-%d %H:%M:%S %z" }} - now_ts: {{ now_ts | date: "%Y-%m-%d %H:%M:%S %z" }} = {{ diff }} -->
