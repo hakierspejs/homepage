@@ -5,7 +5,7 @@ layout: default
 {% assign meeting_ts = normalized | date: "%s" | plus: 0 %}
 {% assign now_ts = "now" | date: "%s" | plus: 0 %}
 {% assign diff = meeting_ts | minus: now_ts %}
-<!-- Deploy test: meeting_ts: {{ "meeting_ts" | date: "%Y-%m-%d %H:%M:%S %z" }} - now_ts: {{ "now_ts" | date: "%Y-%m-%d %H:%M:%S %z" }} = {{ "diff" }} -->
+<!-- Deploy test: meeting_ts: {{ meeting_ts | date: "%Y-%m-%d %H:%M:%S %z" }} - now_ts: {{ now_ts | date: "%Y-%m-%d %H:%M:%S %z" }} = {{ diff }} -->
 <article>
   <section id="isitopen_bigmessage" style="display: none;">
     <h2>{% include icons/door-open.html %} Mamy w tym momencie otwarte!</h2>
