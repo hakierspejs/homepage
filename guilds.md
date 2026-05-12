@@ -15,7 +15,7 @@ W spejsie funkcjonują następujące gildie:
 
 ## Gildia radioamatorów
 
-Radioamatorzy spotykają się w co drugą (parzyste tygodnie) środę, od godziny
+Radioamatorzy spotykają się w co drugi poniedziałek, od godziny
 19:00 w siedzibie spejsu.
 
 Czat gildii radiowej na Matrixie:
