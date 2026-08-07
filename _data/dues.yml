@@ -1,6 +1,6 @@
-balance_so_far: 233017.19
+balance_so_far: 233142.19
 balances_by_account_labels:
-  Konto stowarzyszenia: 233017.1900000001
+  Konto stowarzyszenia: 233142.1900000001
 by_period:
   Bilans:
     monthly:
@@ -131,7 +131,7 @@ by_period:
       2026-07:
         Suma: 3620.0
       2026-08:
-        Suma: 950.0
+        Suma: 1075.0
     quarterly:
       2021Q2:
         Suma: 3738.0299999999997
@@ -176,7 +176,7 @@ by_period:
       2026Q2:
         Suma: 9790.0
       2026Q3:
-        Suma: 4570.0
+        Suma: 4695.0
     yearly:
       '2021':
         Suma: 15896.029999999999
@@ -189,7 +189,7 @@ by_period:
       '2025':
         Suma: 67298.84
       '2026':
-        Suma: 49041.91
+        Suma: 49166.91
   Przychody:
     monthly:
       2021-05:
@@ -319,7 +319,7 @@ by_period:
       2026-07:
         Suma: 3620.0
       2026-08:
-        Suma: 950.0
+        Suma: 1075.0
     quarterly:
       2021Q2:
         Suma: 3738.0299999999997
@@ -364,7 +364,7 @@ by_period:
       2026Q2:
         Suma: 9790.0
       2026Q3:
-        Suma: 4570.0
+        Suma: 4695.0
     yearly:
       '2021':
         Suma: 15896.029999999999
@@ -377,7 +377,7 @@ by_period:
       '2025':
         Suma: 67298.84
       '2026':
-        Suma: 49041.91
+        Suma: 49166.91
   Saldo:
     monthly:
       2021-05:
@@ -507,7 +507,7 @@ by_period:
       2026-07:
         Suma: 232067.19000000003
       2026-08:
-        Suma: 233017.19000000003
+        Suma: 233142.19000000003
     quarterly:
       2021Q2:
         Suma: 3738.0299999999997
@@ -552,7 +552,7 @@ by_period:
       2026Q2:
         Suma: 228447.19
       2026Q3:
-        Suma: 233017.19
+        Suma: 233142.19
     yearly:
       '2021':
         Suma: 15896.029999999999
@@ -565,9 +565,9 @@ by_period:
       '2025':
         Suma: 183975.28
       '2026':
-        Suma: 233017.19
+        Suma: 233142.19
   Wydatki: {}
-dues_last_updated: 05-08-2026
-dues_num_subscribers: 30
-dues_total_lastmonth: 3545.0
+dues_last_updated: 06-08-2026
+dues_num_subscribers: 29
+dues_total_lastmonth: 3120.0
 extra_monthly_reservations: 9000
