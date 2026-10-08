@@ -5,14 +5,14 @@ layout: default
 
 ## Jak się zapisać?
 
-Aby w pełni korzystać z HS trzeba się zapisać do [Stowarzyszenia Hakierspejs Łódź](https://github.com/hakierspejs/wiki/wiki/Stowarzyszenie). Możesz wprawdzie  korzystać z naszej [przestrzeni](https://github.com/hakierspejs/wiki/wiki/Miejsce%3A%3AMiejsce) i [infrastruktury](https://github.com/hakierspejs/wiki/wiki/Infrastruktura-IT) bez zapisywania się ale z paroma istotnymi ograniczeniami.
+Aby w pełni korzystać z HS trzeba się zapisać do [Stowarzyszenia Hakierspejs Łódź](https://wiki.hs-ldz.pl/pl/public/stowarzyszenie). Możesz wprawdzie  korzystać z naszej [przestrzeni](https://wiki.hs-ldz.pl/pl/public/lokalizacja) i [infrastruktury](https://github.com/hakierspejs/wiki/wiki/Infrastruktura-IT) bez zapisywania się ale z paroma istotnymi ograniczeniami.
 
 ### Aby się zapisać:
 1. Przeczytaj [statut](https://statut.hs-ldz.pl/) i  upewnij się, czy zgadzasz się z jego zapisami. **Zwróć szczególną uwagę na §10.**
 1. Wypełnij [deklarację członkowską](https://raw.githubusercontent.com/hakierspejs/statut/master/deklaracja/deklaracja.pdf) i skłoń jednego członka Stowarzyszenia, aby  udzielił ci poparcia
 1. Deklarację dostarcz dowolnemu członkowi zarządu Stowarzyszenia
 1. Poczekaj na maila od zarządu z informacją, że zostałeś wstępnie zaakceptowany, a następnie 
-1. Wpłać pierwszą [składkę](https://github.com/hakierspejs/wiki/wiki/Finanse).
+1. Wpłać pierwszą [składkę](https://wiki.hs-ldz.pl/pl/public/finanse).
 
 ### FAQ:
 * Co daje zapisanie się do Stowarzyszenia?
@@ -22,11 +22,11 @@ Aby w pełni korzystać z HS trzeba się zapisać do [Stowarzyszenia Hakierspejs
 * Jak znaleźć członka popierającego?
 >Przyjdź do Spejsu i popytaj tych co tam akurat są i wygląda, że nie są zbyt zajęci. Jest duża szansa, że ktoś taki się szybko znajdzie. Przeważnie jesteśmy życzliwie usposobieni do kandydatów na członków.
 * Jak znaleźć członka Zarządu Stowarzyszenia?
->Jest nas aktualnie [pięciu](https://github.com/hakierspejs/wiki/wiki/Stowarzyszenie) i dosyć często bywamy w Spejsie. Można też nas złapać na [czacie](https://github.com/hakierspejs/wiki/wiki/Czaty-HS%C5%81) i się umówić na konkretny termin. 
+>Jest nas aktualnie [pięciu](https://wiki.hs-ldz.pl/pl/public/stowarzyszenie) i dosyć często bywamy w Spejsie. Można też nas złapać na [czacie](https://wiki.hs-ldz.pl/pl/public/czaty) i się umówić na konkretny termin. 
 * Czy członek Zarządu przyjmujący deklarację może też jednocześnie podpisać się na niej jako członek udzielający poparcia?
 > Tak, jak najbardziej.
 * Ile wynosi składka i jak ją wpłacić?
-> 100 zł miesięcznie dla osób pracujących i 50 zł miesięcznie dla uczniów/studentów. Tak wiemy, że to sporo, ale składki są głównym źródłem naszych przychodów i bez nich nie utrzymalibyśmy naszej siedziby, za którą trzeba płacić czynsz ogrzewać itd. Jest możliwość ew. zwolnienia z płacenia składki ale tylko w bardzo szczególnych przypadkach. O ew. zwolnieniu decyduje zarząd Stowarzyszenia. Składkę należy wpłacić na konto Stowarzyszenia. Więcej szczegółów jest tutaj: [Finanse](https://github.com/hakierspejs/wiki/wiki/Finanse).
+> 100 zł miesięcznie dla osób pracujących i 50 zł miesięcznie dla uczniów/studentów. Tak wiemy, że to sporo, ale składki są głównym źródłem naszych przychodów i bez nich nie utrzymalibyśmy naszej siedziby, za którą trzeba płacić czynsz ogrzewać itd. Jest możliwość ew. zwolnienia z płacenia składki ale tylko w bardzo szczególnych przypadkach. O ew. zwolnieniu decyduje zarząd Stowarzyszenia. Składkę należy wpłacić na konto Stowarzyszenia. Więcej szczegółów jest tutaj: [Finanse](https://wiki.hs-ldz.pl/pl/public/finanse).
 * No dobra, już się zapisałem. Co dalej?
 > Patrz: [Onboarding](https://github.com/hakierspejs/wiki/wiki/Onboarding).
 
