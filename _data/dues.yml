@@ -1,201 +1,201 @@
-balance_so_far: 247158.11000000002
+balance_so_far: -20514120.890000004
 balances_by_account_labels:
-  Konto stowarzyszenia: 247158.11000000007
+  Konto stowarzyszenia: -20514120.89
 by_period:
   Bilans:
     monthly:
       2021-05:
-        Suma: 1992.03
+        Suma: 1739.88
       2021-06:
-        Suma: 1746.0
+        Suma: -2260.449999999999
       2021-07:
-        Suma: 2300.0
+        Suma: -7543.109999999999
       2021-08:
-        Suma: 2196.0
+        Suma: -12920.519999999999
       2021-09:
-        Suma: 1592.0
+        Suma: -22822.920000000002
       2021-10:
-        Suma: 2328.0
+        Suma: -33387.57000000001
       2021-11:
-        Suma: 1900.0
+        Suma: -17212.58
       2021-12:
-        Suma: 1842.0
+        Suma: -51444.33
       2022-01:
-        Suma: 2042.0
+        Suma: -9499.99
       2022-02:
-        Suma: 1700.0
+        Suma: -64761.84999999999
       2022-03:
-        Suma: 2242.0
+        Suma: -85386.69999999998
       2022-04:
-        Suma: 1550.0
+        Suma: -31161.880000000005
       2022-05:
-        Suma: 1792.0
+        Suma: -51387.890000000014
       2022-06:
-        Suma: 2142.0
+        Suma: -114092.7
       2022-07:
-        Suma: 2100.0
+        Suma: -85133.26000000001
       2022-08:
-        Suma: 2103.0
+        Suma: -96496.09000000001
       2022-09:
-        Suma: 1759.0
+        Suma: -83646.71
       2022-10:
-        Suma: 2140.0
+        Suma: -89514.96000000002
       2022-11:
-        Suma: 5807.59
+        Suma: -170443.72000000006
       2022-12:
-        Suma: 3307.89
+        Suma: -76593.38000000005
       2023-01:
-        Suma: 2275.44
+        Suma: -80889.78000000003
       2023-02:
-        Suma: 3350.0
+        Suma: -43258.56000000001
       2023-03:
-        Suma: 1150.0
+        Suma: -96306.42000000003
       2023-04:
-        Suma: 1350.0
+        Suma: -244441.3500000001
       2023-05:
-        Suma: 3030.660000000006
+        Suma: -99593.55000000003
       2023-06:
-        Suma: 1350.0
+        Suma: -51415.34000000002
       2023-07:
-        Suma: 11498.75
+        Suma: -201616.12000000005
       2023-08:
-        Suma: 1860.43
+        Suma: 508.19000000000005
       2023-09:
-        Suma: 2433.7
+        Suma: -183064.29
       2023-10:
-        Suma: 1583.7
+        Suma: -60558.490000000005
       2023-11:
-        Suma: 4847.31
+        Suma: -60661.12
       2023-12:
-        Suma: 1688.1
+        Suma: -280299.17
       2024-01:
-        Suma: 2983.7
+        Suma: -498994.5399999999
       2024-02:
-        Suma: 1813.7
+        Suma: -377795.53999999986
       2024-03:
-        Suma: 3855.0699999999997
+        Suma: -543385.64
       2024-04:
-        Suma: 1933.7
+        Suma: -501060.4699999999
       2024-05:
-        Suma: 4048.5499999999997
+        Suma: -176701.50999999995
       2024-06:
-        Suma: 1883.7
+        Suma: -282626.18999999994
       2024-07:
-        Suma: 2133.7000000000053
+        Suma: -284812.81999999995
       2024-08:
-        Suma: 4483.7
+        Suma: -289989.5399999999
       2024-09:
-        Suma: 3533.6999999999925
+        Suma: -593508.5999999997
       2024-10:
-        Suma: 4104.28
+        Suma: -198154.08999999994
       2024-11:
-        Suma: 2533.7
+        Suma: -225618.60999999993
       2024-12:
-        Suma: 2369.3399999999992
+        Suma: -460431.92999999993
       2025-01:
-        Suma: 5043.7
+        Suma: -664418.45
       2025-02:
-        Suma: 6333.7
+        Suma: -131831.55
       2025-03:
-        Suma: 2683.7
+        Suma: -555471.4900000001
       2025-04:
-        Suma: 7021.45
+        Suma: -276209.78
       2025-05:
-        Suma: 3233.7
+        Suma: -568718.5900000003
       2025-06:
-        Suma: 2850.0
+        Suma: -288260.75000000006
       2025-07:
-        Suma: 2633.7
+        Suma: -440701.1800000001
       2025-08:
-        Suma: 2933.7
+        Suma: -446121.1600000002
       2025-09:
-        Suma: 3458.7
+        Suma: -1202126.7600000005
       2025-10:
-        Suma: 14685.900000000001
+        Suma: -938226.8500000007
       2025-11:
-        Suma: 9256.89
+        Suma: -360459.98000000016
       2025-12:
-        Suma: 7163.7
+        Suma: -537592.6500000005
       2026-01:
-        Suma: 4303.59
+        Suma: -740824.0400000006
       2026-02:
-        Suma: 7228.7
+        Suma: -944912.7800000011
       2026-03:
-        Suma: 23149.620000000003
+        Suma: -1150650.6300000008
       2026-04:
-        Suma: 3350.0
+        Suma: -4560.53
       2026-05:
-        Suma: 3290.0
+        Suma: -645615.2800000006
       2026-06:
-        Suma: 3150.0
+        Suma: -892537.5000000005
       2026-07:
-        Suma: 3620.0
+        Suma: -681814.5400000005
       2026-08:
-        Suma: 3850.0
+        Suma: -1155458.8400000008
       2026-09:
-        Suma: 3710.0
+        Suma: -470155.29000000027
       2026-10:
-        Suma: 7530.92
+        Suma: -478806.0600000003
     quarterly:
       2021Q2:
-        Suma: 3738.0299999999997
+        Suma: -520.5699999999988
       2021Q3:
-        Suma: 6088.0
+        Suma: -43286.55
       2021Q4:
-        Suma: 6070.0
+        Suma: -102044.48
       2022Q1:
-        Suma: 5984.0
+        Suma: -159648.53999999998
       2022Q2:
-        Suma: 5484.0
+        Suma: -196642.47
       2022Q3:
-        Suma: 5962.0
+        Suma: -265276.06
       2022Q4:
-        Suma: 11255.48
+        Suma: -336552.0600000001
       2023Q1:
-        Suma: 6775.4400000000005
+        Suma: -220454.76000000007
       2023Q2:
-        Suma: 5730.660000000006
+        Suma: -395450.24000000017
       2023Q3:
-        Suma: 15792.880000000001
+        Suma: -384172.2200000001
       2023Q4:
-        Suma: 8119.11
+        Suma: -401518.77999999997
       2024Q1:
-        Suma: 8652.47
+        Suma: -1420175.7199999995
       2024Q2:
-        Suma: 7865.949999999999
+        Suma: -960388.1699999997
       2024Q3:
-        Suma: 10151.099999999999
+        Suma: -1168310.9599999993
       2024Q4:
-        Suma: 9007.32
+        Suma: -884204.6299999998
       2025Q1:
-        Suma: 14061.1
+        Suma: -1351721.4899999998
       2025Q2:
-        Suma: 13105.15
+        Suma: -1133189.1200000003
       2025Q3:
-        Suma: 9026.099999999999
+        Suma: -2088949.1000000006
       2025Q4:
-        Suma: 31106.49
+        Suma: -1836279.4800000014
       2026Q1:
-        Suma: 34681.91
+        Suma: -2836387.4500000025
       2026Q2:
-        Suma: 9790.0
+        Suma: -1542713.3100000012
       2026Q3:
-        Suma: 11180.0
+        Suma: -2307428.6700000013
       2026Q4:
-        Suma: 7530.92
+        Suma: -478806.0600000003
     yearly:
       '2021':
-        Suma: 15896.029999999999
+        Suma: -145851.59999999998
       '2022':
-        Suma: 28685.479999999996
+        Suma: -958119.1300000002
       '2023':
-        Suma: 36418.090000000004
+        Suma: -1401596.0000000005
       '2024':
-        Suma: 35676.840000000004
+        Suma: -4433079.479999996
       '2025':
-        Suma: 67298.84
+        Suma: -6410139.190000005
       '2026':
-        Suma: 63182.83000000001
+        Suma: -7165335.490000006
   Przychody:
     monthly:
       2021-05:
@@ -203,7 +203,7 @@ by_period:
       2021-06:
         Suma: 1746.0
       2021-07:
-        Suma: 2300.0
+        Suma: 3625.99
       2021-08:
         Suma: 2196.0
       2021-09:
@@ -213,9 +213,9 @@ by_period:
       2021-11:
         Suma: 1900.0
       2021-12:
-        Suma: 1842.0
+        Suma: 1642.0
       2022-01:
-        Suma: 2042.0
+        Suma: 2342.0
       2022-02:
         Suma: 1700.0
       2022-03:
@@ -223,7 +223,7 @@ by_period:
       2022-04:
         Suma: 1550.0
       2022-05:
-        Suma: 1792.0
+        Suma: 2192.0
       2022-06:
         Suma: 2142.0
       2022-07:
@@ -235,7 +235,7 @@ by_period:
       2022-10:
         Suma: 2140.0
       2022-11:
-        Suma: 5807.59
+        Suma: 6425.57
       2022-12:
         Suma: 3307.89
       2023-01:
@@ -247,15 +247,15 @@ by_period:
       2023-04:
         Suma: 1350.0
       2023-05:
-        Suma: 3030.660000000006
+        Suma: 1250.0
       2023-06:
         Suma: 1350.0
       2023-07:
-        Suma: 11498.75
+        Suma: 11288.75
       2023-08:
         Suma: 1860.43
       2023-09:
-        Suma: 2433.7
+        Suma: 2733.7
       2023-10:
         Suma: 1583.7
       2023-11:
@@ -267,37 +267,37 @@ by_period:
       2024-02:
         Suma: 1813.7
       2024-03:
-        Suma: 3855.0699999999997
+        Suma: 4005.0699999999997
       2024-04:
         Suma: 1933.7
       2024-05:
-        Suma: 4048.5499999999997
+        Suma: 10048.55
       2024-06:
         Suma: 1883.7
       2024-07:
-        Suma: 2133.7000000000053
+        Suma: 2033.7
       2024-08:
         Suma: 4483.7
       2024-09:
-        Suma: 3533.6999999999925
+        Suma: 2783.7
       2024-10:
         Suma: 4104.28
       2024-11:
-        Suma: 2533.7
+        Suma: 13533.7
       2024-12:
-        Suma: 2369.3399999999992
+        Suma: 17308.7
       2025-01:
-        Suma: 5043.7
+        Suma: 5118.7
       2025-02:
         Suma: 6333.7
       2025-03:
         Suma: 2683.7
       2025-04:
-        Suma: 7021.45
+        Suma: 7271.45
       2025-05:
         Suma: 3233.7
       2025-06:
-        Suma: 2850.0
+        Suma: 2950.0
       2025-07:
         Suma: 2633.7
       2025-08:
@@ -305,287 +305,859 @@ by_period:
       2025-09:
         Suma: 3458.7
       2025-10:
-        Suma: 14685.900000000001
+        Suma: 14785.900000000001
       2025-11:
         Suma: 9256.89
       2025-12:
-        Suma: 7163.7
+        Suma: 7513.7
       2026-01:
         Suma: 4303.59
       2026-02:
         Suma: 7228.7
       2026-03:
-        Suma: 23149.620000000003
+        Suma: 23299.620000000003
       2026-04:
         Suma: 3350.0
       2026-05:
         Suma: 3290.0
       2026-06:
-        Suma: 3150.0
+        Suma: 3250.0
       2026-07:
-        Suma: 3620.0
+        Suma: 3520.0
       2026-08:
         Suma: 3850.0
       2026-09:
-        Suma: 3710.0
+        Suma: 4010.0
       2026-10:
         Suma: 7530.92
     quarterly:
       2021Q2:
         Suma: 3738.0299999999997
       2021Q3:
-        Suma: 6088.0
+        Suma: 7413.99
       2021Q4:
-        Suma: 6070.0
+        Suma: 5870.0
       2022Q1:
-        Suma: 5984.0
+        Suma: 6284.0
       2022Q2:
-        Suma: 5484.0
+        Suma: 5884.0
       2022Q3:
         Suma: 5962.0
       2022Q4:
-        Suma: 11255.48
+        Suma: 11873.46
       2023Q1:
         Suma: 6775.4400000000005
       2023Q2:
-        Suma: 5730.660000000006
+        Suma: 3950.0
       2023Q3:
-        Suma: 15792.880000000001
+        Suma: 15882.880000000001
       2023Q4:
         Suma: 8119.11
       2024Q1:
-        Suma: 8652.47
+        Suma: 8802.47
       2024Q2:
-        Suma: 7865.949999999999
+        Suma: 13865.95
       2024Q3:
-        Suma: 10151.099999999999
+        Suma: 9301.099999999999
       2024Q4:
-        Suma: 9007.32
+        Suma: 34946.68
       2025Q1:
-        Suma: 14061.1
+        Suma: 14136.1
       2025Q2:
-        Suma: 13105.15
+        Suma: 13455.15
       2025Q3:
         Suma: 9026.099999999999
       2025Q4:
-        Suma: 31106.49
+        Suma: 31556.49
       2026Q1:
-        Suma: 34681.91
+        Suma: 34831.91
       2026Q2:
-        Suma: 9790.0
+        Suma: 9890.0
       2026Q3:
-        Suma: 11180.0
+        Suma: 11380.0
       2026Q4:
         Suma: 7530.92
     yearly:
       '2021':
-        Suma: 15896.029999999999
+        Suma: 17022.02
       '2022':
-        Suma: 28685.479999999996
+        Suma: 30003.459999999995
       '2023':
-        Suma: 36418.090000000004
+        Suma: 34727.43
       '2024':
-        Suma: 35676.840000000004
+        Suma: 66916.2
       '2025':
-        Suma: 67298.84
+        Suma: 68173.84
       '2026':
-        Suma: 63182.83000000001
+        Suma: 63632.83000000001
   Saldo:
     monthly:
       2021-05:
-        Suma: 1992.03
+        Suma: 1739.88
       2021-06:
-        Suma: 3738.0299999999997
+        Suma: -520.5699999999988
       2021-07:
-        Suma: 6038.03
+        Suma: -8063.679999999998
       2021-08:
-        Suma: 8234.029999999999
+        Suma: -20984.199999999997
       2021-09:
-        Suma: 9826.029999999999
+        Suma: -43807.119999999995
       2021-10:
-        Suma: 12154.029999999999
+        Suma: -77194.69
       2021-11:
-        Suma: 14054.029999999999
+        Suma: -94407.27
       2021-12:
-        Suma: 15896.029999999999
+        Suma: -145851.6
       2022-01:
-        Suma: 17938.03
+        Suma: -155351.59
       2022-02:
-        Suma: 19638.03
+        Suma: -220113.44
       2022-03:
-        Suma: 21880.03
+        Suma: -305500.14
       2022-04:
-        Suma: 23430.03
+        Suma: -336662.02
       2022-05:
-        Suma: 25222.03
+        Suma: -388049.91000000003
       2022-06:
-        Suma: 27364.03
+        Suma: -502142.61000000004
       2022-07:
-        Suma: 29464.03
+        Suma: -587275.8700000001
       2022-08:
-        Suma: 31567.03
+        Suma: -683771.9600000001
       2022-09:
-        Suma: 33326.03
+        Suma: -767418.67
       2022-10:
-        Suma: 35466.03
+        Suma: -856933.6300000001
       2022-11:
-        Suma: 41273.619999999995
+        Suma: -1027377.3500000002
       2022-12:
-        Suma: 44581.509999999995
+        Suma: -1103970.7300000002
       2023-01:
-        Suma: 46856.95
+        Suma: -1184860.5100000002
       2023-02:
-        Suma: 50206.95
+        Suma: -1228119.0700000003
       2023-03:
-        Suma: 51356.95
+        Suma: -1324425.4900000002
       2023-04:
-        Suma: 52706.95
+        Suma: -1568866.8400000003
       2023-05:
-        Suma: 55737.61
+        Suma: -1668460.3900000004
       2023-06:
-        Suma: 57087.61
+        Suma: -1719875.7300000004
       2023-07:
-        Suma: 68586.36
+        Suma: -1921491.8500000006
       2023-08:
-        Suma: 70446.79
+        Suma: -1920983.6600000006
       2023-09:
-        Suma: 72880.48999999999
+        Suma: -2104047.9500000007
       2023-10:
-        Suma: 74464.18999999999
+        Suma: -2164606.440000001
       2023-11:
-        Suma: 79311.49999999999
+        Suma: -2225267.560000001
       2023-12:
-        Suma: 80999.59999999999
+        Suma: -2505566.730000001
       2024-01:
-        Suma: 83983.29999999999
+        Suma: -3004561.270000001
       2024-02:
-        Suma: 85796.99999999999
+        Suma: -3382356.810000001
       2024-03:
-        Suma: 89652.06999999998
+        Suma: -3925742.450000001
       2024-04:
-        Suma: 91585.76999999997
+        Suma: -4426802.920000001
       2024-05:
-        Suma: 95634.31999999998
+        Suma: -4603504.430000001
       2024-06:
-        Suma: 97518.01999999997
+        Suma: -4886130.620000001
       2024-07:
-        Suma: 99651.71999999999
+        Suma: -5170943.440000001
       2024-08:
-        Suma: 104135.41999999998
+        Suma: -5460932.980000001
       2024-09:
-        Suma: 107669.11999999998
+        Suma: -6054441.580000001
       2024-10:
-        Suma: 111773.39999999998
+        Suma: -6252595.670000001
       2024-11:
-        Suma: 114307.09999999998
+        Suma: -6478214.280000001
       2024-12:
-        Suma: 116676.43999999997
+        Suma: -6938646.210000001
       2025-01:
-        Suma: 121720.13999999997
+        Suma: -7603064.660000001
       2025-02:
-        Suma: 128053.83999999997
+        Suma: -7734896.210000001
       2025-03:
-        Suma: 130737.53999999996
+        Suma: -8290367.700000001
       2025-04:
-        Suma: 137758.98999999996
+        Suma: -8566577.48
       2025-05:
-        Suma: 140992.68999999997
+        Suma: -9135296.07
       2025-06:
-        Suma: 143842.68999999997
+        Suma: -9423556.82
       2025-07:
-        Suma: 146476.38999999998
+        Suma: -9864258.0
       2025-08:
-        Suma: 149410.09
+        Suma: -10310379.16
       2025-09:
-        Suma: 152868.79
+        Suma: -11512505.92
       2025-10:
-        Suma: 167554.69
+        Suma: -12450732.770000001
       2025-11:
-        Suma: 176811.58000000002
+        Suma: -12811192.750000002
       2025-12:
-        Suma: 183975.28000000003
+        Suma: -13348785.400000002
       2026-01:
-        Suma: 188278.87000000002
+        Suma: -14089609.440000003
       2026-02:
-        Suma: 195507.57000000004
+        Suma: -15034522.220000004
       2026-03:
-        Suma: 218657.19000000003
+        Suma: -16185172.850000005
       2026-04:
-        Suma: 222007.19000000003
+        Suma: -16189733.380000005
       2026-05:
-        Suma: 225297.19000000003
+        Suma: -16835348.660000004
       2026-06:
-        Suma: 228447.19000000003
+        Suma: -17727886.160000004
       2026-07:
-        Suma: 232067.19000000003
+        Suma: -18409700.700000003
       2026-08:
-        Suma: 235917.19000000003
+        Suma: -19565159.540000003
       2026-09:
-        Suma: 239627.19000000003
+        Suma: -20035314.830000002
       2026-10:
-        Suma: 247158.11000000004
+        Suma: -20514120.89
     quarterly:
       2021Q2:
-        Suma: 3738.0299999999997
+        Suma: -520.5699999999988
       2021Q3:
-        Suma: 9826.029999999999
+        Suma: -43807.12
       2021Q4:
-        Suma: 15896.029999999999
+        Suma: -145851.6
       2022Q1:
-        Suma: 21880.03
+        Suma: -305500.14
       2022Q2:
-        Suma: 27364.03
+        Suma: -502142.61
       2022Q3:
-        Suma: 33326.03
+        Suma: -767418.6699999999
       2022Q4:
-        Suma: 44581.509999999995
+        Suma: -1103970.73
       2023Q1:
-        Suma: 51356.95
+        Suma: -1324425.49
       2023Q2:
-        Suma: 57087.61
+        Suma: -1719875.7300000002
       2023Q3:
-        Suma: 72880.49
+        Suma: -2104047.95
       2023Q4:
-        Suma: 80999.6
+        Suma: -2505566.73
       2024Q1:
-        Suma: 89652.07
+        Suma: -3925742.4499999993
       2024Q2:
-        Suma: 97518.02
+        Suma: -4886130.619999999
       2024Q3:
-        Suma: 107669.12
+        Suma: -6054441.579999998
       2024Q4:
-        Suma: 116676.44
+        Suma: -6938646.209999998
       2025Q1:
-        Suma: 130737.54000000001
+        Suma: -8290367.699999997
       2025Q2:
-        Suma: 143842.69
+        Suma: -9423556.819999998
       2025Q3:
-        Suma: 152868.79
+        Suma: -11512505.919999998
       2025Q4:
-        Suma: 183975.28
+        Suma: -13348785.399999999
       2026Q1:
-        Suma: 218657.19
+        Suma: -16185172.850000001
       2026Q2:
-        Suma: 228447.19
+        Suma: -17727886.160000004
       2026Q3:
-        Suma: 239627.19
+        Suma: -20035314.830000006
       2026Q4:
-        Suma: 247158.11000000002
+        Suma: -20514120.890000004
     yearly:
       '2021':
-        Suma: 15896.029999999999
+        Suma: -145851.59999999998
       '2022':
-        Suma: 44581.509999999995
+        Suma: -1103970.7300000002
       '2023':
-        Suma: 80999.6
+        Suma: -2505566.7300000004
       '2024':
-        Suma: 116676.44
+        Suma: -6938646.209999996
       '2025':
-        Suma: 183975.28
+        Suma: -13348785.400000002
       '2026':
-        Suma: 247158.11000000002
-  Wydatki: {}
-dues_last_updated: 24-10-2026
+        Suma: -20514120.890000008
+  Wydatki:
+    monthly:
+      2021-05:
+        "Ksi\u0119gowo\u015B\u0107": 25.0
+        "Pozosta\u0142e": 227.14999999999998
+      2021-06:
+        Czynsz: 800.0
+        "Ksi\u0119gowo\u015B\u0107": 25.0
+        "Pozosta\u0142e": 3181.449999999999
+      2021-07:
+        Czynsz: 800.0
+        "Ksi\u0119gowo\u015B\u0107": 25.0
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 177.42
+        "Pozosta\u0142e": 10166.679999999998
+      2021-08:
+        Czynsz: 800.0
+        "Ksi\u0119gowo\u015B\u0107": 25.0
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 149.4
+        "Pozosta\u0142e": 14142.119999999999
+      2021-09:
+        Czynsz: 800.0
+        "Ksi\u0119gowo\u015B\u0107": 25.0
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 177.5
+        "Pozosta\u0142e": 23412.420000000002
+      2021-10:
+        Czynsz: 800.0
+        "Pozosta\u0142e": 34915.57000000001
+      2021-11:
+        Czynsz: 800.0
+        "Ksi\u0119gowo\u015B\u0107": 25.0
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 706.38
+        "Pozosta\u0142e": 17581.2
+      2021-12:
+        Czynsz: 800.0
+        Internet: 268.9
+        "Ksi\u0119gowo\u015B\u0107": 25.0
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 352.86
+        "Pozosta\u0142e": 51639.57
+      2022-01:
+        Czynsz: 800.0
+        Internet: 67.65
+        "Ksi\u0119gowo\u015B\u0107": 25.0
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 309.73
+        "Pozosta\u0142e": 10639.61
+      2022-02:
+        Czynsz: 800.0
+        Internet: 67.65
+        "Ksi\u0119gowo\u015B\u0107": 25.0
+        "Pozosta\u0142e": 65569.2
+      2022-03:
+        Czynsz: 800.0
+        Internet: 67.65
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 891.19
+        "Pozosta\u0142e": 85869.85999999999
+      2022-04:
+        Czynsz: 800.0
+        Internet: 67.65
+        "Pozosta\u0142e": 31844.230000000003
+      2022-05:
+        Czynsz: 800.0
+        Internet: 67.65
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 342.43
+        "Pozosta\u0142e": 52369.81000000001
+      2022-06:
+        Czynsz: 1139.58
+        Internet: 67.65
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 464.61
+        "Pozosta\u0142e": 114562.86
+      2022-07:
+        Czynsz: 1692.44
+        Internet: 67.65
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 216.98
+        "Pozosta\u0142e": 85256.19
+      2022-08:
+        Czynsz: 1392.1100000000001
+        Internet: 67.65
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 237.51000000000002
+        "Pozosta\u0142e": 96901.82
+      2022-09:
+        Czynsz: 1583.29
+        Internet: 67.65
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 259.15
+        "Podatek od nieruchomo\u015Bci": 324.0
+        "Pozosta\u0142e": 83171.62000000001
+      2022-10:
+        Czynsz: 973.5
+        Internet: 67.65
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 881.84
+        "Podatek od nieruchomo\u015Bci": 81.0
+        "Pozosta\u0142e": 89650.97000000002
+      2022-11:
+        Czynsz: 973.5
+        Internet: 67.65
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 539.79
+        "Pozosta\u0142e": 175288.35000000006
+      2022-12:
+        Czynsz: 973.5
+        Internet: 67.65
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 939.73
+        "Podatek od nieruchomo\u015Bci": 170.0
+        "Pozosta\u0142e": 77750.39000000004
+      2023-01:
+        Czynsz: 973.5
+        Internet: 127.92000000000002
+        "Podatek od nieruchomo\u015Bci": 106.0
+        "Pozosta\u0142e": 81957.80000000003
+      2023-02:
+        Czynsz: 973.5
+        Internet: 68.48
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 1124.88
+        "Podatek od nieruchomo\u015Bci": 106.0
+        "Pozosta\u0142e": 44335.70000000001
+      2023-03:
+        Czynsz: 973.5
+        Internet: 67.65
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 535.52
+        "Podatek od nieruchomo\u015Bci": 106.0
+        "Pozosta\u0142e": 95773.75000000003
+      2023-04:
+        Czynsz: 973.5
+        Internet: 67.83000000000001
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 224.86
+        "Podatek od nieruchomo\u015Bci": 106.0
+        "Pozosta\u0142e": 244419.1600000001
+      2023-05:
+        Czynsz: 973.5
+        Internet: 67.88
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 163.07
+        "Podatek od nieruchomo\u015Bci": 106.0
+        "Pozosta\u0142e": 99533.10000000003
+      2023-06:
+        Czynsz: 973.5
+        Internet: 67.65
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 247.48000000000002
+        "Podatek od nieruchomo\u015Bci": 106.0
+        "Pozosta\u0142e": 51370.71000000002
+      2023-07:
+        Czynsz: 973.5
+        Internet: 67.65
+        "Podatek od nieruchomo\u015Bci": 106.0
+        "Pozosta\u0142e": 211757.72000000006
+      2023-08:
+        Czynsz: 973.5
+        Internet: 67.65
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 205.09
+        "Podatek od nieruchomo\u015Bci": 106.0
+      2023-09:
+        Czynsz: 973.5
+        Internet: 67.65
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 444.65
+        "Podatek od nieruchomo\u015Bci": 106.0
+        "Pozosta\u0142e": 181145.95
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 3060.24
+      2023-10:
+        Czynsz: 973.5
+        Internet: 67.65
+        "Podatek od nieruchomo\u015Bci": 106.0
+        "Pozosta\u0142e": 60995.04
+      2023-11:
+        Czynsz: 973.5
+        Internet: 67.65
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 201.61
+        "Podatek od nieruchomo\u015Bci": 106.0
+        "Pozosta\u0142e": 64159.67
+      2023-12:
+        Czynsz: 973.5
+        Internet: 67.65
+        "Podatek od nieruchomo\u015Bci": 108.0
+        "Pozosta\u0142e": 280517.08999999997
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 321.03
+      2024-01:
+        Czynsz: 973.5
+        Internet: 67.65
+        "Pozosta\u0142e": 500830.07999999996
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2024-02:
+        Czynsz: 987.46
+        Internet: 67.65
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 2552.6099999999997
+        "Pozosta\u0142e": 376001.5199999999
+      2024-03:
+        Czynsz: 973.5
+        Internet: 67.65
+        "Podatek od nieruchomo\u015Bci": 1466.0
+        "Pozosta\u0142e": 544776.5499999999
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2024-04:
+        Czynsz: 973.5
+        Internet: 67.65
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 739.7
+        "Pozosta\u0142e": 501106.30999999994
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2024-05:
+        Czynsz: 564.96
+        Internet: 67.65
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 547.84
+        "Pozosta\u0142e": 185462.59999999995
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2024-06:
+        Czynsz: 975.41
+        Internet: 67.65
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 300.07
+        "Pozosta\u0142e": 283059.74999999994
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2024-07:
+        Czynsz: 975.41
+        Internet: 67.65
+        "Pozosta\u0142e": 285696.44999999995
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2024-08:
+        Czynsz: 975.41
+        Internet: 67.65
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 220.26
+        "Pozosta\u0142e": 293102.9099999999
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2024-09:
+        Czynsz: 975.41
+        Internet: 67.65
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 263.16
+        "Pozosta\u0142e": 594879.0699999997
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2024-10:
+        Czynsz: 1018.75
+        Internet: 67.65
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 239.91
+        "Pozosta\u0142e": 200825.04999999993
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2024-11:
+        Czynsz: 975.41
+        Internet: 67.65
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 490.06
+        "Pozosta\u0142e": 237512.17999999993
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2024-12:
+        Czynsz: 975.41
+        Internet: 79.95
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 902.57
+        "Pozosta\u0142e": 475675.68999999994
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2025-01:
+        Czynsz: 975.41
+        Internet: 73.8
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 720.64
+        "Podatek od nieruchomo\u015Bci": 126.0
+        "Pozosta\u0142e": 667534.2899999999
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2025-02:
+        Czynsz: 975.41
+        Internet: 201.78
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 747.38
+        "Podatek od nieruchomo\u015Bci": 126.0
+        "Pozosta\u0142e": 136007.67
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2025-03:
+        Czynsz: 975.41
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 857.01
+        "Podatek od nieruchomo\u015Bci": 126.0
+        "Pozosta\u0142e": 556089.76
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2025-04:
+        Czynsz: 975.41
+        Internet: 100.86
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 706.78
+        "Podatek od nieruchomo\u015Bci": 126.0
+        "Pozosta\u0142e": 281465.17000000004
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2025-05:
+        Czynsz: 975.41
+        Internet: 100.86
+        "Podatek od nieruchomo\u015Bci": 126.0
+        "Pozosta\u0142e": 570643.0100000002
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2025-06:
+        Czynsz: 975.41
+        Internet: 100.86
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 724.28
+        "Podatek od nieruchomo\u015Bci": 126.0
+        "Pozosta\u0142e": 289177.19000000006
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2025-07:
+        Czynsz: 975.41
+        Internet: 100.86
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 260.22
+        "Podatek od nieruchomo\u015Bci": 126.0
+        "Pozosta\u0142e": 441765.3800000001
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2025-08:
+        Czynsz: 976.1999999999999
+        Internet: 100.86
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 326.96
+        "Podatek od nieruchomo\u015Bci": 126.0
+        "Pozosta\u0142e": 447417.8300000002
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2025-09:
+        Czynsz: 975.67
+        Internet: 100.86
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 312.33
+        "Podatek od nieruchomo\u015Bci": 126.0
+        "Pozosta\u0142e": 1203963.5900000003
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2025-10:
+        Czynsz: 2026.98
+        Internet: 201.72
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 643.74
+        "Podatek od nieruchomo\u015Bci": 126.0
+        "Pozosta\u0142e": 949907.3000000007
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2025-11:
+        Czynsz: 1013.49
+        Internet: 201.72
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 836.57
+        "Podatek od nieruchomo\u015Bci": 126.0
+        "Pozosta\u0142e": 367432.0800000002
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2025-12:
+        Czynsz: 1013.49
+        Internet: 100.86
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 1170.91
+        "Pozosta\u0142e": 542714.0800000004
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2026-01:
+        Czynsz: 1013.49
+        Internet: 100.86
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 1448.04
+        "Podatek od nieruchomo\u015Bci": 278.0
+        "Pozosta\u0142e": 742180.2300000006
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2026-02:
+        Czynsz: 1276.45
+        Internet: 100.86
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 2112.24
+        "Pozosta\u0142e": 948544.920000001
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2026-03:
+        Czynsz: 1276.1499999999999
+        Internet: 100.86
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 1668.36
+        "Pozosta\u0142e": 1170797.870000001
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2026-04:
+        Czynsz: 1601.4199999999998
+        Internet: 100.86
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 951.81
+        "Podatek od nieruchomo\u015Bci": 396.0
+        "Pozosta\u0142e": 4753.43
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2026-05:
+        Czynsz: 1282.06
+        Internet: 100.86
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 953.83
+        "Podatek od nieruchomo\u015Bci": 132.0
+        "Pozosta\u0142e": 646329.5200000006
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2026-06:
+        Czynsz: 1276.2099999999998
+        Internet: 100.86
+        "Podatek od nieruchomo\u015Bci": 132.0
+        "Pozosta\u0142e": 894171.4200000005
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2026-07:
+        Czynsz: 1273.87
+        Internet: 100.86
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 1115.52
+        "Podatek od nieruchomo\u015Bci": 132.0
+        "Pozosta\u0142e": 682605.2800000005
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2026-08:
+        Czynsz: 1273.87
+        Internet: 100.86
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 675.28
+        "Podatek od nieruchomo\u015Bci": 132.0
+        "Pozosta\u0142e": 1157019.8200000008
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2026-09:
+        Czynsz: 1273.87
+        Internet: 100.86
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 679.48
+        "Podatek od nieruchomo\u015Bci": 132.0
+        "Pozosta\u0142e": 471872.0700000003
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+      2026-10:
+        Czynsz: 1273.87
+        Internet: 100.86
+        "Podatek od nieruchomo\u015Bci": 132.0
+        "Pozosta\u0142e": 484723.2400000003
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+    quarterly:
+      2021Q2:
+        Czynsz: 800.0
+        "Ksi\u0119gowo\u015B\u0107": 50.0
+        "Pozosta\u0142e": 3408.599999999999
+      2021Q3:
+        Czynsz: 2400.0
+        "Ksi\u0119gowo\u015B\u0107": 75.0
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 504.32
+        "Pozosta\u0142e": 47721.22
+      2021Q4:
+        Czynsz: 2400.0
+        Internet: 268.9
+        "Ksi\u0119gowo\u015B\u0107": 50.0
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 1059.24
+        "Pozosta\u0142e": 104136.34
+      2022Q1:
+        Czynsz: 2400.0
+        Internet: 202.95000000000002
+        "Ksi\u0119gowo\u015B\u0107": 50.0
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 1200.92
+        "Pozosta\u0142e": 162078.66999999998
+      2022Q2:
+        Czynsz: 2739.58
+        Internet: 202.95000000000002
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 807.04
+        "Pozosta\u0142e": 198776.9
+      2022Q3:
+        Czynsz: 4667.84
+        Internet: 202.95000000000002
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 713.64
+        "Podatek od nieruchomo\u015Bci": 324.0
+        "Pozosta\u0142e": 265329.63
+      2022Q4:
+        Czynsz: 2920.5
+        Internet: 202.95000000000002
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 2361.36
+        "Podatek od nieruchomo\u015Bci": 251.0
+        "Pozosta\u0142e": 342689.71000000014
+      2023Q1:
+        Czynsz: 2920.5
+        Internet: 264.05000000000007
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 1660.4
+        "Podatek od nieruchomo\u015Bci": 318.0
+        "Pozosta\u0142e": 222067.25000000006
+      2023Q2:
+        Czynsz: 2920.5
+        Internet: 203.36
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 635.4100000000001
+        "Podatek od nieruchomo\u015Bci": 318.0
+        "Pozosta\u0142e": 395322.97000000015
+      2023Q3:
+        Czynsz: 2920.5
+        Internet: 202.95000000000002
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 649.74
+        "Podatek od nieruchomo\u015Bci": 318.0
+        "Pozosta\u0142e": 392903.6700000001
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 3060.24
+      2023Q4:
+        Czynsz: 2920.5
+        Internet: 202.95000000000002
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 201.61
+        "Podatek od nieruchomo\u015Bci": 320.0
+        "Pozosta\u0142e": 405671.79999999993
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 321.03
+      2024Q1:
+        Czynsz: 2934.46
+        Internet: 202.95000000000002
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 2552.6099999999997
+        "Podatek od nieruchomo\u015Bci": 1466.0
+        "Pozosta\u0142e": 1421608.1499999994
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 214.02
+      2024Q2:
+        Czynsz: 2513.87
+        Internet: 202.95000000000002
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 1587.61
+        "Pozosta\u0142e": 969628.6599999997
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 321.03000000000003
+      2024Q3:
+        Czynsz: 2926.23
+        Internet: 202.95000000000002
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 483.42
+        "Pozosta\u0142e": 1173678.4299999995
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 321.03000000000003
+      2024Q4:
+        Czynsz: 2969.5699999999997
+        Internet: 215.25
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 1632.54
+        "Pozosta\u0142e": 914012.9199999998
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 321.03000000000003
+      2025Q1:
+        Czynsz: 2926.23
+        Internet: 275.58
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 2325.0299999999997
+        "Podatek od nieruchomo\u015Bci": 378.0
+        "Pozosta\u0142e": 1359631.7199999997
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 321.03000000000003
+      2025Q2:
+        Czynsz: 2926.23
+        Internet: 302.58
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 1431.06
+        "Podatek od nieruchomo\u015Bci": 378.0
+        "Pozosta\u0142e": 1141285.3700000003
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 321.03000000000003
+      2025Q3:
+        Czynsz: 2927.2799999999997
+        Internet: 302.58
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 899.51
+        "Podatek od nieruchomo\u015Bci": 378.0
+        "Pozosta\u0142e": 2093146.8000000005
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 321.03000000000003
+      2025Q4:
+        Czynsz: 4053.96
+        Internet: 504.3
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 2651.2200000000003
+        "Podatek od nieruchomo\u015Bci": 252.0
+        "Pozosta\u0142e": 1860053.4600000014
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 321.03000000000003
+      2026Q1:
+        Czynsz: 3566.09
+        Internet: 302.58
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 5228.639999999999
+        "Podatek od nieruchomo\u015Bci": 278.0
+        "Pozosta\u0142e": 2861523.020000003
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 321.03000000000003
+      2026Q2:
+        Czynsz: 4159.6900000000005
+        Internet: 302.58
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 1905.6399999999999
+        "Podatek od nieruchomo\u015Bci": 660.0
+        "Pozosta\u0142e": 1545254.3700000013
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 321.03000000000003
+      2026Q3:
+        Czynsz: 3821.6099999999997
+        Internet: 302.58
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 2470.2799999999997
+        "Podatek od nieruchomo\u015Bci": 396.0
+        "Pozosta\u0142e": 2311497.1700000013
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 321.03000000000003
+      2026Q4:
+        Czynsz: 1273.87
+        Internet: 100.86
+        "Podatek od nieruchomo\u015Bci": 132.0
+        "Pozosta\u0142e": 484723.2400000003
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 107.01
+    yearly:
+      '2021':
+        Czynsz: 5600.0
+        Internet: 268.9
+        "Ksi\u0119gowo\u015B\u0107": 175.0
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 1563.56
+        "Pozosta\u0142e": 155266.15999999997
+      '2022':
+        Czynsz: 12727.920000000002
+        Internet: 811.7999999999998
+        "Ksi\u0119gowo\u015B\u0107": 50.0
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 5082.959999999999
+        "Podatek od nieruchomo\u015Bci": 575.0
+        "Pozosta\u0142e": 968874.9100000001
+      '2023':
+        Czynsz: 11682.0
+        Internet: 873.31
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 3147.1600000000008
+        "Podatek od nieruchomo\u015Bci": 1274.0
+        "Pozosta\u0142e": 1415965.6900000004
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 3381.2699999999995
+      '2024':
+        Czynsz: 11344.13
+        Internet: 824.0999999999999
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 6256.179999999999
+        "Podatek od nieruchomo\u015Bci": 1466.0
+        "Pozosta\u0142e": 4478928.159999996
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 1177.1100000000001
+      '2025':
+        Czynsz: 12833.699999999999
+        Internet: 1385.0399999999997
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 7306.819999999999
+        "Podatek od nieruchomo\u015Bci": 1386.0
+        "Pozosta\u0142e": 6454117.350000005
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 1284.1200000000001
+      '2026':
+        Czynsz: 12821.259999999998
+        Internet: 1008.6
+        "Media (g\u0142\xF3wnie pr\u0105d) i inne rozliczenia w zw. z lokalem": 9604.56
+        "Podatek od nieruchomo\u015Bci": 1466.0
+        "Pozosta\u0142e": 7202997.800000006
+        "Rozliczenia z HSWAW, g\u0142\xF3wnie hosting": 1070.1000000000001
+dues_last_updated: 27-10-2026
 dues_num_subscribers: 39
 dues_total_lastmonth: 7930.92
 extra_monthly_reservations: 9600
